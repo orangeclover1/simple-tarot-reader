@@ -1,0 +1,146 @@
+[
+  {
+    "id": "single",
+    "name": "One Card",
+    "icon": "✦",
+    "description": "A focused message for the day or a single question.",
+    "positions": [
+      {
+        "name": "Guidance",
+        "prompt": "What energy, lesson, or perspective is most useful now?"
+      }
+    ]
+  },
+  {
+    "id": "three-time",
+    "name": "Past · Present · Future",
+    "icon": "⌛",
+    "description": "Explore how a situation developed and where its current direction may lead.",
+    "positions": [
+      {
+        "name": "Past",
+        "prompt": "What has shaped the current situation?"
+      },
+      {
+        "name": "Present",
+        "prompt": "What energy is active now?"
+      },
+      {
+        "name": "Future",
+        "prompt": "Where may the current path lead?"
+      }
+    ]
+  },
+  {
+    "id": "sao",
+    "name": "Situation · Action · Outcome",
+    "icon": "➜",
+    "description": "Clarify what is happening, the most useful response, and the likely result.",
+    "positions": [
+      {
+        "name": "Situation",
+        "prompt": "What is the heart of the matter?"
+      },
+      {
+        "name": "Action",
+        "prompt": "What response is most constructive?"
+      },
+      {
+        "name": "Outcome",
+        "prompt": "What may develop from that response?"
+      }
+    ]
+  },
+  {
+    "id": "mbs",
+    "name": "Mind · Body · Spirit",
+    "icon": "◌",
+    "description": "A gentle personal check-in across thought, physical life, and inner meaning.",
+    "positions": [
+      {
+        "name": "Mind",
+        "prompt": "What is asking for mental attention?"
+      },
+      {
+        "name": "Body",
+        "prompt": "What is asking for practical or embodied care?"
+      },
+      {
+        "name": "Spirit",
+        "prompt": "What deeper meaning or value wants recognition?"
+      }
+    ]
+  },
+  {
+    "id": "relationship",
+    "name": "Relationship Mirror",
+    "icon": "♡",
+    "description": "Reflect on two perspectives and the shared dynamic between them.",
+    "positions": [
+      {
+        "name": "You",
+        "prompt": "What energy are you bringing?"
+      },
+      {
+        "name": "Other",
+        "prompt": "What energy may the other person be bringing?"
+      },
+      {
+        "name": "Connection",
+        "prompt": "What defines the shared dynamic?"
+      },
+      {
+        "name": "Need",
+        "prompt": "What does the relationship need most?"
+      }
+    ]
+  },
+  {
+    "id": "celtic",
+    "name": "Celtic Cross",
+    "icon": "✚",
+    "description": "A detailed ten-card overview for a layered situation.",
+    "positions": [
+      {
+        "name": "The present",
+        "prompt": "What is central now?"
+      },
+      {
+        "name": "The challenge",
+        "prompt": "What crosses or complicates the situation?"
+      },
+      {
+        "name": "The foundation",
+        "prompt": "What lies beneath it?"
+      },
+      {
+        "name": "The recent past",
+        "prompt": "What is receding but still influential?"
+      },
+      {
+        "name": "The possibility",
+        "prompt": "What potential is becoming visible?"
+      },
+      {
+        "name": "The near future",
+        "prompt": "What is approaching?"
+      },
+      {
+        "name": "Your stance",
+        "prompt": "How are you meeting the situation?"
+      },
+      {
+        "name": "Environment",
+        "prompt": "What outside energy is influencing it?"
+      },
+      {
+        "name": "Hopes and fears",
+        "prompt": "What desired or feared outcome shapes perception?"
+      },
+      {
+        "name": "Direction",
+        "prompt": "What is the current trajectory?"
+      }
+    ]
+  }
+]

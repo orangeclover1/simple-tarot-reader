@@ -115,10 +115,28 @@ Add an object to `spreads.json`:
 This app presents tarot as a reflective and journaling practice. It should not claim to replace medical, legal, financial, or mental-health professionals.
 
 
-## Version 6 rendering fixes
+## Theme card backs and typography
 
-- Card backs are precomposited onto the exact theme background color, so generated checkerboards are no longer visible.
-- The in-app lantern icon also gets a theme-matched background. The installed OS launcher icon remains a single static icon.
-- Face-down cards are tappable; tapping any card reveals the reading.
-- Card symbols are now drawn as small Kivy pixel graphics instead of font glyphs. This completely avoids missing-glyph boxes on Android/iOS.
-- No emoji or symbol font is required for card icons.
+Each of the eight color themes now selects its own bundled pixel-art card back:
+
+- Midnight Plum — lantern
+- Moonlit Blue — moon
+- Desert Dawn — star
+- Forest Oracle — leaf
+- Crimson Noir — eye
+- Silver Frost — ice
+- Rose Quartz — heart
+- Golden Hour — potion
+
+Card symbols are displayed as tintable monochrome Unicode emoji-style glyphs. The app strips the color-emoji presentation selector before rendering, allowing the active theme color to be applied where the platform font supports it.
+
+See `TYPOGRAPHY.md` for the optional font-profile system.
+
+## Build in GitHub instead of locally
+
+The project includes GitHub Actions workflows that can generate a test APK and a signed Play Store AAB on a cloud Linux runner. See `GITHUB_ANDROID_BUILD.md`.
+
+
+## GitHub Actions update
+
+v9 updates the Android cloud build workflows to Node 24-compatible GitHub Actions versions and adds `GITHUB_ACTIONS_TROUBLESHOOTING.md`.

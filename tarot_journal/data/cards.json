@@ -1,0 +1,2688 @@
+[
+  {
+    "id": "the-fool",
+    "name": "The Fool",
+    "arcana": "major",
+    "symbol": "🎒",
+    "suit": null,
+    "rank": null,
+    "number": 0,
+    "upright_keywords": [
+      "beginnings",
+      "freedom",
+      "trust"
+    ],
+    "reversed_keywords": [
+      "recklessness",
+      "hesitation",
+      "naivety"
+    ],
+    "upright_meaning": "A threshold is opening. Curiosity, trust, and a willingness to learn matter more than having every step planned.",
+    "reversed_meaning": "A new beginning may be blocked by fear, poor preparation, or a leap taken without enough awareness.",
+    "reflection": "Where could you move with more openness while still caring for your safety?",
+    "yes_no": "Maybe",
+    "element": "Air",
+    "astrology": "Uranus",
+    "symbolism": [
+      "cliff",
+      "white rose",
+      "small companion",
+      "open sky"
+    ],
+    "yes_no_advice": "Leap only after checking the ground beneath you.",
+    "glyph": "🎒"
+  },
+  {
+    "id": "the-magician",
+    "name": "The Magician",
+    "arcana": "major",
+    "symbol": "🪄",
+    "suit": null,
+    "rank": null,
+    "number": 1,
+    "upright_keywords": [
+      "will",
+      "skill",
+      "creation"
+    ],
+    "reversed_keywords": [
+      "manipulation",
+      "scattered energy",
+      "unused talent"
+    ],
+    "upright_meaning": "You have useful tools, attention, and agency. Focus them deliberately and turn intention into a concrete first action.",
+    "reversed_meaning": "Energy may be scattered or used indirectly. Reconnect with your real intention and avoid forcing an outcome.",
+    "reflection": "Which resource or ability are you underusing?",
+    "yes_no": "Yes",
+    "element": "Air",
+    "astrology": "Mercury",
+    "symbolism": [
+      "wand raised upward",
+      "table of four suits",
+      "infinity sign",
+      "red and white garments"
+    ],
+    "yes_no_advice": "Use the tools already available and act deliberately.",
+    "glyph": "🪄"
+  },
+  {
+    "id": "the-high-priestess",
+    "name": "The High Priestess",
+    "arcana": "major",
+    "symbol": "🌙",
+    "suit": null,
+    "rank": null,
+    "number": 2,
+    "upright_keywords": [
+      "intuition",
+      "mystery",
+      "inner knowing"
+    ],
+    "reversed_keywords": [
+      "disconnection",
+      "secrets",
+      "self-doubt"
+    ],
+    "upright_meaning": "Quiet information is available beneath the obvious. Pause, observe, and let intuition mature before acting.",
+    "reversed_meaning": "Inner signals may be ignored or confused with fear. Create stillness and verify what your intuition is actually saying.",
+    "reflection": "What do you know before you can fully explain it?",
+    "yes_no": "Maybe",
+    "element": "Water",
+    "astrology": "Moon",
+    "symbolism": [
+      "two pillars",
+      "veil",
+      "crescent moon",
+      "hidden scroll"
+    ],
+    "yes_no_advice": "Wait for more information and trust quiet observation.",
+    "glyph": "🌙"
+  },
+  {
+    "id": "the-empress",
+    "name": "The Empress",
+    "arcana": "major",
+    "symbol": "🌿",
+    "suit": null,
+    "rank": null,
+    "number": 3,
+    "upright_keywords": [
+      "nurture",
+      "abundance",
+      "creativity"
+    ],
+    "reversed_keywords": [
+      "depletion",
+      "overgiving",
+      "creative block"
+    ],
+    "upright_meaning": "Growth comes through care, receptivity, and sustained attention. Nourish what you want to see become real.",
+    "reversed_meaning": "Care may have become depletion, control, or neglect of your own needs. Restore your resources before giving more.",
+    "reflection": "What needs steady nourishment rather than pressure?",
+    "yes_no": "Yes",
+    "element": "Earth",
+    "astrology": "Venus",
+    "symbolism": [
+      "wheat field",
+      "crown of stars",
+      "flowing water",
+      "lush garden"
+    ],
+    "yes_no_advice": "Nourish the choice that creates sustainable growth.",
+    "glyph": "🌿"
+  },
+  {
+    "id": "the-emperor",
+    "name": "The Emperor",
+    "arcana": "major",
+    "symbol": "👑",
+    "suit": null,
+    "rank": null,
+    "number": 4,
+    "upright_keywords": [
+      "structure",
+      "authority",
+      "stability"
+    ],
+    "reversed_keywords": [
+      "rigidity",
+      "control",
+      "instability"
+    ],
+    "upright_meaning": "Clear boundaries and practical structure can stabilize the situation. Lead through consistency rather than force.",
+    "reversed_meaning": "Rules or authority may be too rigid, poorly defined, or used defensively. Rebuild structure around what truly matters.",
+    "reflection": "Where would a clear boundary create relief?",
+    "yes_no": "Yes",
+    "element": "Fire",
+    "astrology": "Aries",
+    "symbolism": [
+      "stone throne",
+      "ram heads",
+      "mountains",
+      "red robes"
+    ],
+    "yes_no_advice": "Choose the option with clear boundaries and practical structure.",
+    "glyph": "👑"
+  },
+  {
+    "id": "the-hierophant",
+    "name": "The Hierophant",
+    "arcana": "major",
+    "symbol": "🔔",
+    "suit": null,
+    "rank": null,
+    "number": 5,
+    "upright_keywords": [
+      "tradition",
+      "teaching",
+      "shared values"
+    ],
+    "reversed_keywords": [
+      "rebellion",
+      "dogma",
+      "new path"
+    ],
+    "upright_meaning": "Established wisdom, mentorship, or shared practice may offer a useful container. Learn the rules before deciding which to keep.",
+    "reversed_meaning": "A tradition may no longer fit, or conformity may be replacing honest belief. Examine inherited assumptions.",
+    "reflection": "Which teaching supports you, and which one needs questioning?",
+    "yes_no": "Maybe",
+    "element": "Earth",
+    "astrology": "Taurus",
+    "symbolism": [
+      "keys",
+      "two students",
+      "raised hand",
+      "temple pillars"
+    ],
+    "yes_no_advice": "Consult trusted guidance, then decide whether the tradition still fits.",
+    "glyph": "🔔"
+  },
+  {
+    "id": "the-lovers",
+    "name": "The Lovers",
+    "arcana": "major",
+    "symbol": "💞",
+    "suit": null,
+    "rank": null,
+    "number": 6,
+    "upright_keywords": [
+      "choice",
+      "alignment",
+      "connection"
+    ],
+    "reversed_keywords": [
+      "disharmony",
+      "avoidance",
+      "misalignment"
+    ],
+    "upright_meaning": "A meaningful choice asks for alignment between values, desire, and action. Honest connection grows from congruence.",
+    "reversed_meaning": "Competing values or unspoken differences may be creating distance. Name the real choice rather than avoiding it.",
+    "reflection": "What choice would let your actions match your values?",
+    "yes_no": "Yes",
+    "element": "Air",
+    "astrology": "Gemini",
+    "symbolism": [
+      "two figures",
+      "angel",
+      "tree of knowledge",
+      "mountain"
+    ],
+    "yes_no_advice": "Say yes only when desire, values, and action are aligned.",
+    "glyph": "💞"
+  },
+  {
+    "id": "the-chariot",
+    "name": "The Chariot",
+    "arcana": "major",
+    "symbol": "🐎",
+    "suit": null,
+    "rank": null,
+    "number": 7,
+    "upright_keywords": [
+      "direction",
+      "discipline",
+      "momentum"
+    ],
+    "reversed_keywords": [
+      "loss of control",
+      "aggression",
+      "stagnation"
+    ],
+    "upright_meaning": "Momentum grows when competing impulses are directed toward one purpose. Choose a course and guide your energy.",
+    "reversed_meaning": "Effort may be forceful but unfocused. Slow down, regain emotional control, and decide what success actually means.",
+    "reflection": "What deserves your focused effort right now?",
+    "yes_no": "Yes",
+    "element": "Water",
+    "astrology": "Cancer",
+    "symbolism": [
+      "two sphinxes",
+      "star canopy",
+      "city behind",
+      "armored driver"
+    ],
+    "yes_no_advice": "Commit to one direction rather than dividing your effort.",
+    "glyph": "🐎"
+  },
+  {
+    "id": "strength",
+    "name": "Strength",
+    "arcana": "major",
+    "symbol": "🦁",
+    "suit": null,
+    "rank": null,
+    "number": 8,
+    "upright_keywords": [
+      "courage",
+      "patience",
+      "gentle power"
+    ],
+    "reversed_keywords": [
+      "self-doubt",
+      "reactivity",
+      "exhaustion"
+    ],
+    "upright_meaning": "Real strength appears as patience, self-respect, and calm influence. Meet intensity without becoming ruled by it.",
+    "reversed_meaning": "Confidence may be low or emotions may be driving the response. Compassionate self-regulation is more useful than suppression.",
+    "reflection": "What would gentle courage look like here?",
+    "yes_no": "Yes",
+    "element": "Fire",
+    "astrology": "Leo",
+    "symbolism": [
+      "lion",
+      "infinity sign",
+      "flower garland",
+      "gentle hands"
+    ],
+    "yes_no_advice": "Proceed through patience and steadiness, not force.",
+    "glyph": "🦁"
+  },
+  {
+    "id": "the-hermit",
+    "name": "The Hermit",
+    "arcana": "major",
+    "symbol": "🏮",
+    "suit": null,
+    "rank": null,
+    "number": 9,
+    "upright_keywords": [
+      "reflection",
+      "solitude",
+      "inner guidance"
+    ],
+    "reversed_keywords": [
+      "isolation",
+      "avoidance",
+      "loneliness"
+    ],
+    "upright_meaning": "Step back from noise and listen for your own considered judgment. Solitude can clarify what constant input obscures.",
+    "reversed_meaning": "Withdrawal may have become disconnection or avoidance. Seek wise support without abandoning your inner authority.",
+    "reflection": "What becomes clearer when you make room for quiet?",
+    "yes_no": "No for now",
+    "element": "Earth",
+    "astrology": "Virgo",
+    "symbolism": [
+      "lantern",
+      "staff",
+      "mountain peak",
+      "grey cloak"
+    ],
+    "yes_no_advice": "Pause, research, and listen inwardly before deciding.",
+    "glyph": "🏮"
+  },
+  {
+    "id": "wheel-of-fortune",
+    "name": "Wheel of Fortune",
+    "arcana": "major",
+    "symbol": "🎡",
+    "suit": null,
+    "rank": null,
+    "number": 10,
+    "upright_keywords": [
+      "change",
+      "cycles",
+      "turning point"
+    ],
+    "reversed_keywords": [
+      "resistance",
+      "setback",
+      "repeating pattern"
+    ],
+    "upright_meaning": "Conditions are changing. Work with the cycle, notice timing, and stay flexible about how progress arrives.",
+    "reversed_meaning": "A repeated pattern or resistance to change may be keeping the wheel stuck. Identify what can be responded to differently.",
+    "reflection": "Which pattern is returning for another look?",
+    "yes_no": "Maybe",
+    "element": "Fire",
+    "astrology": "Jupiter",
+    "symbolism": [
+      "turning wheel",
+      "four fixed signs",
+      "rising and falling figures",
+      "letters on the rim"
+    ],
+    "yes_no_advice": "Timing is changing; stay flexible rather than demanding certainty.",
+    "glyph": "🎡"
+  },
+  {
+    "id": "justice",
+    "name": "Justice",
+    "arcana": "major",
+    "symbol": "⚖️",
+    "suit": null,
+    "rank": null,
+    "number": 11,
+    "upright_keywords": [
+      "truth",
+      "accountability",
+      "balance"
+    ],
+    "reversed_keywords": [
+      "bias",
+      "avoidance",
+      "unfairness"
+    ],
+    "upright_meaning": "Look directly at facts, consequences, and mutual responsibility. A fair outcome requires honest assessment.",
+    "reversed_meaning": "Information may be distorted, responsibility avoided, or standards applied unevenly. Recheck assumptions and repair imbalance.",
+    "reflection": "What would a fair and accountable response require?",
+    "yes_no": "Yes, if fair",
+    "element": "Air",
+    "astrology": "Libra",
+    "symbolism": [
+      "scales",
+      "upright sword",
+      "two pillars",
+      "square crown"
+    ],
+    "yes_no_advice": "Choose what remains fair when consequences are considered.",
+    "glyph": "⚖️"
+  },
+  {
+    "id": "the-hanged-man",
+    "name": "The Hanged Man",
+    "arcana": "major",
+    "symbol": "🪢",
+    "suit": null,
+    "rank": null,
+    "number": 12,
+    "upright_keywords": [
+      "pause",
+      "surrender",
+      "new perspective"
+    ],
+    "reversed_keywords": [
+      "delay",
+      "martyrdom",
+      "resistance"
+    ],
+    "upright_meaning": "A pause can reveal what effort cannot. Release the need to control timing and view the situation from another angle.",
+    "reversed_meaning": "Waiting may have become passive suffering or stubborn resistance. Choose what you are consciously releasing.",
+    "reflection": "What changes when you stop trying to solve this in the usual way?",
+    "yes_no": "No for now",
+    "element": "Water",
+    "astrology": "Neptune",
+    "symbolism": [
+      "suspended figure",
+      "halo",
+      "living tree",
+      "crossed leg"
+    ],
+    "yes_no_advice": "Do not force movement; a new perspective is still forming.",
+    "glyph": "🪢"
+  },
+  {
+    "id": "death",
+    "name": "Death",
+    "arcana": "major",
+    "symbol": "🦋",
+    "suit": null,
+    "rank": null,
+    "number": 13,
+    "upright_keywords": [
+      "ending",
+      "transition",
+      "renewal"
+    ],
+    "reversed_keywords": [
+      "clinging",
+      "stagnation",
+      "fear of change"
+    ],
+    "upright_meaning": "An old form is ending so energy can move elsewhere. Grief and renewal can coexist during a necessary transition.",
+    "reversed_meaning": "Holding onto what has completed may prolong discomfort. Let the ending become specific enough to process.",
+    "reflection": "What are you ready to stop carrying forward?",
+    "yes_no": "No to the old path",
+    "element": "Water",
+    "astrology": "Scorpio",
+    "symbolism": [
+      "white rose banner",
+      "rising sun",
+      "fallen crown",
+      "black horse"
+    ],
+    "yes_no_advice": "Allow the old version to end before choosing what replaces it.",
+    "glyph": "🦋"
+  },
+  {
+    "id": "temperance",
+    "name": "Temperance",
+    "arcana": "major",
+    "symbol": "🏺",
+    "suit": null,
+    "rank": null,
+    "number": 14,
+    "upright_keywords": [
+      "integration",
+      "moderation",
+      "healing"
+    ],
+    "reversed_keywords": [
+      "excess",
+      "imbalance",
+      "impatience"
+    ],
+    "upright_meaning": "Combine differences patiently. Sustainable progress comes through adjustment, proportion, and repeated small corrections.",
+    "reversed_meaning": "An extreme, rushed pace, or incompatible mixture may be draining the system. Return to a workable middle.",
+    "reflection": "What could be blended or paced more gently?",
+    "yes_no": "Yes, gradually",
+    "element": "Fire",
+    "astrology": "Sagittarius",
+    "symbolism": [
+      "two cups",
+      "one foot on land",
+      "one foot in water",
+      "path toward light"
+    ],
+    "yes_no_advice": "Blend, pace, and adjust rather than choosing an extreme.",
+    "glyph": "🏺"
+  },
+  {
+    "id": "the-devil",
+    "name": "The Devil",
+    "arcana": "major",
+    "symbol": "⛓",
+    "suit": null,
+    "rank": null,
+    "number": 15,
+    "upright_keywords": [
+      "attachment",
+      "shadow",
+      "temptation"
+    ],
+    "reversed_keywords": [
+      "release",
+      "awareness",
+      "reclaiming power"
+    ],
+    "upright_meaning": "Notice the attachment, bargain, or fear that appears to limit choice. Naming the pattern begins to loosen it.",
+    "reversed_meaning": "A binding pattern is becoming visible and may be ready for release. Practice choice in small, concrete ways.",
+    "reflection": "What feels compulsory but may actually be negotiable?",
+    "yes_no": "No",
+    "element": "Earth",
+    "astrology": "Capricorn",
+    "symbolism": [
+      "chains",
+      "inverted torch",
+      "horned figure",
+      "dark pedestal"
+    ],
+    "yes_no_advice": "Question whether fear, craving, or habit is making the choice for you.",
+    "glyph": "⛓"
+  },
+  {
+    "id": "the-tower",
+    "name": "The Tower",
+    "arcana": "major",
+    "symbol": "⚡",
+    "suit": null,
+    "rank": null,
+    "number": 16,
+    "upright_keywords": [
+      "disruption",
+      "revelation",
+      "collapse"
+    ],
+    "reversed_keywords": [
+      "avoided change",
+      "lingering crisis",
+      "fear"
+    ],
+    "upright_meaning": "A false or unstable structure is being exposed. Protect what matters, accept the truth, and rebuild on firmer ground.",
+    "reversed_meaning": "Necessary change may be delayed or unfolding internally. Reducing denial can make the transition less destructive.",
+    "reflection": "Which truth can no longer be built around?",
+    "yes_no": "No",
+    "element": "Fire",
+    "astrology": "Mars",
+    "symbolism": [
+      "lightning",
+      "falling crown",
+      "figures in descent",
+      "flames"
+    ],
+    "yes_no_advice": "Do not preserve an unstable structure merely because it is familiar.",
+    "glyph": "⚡"
+  },
+  {
+    "id": "the-star",
+    "name": "The Star",
+    "arcana": "major",
+    "symbol": "⭐",
+    "suit": null,
+    "rank": null,
+    "number": 17,
+    "upright_keywords": [
+      "hope",
+      "renewal",
+      "authenticity"
+    ],
+    "reversed_keywords": [
+      "discouragement",
+      "disconnection",
+      "doubt"
+    ],
+    "upright_meaning": "Hope returns through honesty, replenishment, and a longer view. Let small signs of renewal count.",
+    "reversed_meaning": "Faith may feel distant after disappointment. Reconnect with one sustaining practice rather than demanding instant optimism.",
+    "reflection": "What helps you remember that renewal is possible?",
+    "yes_no": "Yes",
+    "element": "Air",
+    "astrology": "Aquarius",
+    "symbolism": [
+      "eight-pointed star",
+      "two water vessels",
+      "bird in tree",
+      "open landscape"
+    ],
+    "yes_no_advice": "Follow the option that restores honesty, hope, and renewal.",
+    "glyph": "⭐"
+  },
+  {
+    "id": "the-moon",
+    "name": "The Moon",
+    "arcana": "major",
+    "symbol": "🌕",
+    "suit": null,
+    "rank": null,
+    "number": 18,
+    "upright_keywords": [
+      "uncertainty",
+      "dreams",
+      "subconscious"
+    ],
+    "reversed_keywords": [
+      "clarity emerging",
+      "confusion",
+      "suppressed fear"
+    ],
+    "upright_meaning": "Not everything is visible yet. Move slowly, distinguish intuition from projection, and allow uncertainty without inventing certainty.",
+    "reversed_meaning": "Confusion may be lifting, or hidden fear may be demanding attention. Test interpretations against reality.",
+    "reflection": "What story are you telling in the absence of complete information?",
+    "yes_no": "Unclear",
+    "element": "Water",
+    "astrology": "Pisces",
+    "symbolism": [
+      "two towers",
+      "winding path",
+      "dog and wolf",
+      "crayfish"
+    ],
+    "yes_no_advice": "Wait, verify assumptions, and avoid deciding from projection alone.",
+    "glyph": "🌕"
+  },
+  {
+    "id": "the-sun",
+    "name": "The Sun",
+    "arcana": "major",
+    "symbol": "☀️",
+    "suit": null,
+    "rank": null,
+    "number": 19,
+    "upright_keywords": [
+      "joy",
+      "clarity",
+      "vitality"
+    ],
+    "reversed_keywords": [
+      "temporary cloud",
+      "overexposure",
+      "delayed joy"
+    ],
+    "upright_meaning": "Warmth, visibility, and straightforward truth support growth. Let success be recognized and shared.",
+    "reversed_meaning": "Joy may be muted, delayed, or made dependent on perfection. Look for what is already alive and workable.",
+    "reflection": "What deserves uncomplicated appreciation?",
+    "yes_no": "Yes",
+    "element": "Fire",
+    "astrology": "Sun",
+    "symbolism": [
+      "radiant sun",
+      "child",
+      "sunflowers",
+      "white horse"
+    ],
+    "yes_no_advice": "The situation supports openness, vitality, and a straightforward yes.",
+    "glyph": "☀️"
+  },
+  {
+    "id": "judgement",
+    "name": "Judgement",
+    "arcana": "major",
+    "symbol": "📯",
+    "suit": null,
+    "rank": null,
+    "number": 20,
+    "upright_keywords": [
+      "awakening",
+      "reckoning",
+      "calling"
+    ],
+    "reversed_keywords": [
+      "self-judgment",
+      "avoidance",
+      "unfinished lesson"
+    ],
+    "upright_meaning": "A larger pattern is ready to be understood. Answer with honesty, self-forgiveness, and a decision about what comes next.",
+    "reversed_meaning": "Harsh self-criticism or avoidance may block renewal. Learn from the past without making it your permanent identity.",
+    "reflection": "What are you being asked to answer now?",
+    "yes_no": "Yes, answer the call",
+    "element": "Fire",
+    "astrology": "Pluto",
+    "symbolism": [
+      "trumpet",
+      "rising figures",
+      "red cross banner",
+      "mountains"
+    ],
+    "yes_no_advice": "Choose the response that reflects what you have learned.",
+    "glyph": "📯"
+  },
+  {
+    "id": "the-world",
+    "name": "The World",
+    "arcana": "major",
+    "symbol": "🌍",
+    "suit": null,
+    "rank": null,
+    "number": 21,
+    "upright_keywords": [
+      "completion",
+      "integration",
+      "belonging"
+    ],
+    "reversed_keywords": [
+      "unfinished business",
+      "delay",
+      "lack of closure"
+    ],
+    "upright_meaning": "A cycle is completing. Recognize what has been integrated and allow yourself to inhabit the wider perspective earned.",
+    "reversed_meaning": "Closure may be delayed by one remaining task, belief, or goodbye. Identify what completion specifically requires.",
+    "reflection": "What can you honor as complete?",
+    "yes_no": "Yes",
+    "element": "Earth",
+    "astrology": "Saturn",
+    "symbolism": [
+      "wreath",
+      "dancing figure",
+      "four fixed signs",
+      "two wands"
+    ],
+    "yes_no_advice": "Completion and integration support moving forward.",
+    "glyph": "🌍"
+  },
+  {
+    "id": "ace-of-wands",
+    "name": "Ace of Wands",
+    "arcana": "minor",
+    "symbol": "🔥",
+    "suit": "wands",
+    "rank": "Ace",
+    "number": 1,
+    "upright_keywords": [
+      "opportunity",
+      "potential",
+      "spark"
+    ],
+    "reversed_keywords": [
+      "delay",
+      "blocked potential",
+      "false start"
+    ],
+    "upright_meaning": "In the realm of initiative, creativity, ambition, and energetic action, this card points to a beginning, seed, or fresh opportunity. Its constructive expression is directed energy and creative momentum. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of initiative, creativity, ambition, and energetic action, this card points to a blocked beginning or energy not yet grounded. Its difficult expression may involve burnout, impatience, conflict, or scattered effort. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is initiative, creativity, ambition, and energetic action asking for a more conscious response?",
+    "yes_no": "Yes",
+    "element": "Fire",
+    "astrology": "—",
+    "symbolism": [
+      "single emblem",
+      "emerging hand",
+      "open horizon",
+      "sprouting staff",
+      "desert landscape",
+      "salamander motif"
+    ],
+    "yes_no_advice": "Read this as a yes in matters of energy, ambition, creativity, and initiative. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🔥"
+  },
+  {
+    "id": "two-of-wands",
+    "name": "Two of Wands",
+    "arcana": "minor",
+    "symbol": "🔥",
+    "suit": "wands",
+    "rank": "Two",
+    "number": 2,
+    "upright_keywords": [
+      "balance",
+      "choice",
+      "duality"
+    ],
+    "reversed_keywords": [
+      "indecision",
+      "imbalance",
+      "avoidance"
+    ],
+    "upright_meaning": "In the realm of initiative, creativity, ambition, and energetic action, this card points to a choice, balance, or relationship between two forces. Its constructive expression is directed energy and creative momentum. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of initiative, creativity, ambition, and energetic action, this card points to indecision, imbalance, or a choice being postponed. Its difficult expression may involve burnout, impatience, conflict, or scattered effort. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is initiative, creativity, ambition, and energetic action asking for a more conscious response?",
+    "yes_no": "Maybe",
+    "element": "Fire",
+    "astrology": "—",
+    "symbolism": [
+      "paired forms",
+      "crossed or balanced elements",
+      "distant horizon",
+      "sprouting staff",
+      "desert landscape",
+      "salamander motif"
+    ],
+    "yes_no_advice": "Read this as a maybe in matters of energy, ambition, creativity, and initiative. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🔥"
+  },
+  {
+    "id": "three-of-wands",
+    "name": "Three of Wands",
+    "arcana": "minor",
+    "symbol": "🔥",
+    "suit": "wands",
+    "rank": "Three",
+    "number": 3,
+    "upright_keywords": [
+      "growth",
+      "collaboration",
+      "expression"
+    ],
+    "reversed_keywords": [
+      "misalignment",
+      "delay",
+      "weak teamwork"
+    ],
+    "upright_meaning": "In the realm of initiative, creativity, ambition, and energetic action, this card points to development through collaboration, expression, or early results. Its constructive expression is directed energy and creative momentum. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of initiative, creativity, ambition, and energetic action, this card points to misalignment, weak coordination, or growth needing revision. Its difficult expression may involve burnout, impatience, conflict, or scattered effort. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is initiative, creativity, ambition, and energetic action asking for a more conscious response?",
+    "yes_no": "Yes",
+    "element": "Fire",
+    "astrology": "—",
+    "symbolism": [
+      "threefold pattern",
+      "expanding landscape",
+      "signs of early growth",
+      "sprouting staff",
+      "desert landscape",
+      "salamander motif"
+    ],
+    "yes_no_advice": "Read this as a yes in matters of energy, ambition, creativity, and initiative. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🔥"
+  },
+  {
+    "id": "four-of-wands",
+    "name": "Four of Wands",
+    "arcana": "minor",
+    "symbol": "🔥",
+    "suit": "wands",
+    "rank": "Four",
+    "number": 4,
+    "upright_keywords": [
+      "stability",
+      "rest",
+      "foundation"
+    ],
+    "reversed_keywords": [
+      "stagnation",
+      "restlessness",
+      "rigidity"
+    ],
+    "upright_meaning": "In the realm of initiative, creativity, ambition, and energetic action, this card points to stability, consolidation, rest, or a protected structure. Its constructive expression is directed energy and creative momentum. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of initiative, creativity, ambition, and energetic action, this card points to stagnation, rigidity, or a structure that no longer restores. Its difficult expression may involve burnout, impatience, conflict, or scattered effort. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is initiative, creativity, ambition, and energetic action asking for a more conscious response?",
+    "yes_no": "No for now",
+    "element": "Fire",
+    "astrology": "—",
+    "symbolism": [
+      "square arrangement",
+      "enclosed space",
+      "stable or resting posture",
+      "sprouting staff",
+      "desert landscape",
+      "salamander motif"
+    ],
+    "yes_no_advice": "Read this as a no for now in matters of energy, ambition, creativity, and initiative. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🔥"
+  },
+  {
+    "id": "five-of-wands",
+    "name": "Five of Wands",
+    "arcana": "minor",
+    "symbol": "🔥",
+    "suit": "wands",
+    "rank": "Five",
+    "number": 5,
+    "upright_keywords": [
+      "challenge",
+      "change",
+      "friction"
+    ],
+    "reversed_keywords": [
+      "avoidance",
+      "lingering conflict",
+      "recovery"
+    ],
+    "upright_meaning": "In the realm of initiative, creativity, ambition, and energetic action, this card points to tension, disruption, adjustment, or a revealing challenge. Its constructive expression is directed energy and creative momentum. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of initiative, creativity, ambition, and energetic action, this card points to conflict being internalized, avoided, or slowly resolved. Its difficult expression may involve burnout, impatience, conflict, or scattered effort. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is initiative, creativity, ambition, and energetic action asking for a more conscious response?",
+    "yes_no": "Yes, with resistance",
+    "element": "Fire",
+    "astrology": "—",
+    "symbolism": [
+      "disordered grouping",
+      "uneven ground",
+      "visible tension",
+      "sprouting staff",
+      "desert landscape",
+      "salamander motif"
+    ],
+    "yes_no_advice": "Read this as a yes, with resistance in matters of energy, ambition, creativity, and initiative. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🔥"
+  },
+  {
+    "id": "six-of-wands",
+    "name": "Six of Wands",
+    "arcana": "minor",
+    "symbol": "🔥",
+    "suit": "wands",
+    "rank": "Six",
+    "number": 6,
+    "upright_keywords": [
+      "support",
+      "transition",
+      "harmony"
+    ],
+    "reversed_keywords": [
+      "imbalance",
+      "difficulty moving on",
+      "unsupported"
+    ],
+    "upright_meaning": "In the realm of initiative, creativity, ambition, and energetic action, this card points to movement toward harmony, support, recovery, or exchange. Its constructive expression is directed energy and creative momentum. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of initiative, creativity, ambition, and energetic action, this card points to unequal exchange, difficulty moving on, or support not being received. Its difficult expression may involve burnout, impatience, conflict, or scattered effort. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is initiative, creativity, ambition, and energetic action asking for a more conscious response?",
+    "yes_no": "Yes",
+    "element": "Fire",
+    "astrology": "—",
+    "symbolism": [
+      "balanced exchange",
+      "movement between places",
+      "supportive figures",
+      "sprouting staff",
+      "desert landscape",
+      "salamander motif"
+    ],
+    "yes_no_advice": "Read this as a yes in matters of energy, ambition, creativity, and initiative. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🔥"
+  },
+  {
+    "id": "seven-of-wands",
+    "name": "Seven of Wands",
+    "arcana": "minor",
+    "symbol": "🔥",
+    "suit": "wands",
+    "rank": "Seven",
+    "number": 7,
+    "upright_keywords": [
+      "assessment",
+      "strategy",
+      "conviction"
+    ],
+    "reversed_keywords": [
+      "doubt",
+      "poor strategy",
+      "overextension"
+    ],
+    "upright_meaning": "In the realm of initiative, creativity, ambition, and energetic action, this card points to assessment, strategy, testing, or defending what matters. Its constructive expression is directed energy and creative momentum. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of initiative, creativity, ambition, and energetic action, this card points to doubt, avoidance, poor strategy, or effort spread too thin. Its difficult expression may involve burnout, impatience, conflict, or scattered effort. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is initiative, creativity, ambition, and energetic action asking for a more conscious response?",
+    "yes_no": "Yes, with resistance",
+    "element": "Fire",
+    "astrology": "—",
+    "symbolism": [
+      "elevated viewpoint",
+      "test or defense",
+      "many competing options",
+      "sprouting staff",
+      "desert landscape",
+      "salamander motif"
+    ],
+    "yes_no_advice": "Read this as a yes, with resistance in matters of energy, ambition, creativity, and initiative. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🔥"
+  },
+  {
+    "id": "eight-of-wands",
+    "name": "Eight of Wands",
+    "arcana": "minor",
+    "symbol": "🔥",
+    "suit": "wands",
+    "rank": "Eight",
+    "number": 8,
+    "upright_keywords": [
+      "movement",
+      "skill",
+      "focus"
+    ],
+    "reversed_keywords": [
+      "delay",
+      "repetition",
+      "misdirected effort"
+    ],
+    "upright_meaning": "In the realm of initiative, creativity, ambition, and energetic action, this card points to movement, skill, repetition, power, or focused development. Its constructive expression is directed energy and creative momentum. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of initiative, creativity, ambition, and energetic action, this card points to delay, overcontrol, repetitive strain, or momentum without purpose. Its difficult expression may involve burnout, impatience, conflict, or scattered effort. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is initiative, creativity, ambition, and energetic action asking for a more conscious response?",
+    "yes_no": "Yes",
+    "element": "Fire",
+    "astrology": "—",
+    "symbolism": [
+      "repeating pattern",
+      "rapid movement",
+      "work in progress",
+      "sprouting staff",
+      "desert landscape",
+      "salamander motif"
+    ],
+    "yes_no_advice": "Read this as a yes in matters of energy, ambition, creativity, and initiative. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🔥"
+  },
+  {
+    "id": "nine-of-wands",
+    "name": "Nine of Wands",
+    "arcana": "minor",
+    "symbol": "🔥",
+    "suit": "wands",
+    "rank": "Nine",
+    "number": 9,
+    "upright_keywords": [
+      "resilience",
+      "maturity",
+      "attainment"
+    ],
+    "reversed_keywords": [
+      "fatigue",
+      "defensiveness",
+      "excess"
+    ],
+    "upright_meaning": "In the realm of initiative, creativity, ambition, and energetic action, this card points to maturity, resilience, nearing completion, or self-possession. Its constructive expression is directed energy and creative momentum. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of initiative, creativity, ambition, and energetic action, this card points to fatigue, guardedness, excess, or difficulty trusting what has been built. Its difficult expression may involve burnout, impatience, conflict, or scattered effort. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is initiative, creativity, ambition, and energetic action asking for a more conscious response?",
+    "yes_no": "Yes, with resistance",
+    "element": "Fire",
+    "astrology": "—",
+    "symbolism": [
+      "solitary figure",
+      "near-complete arrangement",
+      "boundary or threshold",
+      "sprouting staff",
+      "desert landscape",
+      "salamander motif"
+    ],
+    "yes_no_advice": "Read this as a yes, with resistance in matters of energy, ambition, creativity, and initiative. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🔥"
+  },
+  {
+    "id": "ten-of-wands",
+    "name": "Ten of Wands",
+    "arcana": "minor",
+    "symbol": "🔥",
+    "suit": "wands",
+    "rank": "Ten",
+    "number": 10,
+    "upright_keywords": [
+      "completion",
+      "consequence",
+      "cycle"
+    ],
+    "reversed_keywords": [
+      "resistance",
+      "burden",
+      "unfinished ending"
+    ],
+    "upright_meaning": "In the realm of initiative, creativity, ambition, and energetic action, this card points to culmination, consequence, legacy, or the end of a cycle. Its constructive expression is directed energy and creative momentum. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of initiative, creativity, ambition, and energetic action, this card points to an ending resisted, a burden prolonged, or transition already underway. Its difficult expression may involve burnout, impatience, conflict, or scattered effort. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is initiative, creativity, ambition, and energetic action asking for a more conscious response?",
+    "yes_no": "Maybe",
+    "element": "Fire",
+    "astrology": "—",
+    "symbolism": [
+      "full arrangement",
+      "culminating scene",
+      "legacy or burden",
+      "sprouting staff",
+      "desert landscape",
+      "salamander motif"
+    ],
+    "yes_no_advice": "Read this as a maybe in matters of energy, ambition, creativity, and initiative. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🔥"
+  },
+  {
+    "id": "page-of-wands",
+    "name": "Page of Wands",
+    "arcana": "minor",
+    "symbol": "🔥",
+    "suit": "wands",
+    "rank": "Page",
+    "number": 11,
+    "upright_keywords": [
+      "curiosity",
+      "message",
+      "learning"
+    ],
+    "reversed_keywords": [
+      "immaturity",
+      "mixed message",
+      "distraction"
+    ],
+    "upright_meaning": "In the realm of initiative, creativity, ambition, and energetic action, this card points to curiosity, a message, learning, or beginner energy. Its constructive expression is directed energy and creative momentum. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of initiative, creativity, ambition, and energetic action, this card points to immaturity, mixed signals, distraction, or fear of being new. Its difficult expression may involve burnout, impatience, conflict, or scattered effort. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is initiative, creativity, ambition, and energetic action asking for a more conscious response?",
+    "yes_no": "Maybe",
+    "element": "Fire",
+    "astrology": "—",
+    "symbolism": [
+      "young messenger",
+      "open stance",
+      "single suit emblem",
+      "sprouting staff",
+      "desert landscape",
+      "salamander motif"
+    ],
+    "yes_no_advice": "Read this as a maybe in matters of energy, ambition, creativity, and initiative. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🔥"
+  },
+  {
+    "id": "knight-of-wands",
+    "name": "Knight of Wands",
+    "arcana": "minor",
+    "symbol": "🔥",
+    "suit": "wands",
+    "rank": "Knight",
+    "number": 12,
+    "upright_keywords": [
+      "pursuit",
+      "movement",
+      "intensity"
+    ],
+    "reversed_keywords": [
+      "haste",
+      "inconsistency",
+      "extremes"
+    ],
+    "upright_meaning": "In the realm of initiative, creativity, ambition, and energetic action, this card points to pursuit, movement, commitment, or an intensified quality. Its constructive expression is directed energy and creative momentum. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of initiative, creativity, ambition, and energetic action, this card points to haste, inconsistency, obsession, or motion without reflection. Its difficult expression may involve burnout, impatience, conflict, or scattered effort. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is initiative, creativity, ambition, and energetic action asking for a more conscious response?",
+    "yes_no": "Yes, but slow down",
+    "element": "Fire",
+    "astrology": "—",
+    "symbolism": [
+      "mounted figure",
+      "directional movement",
+      "active suit emblem",
+      "sprouting staff",
+      "desert landscape",
+      "salamander motif"
+    ],
+    "yes_no_advice": "Read this as a yes, but slow down in matters of energy, ambition, creativity, and initiative. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🔥"
+  },
+  {
+    "id": "queen-of-wands",
+    "name": "Queen of Wands",
+    "arcana": "minor",
+    "symbol": "🔥",
+    "suit": "wands",
+    "rank": "Queen",
+    "number": 13,
+    "upright_keywords": [
+      "maturity",
+      "receptivity",
+      "inner mastery"
+    ],
+    "reversed_keywords": [
+      "insecurity",
+      "self-neglect",
+      "overcontrol"
+    ],
+    "upright_meaning": "In the realm of initiative, creativity, ambition, and energetic action, this card points to inward mastery, care, discernment, and mature receptivity. Its constructive expression is directed energy and creative momentum. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of initiative, creativity, ambition, and energetic action, this card points to self-neglect, insecurity, overcontrol, or wisdom turned inward destructively. Its difficult expression may involve burnout, impatience, conflict, or scattered effort. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is initiative, creativity, ambition, and energetic action asking for a more conscious response?",
+    "yes_no": "Yes",
+    "element": "Fire",
+    "astrology": "—",
+    "symbolism": [
+      "throne",
+      "receptive posture",
+      "mature suit symbolism",
+      "sprouting staff",
+      "desert landscape",
+      "salamander motif"
+    ],
+    "yes_no_advice": "Read this as a yes in matters of energy, ambition, creativity, and initiative. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🔥"
+  },
+  {
+    "id": "king-of-wands",
+    "name": "King of Wands",
+    "arcana": "minor",
+    "symbol": "🔥",
+    "suit": "wands",
+    "rank": "King",
+    "number": 14,
+    "upright_keywords": [
+      "leadership",
+      "responsibility",
+      "outer mastery"
+    ],
+    "reversed_keywords": [
+      "rigidity",
+      "domination",
+      "avoided responsibility"
+    ],
+    "upright_meaning": "In the realm of initiative, creativity, ambition, and energetic action, this card points to outward mastery, leadership, responsibility, and direction. Its constructive expression is directed energy and creative momentum. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of initiative, creativity, ambition, and energetic action, this card points to domination, rigidity, misuse of authority, or responsibility avoided. Its difficult expression may involve burnout, impatience, conflict, or scattered effort. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is initiative, creativity, ambition, and energetic action asking for a more conscious response?",
+    "yes_no": "Yes",
+    "element": "Fire",
+    "astrology": "—",
+    "symbolism": [
+      "throne",
+      "commanding posture",
+      "stabilized suit symbolism",
+      "sprouting staff",
+      "desert landscape",
+      "salamander motif"
+    ],
+    "yes_no_advice": "Read this as a yes in matters of energy, ambition, creativity, and initiative. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🔥"
+  },
+  {
+    "id": "ace-of-cups",
+    "name": "Ace of Cups",
+    "arcana": "minor",
+    "symbol": "💧",
+    "suit": "cups",
+    "rank": "Ace",
+    "number": 1,
+    "upright_keywords": [
+      "opportunity",
+      "potential",
+      "spark"
+    ],
+    "reversed_keywords": [
+      "delay",
+      "blocked potential",
+      "false start"
+    ],
+    "upright_meaning": "In the realm of emotion, relationship, intuition, and receptivity, this card points to a beginning, seed, or fresh opportunity. Its constructive expression is emotional truth and meaningful connection. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of emotion, relationship, intuition, and receptivity, this card points to a blocked beginning or energy not yet grounded. Its difficult expression may involve avoidance, idealization, emotional overflow, or disconnection. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is emotion, relationship, intuition, and receptivity asking for a more conscious response?",
+    "yes_no": "Yes",
+    "element": "Water",
+    "astrology": "—",
+    "symbolism": [
+      "single emblem",
+      "emerging hand",
+      "open horizon",
+      "chalice",
+      "flowing water",
+      "fish or water imagery"
+    ],
+    "yes_no_advice": "Read this as a yes in matters of emotion, intuition, relationships, and receptivity. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "💧"
+  },
+  {
+    "id": "two-of-cups",
+    "name": "Two of Cups",
+    "arcana": "minor",
+    "symbol": "💧",
+    "suit": "cups",
+    "rank": "Two",
+    "number": 2,
+    "upright_keywords": [
+      "balance",
+      "choice",
+      "duality"
+    ],
+    "reversed_keywords": [
+      "indecision",
+      "imbalance",
+      "avoidance"
+    ],
+    "upright_meaning": "In the realm of emotion, relationship, intuition, and receptivity, this card points to a choice, balance, or relationship between two forces. Its constructive expression is emotional truth and meaningful connection. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of emotion, relationship, intuition, and receptivity, this card points to indecision, imbalance, or a choice being postponed. Its difficult expression may involve avoidance, idealization, emotional overflow, or disconnection. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is emotion, relationship, intuition, and receptivity asking for a more conscious response?",
+    "yes_no": "Yes",
+    "element": "Water",
+    "astrology": "—",
+    "symbolism": [
+      "paired forms",
+      "crossed or balanced elements",
+      "distant horizon",
+      "chalice",
+      "flowing water",
+      "fish or water imagery"
+    ],
+    "yes_no_advice": "Read this as a yes in matters of emotion, intuition, relationships, and receptivity. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "💧"
+  },
+  {
+    "id": "three-of-cups",
+    "name": "Three of Cups",
+    "arcana": "minor",
+    "symbol": "💧",
+    "suit": "cups",
+    "rank": "Three",
+    "number": 3,
+    "upright_keywords": [
+      "growth",
+      "collaboration",
+      "expression"
+    ],
+    "reversed_keywords": [
+      "misalignment",
+      "delay",
+      "weak teamwork"
+    ],
+    "upright_meaning": "In the realm of emotion, relationship, intuition, and receptivity, this card points to development through collaboration, expression, or early results. Its constructive expression is emotional truth and meaningful connection. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of emotion, relationship, intuition, and receptivity, this card points to misalignment, weak coordination, or growth needing revision. Its difficult expression may involve avoidance, idealization, emotional overflow, or disconnection. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is emotion, relationship, intuition, and receptivity asking for a more conscious response?",
+    "yes_no": "Yes",
+    "element": "Water",
+    "astrology": "—",
+    "symbolism": [
+      "threefold pattern",
+      "expanding landscape",
+      "signs of early growth",
+      "chalice",
+      "flowing water",
+      "fish or water imagery"
+    ],
+    "yes_no_advice": "Read this as a yes in matters of emotion, intuition, relationships, and receptivity. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "💧"
+  },
+  {
+    "id": "four-of-cups",
+    "name": "Four of Cups",
+    "arcana": "minor",
+    "symbol": "💧",
+    "suit": "cups",
+    "rank": "Four",
+    "number": 4,
+    "upright_keywords": [
+      "stability",
+      "rest",
+      "foundation"
+    ],
+    "reversed_keywords": [
+      "stagnation",
+      "restlessness",
+      "rigidity"
+    ],
+    "upright_meaning": "In the realm of emotion, relationship, intuition, and receptivity, this card points to stability, consolidation, rest, or a protected structure. Its constructive expression is emotional truth and meaningful connection. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of emotion, relationship, intuition, and receptivity, this card points to stagnation, rigidity, or a structure that no longer restores. Its difficult expression may involve avoidance, idealization, emotional overflow, or disconnection. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is emotion, relationship, intuition, and receptivity asking for a more conscious response?",
+    "yes_no": "No for now",
+    "element": "Water",
+    "astrology": "—",
+    "symbolism": [
+      "square arrangement",
+      "enclosed space",
+      "stable or resting posture",
+      "chalice",
+      "flowing water",
+      "fish or water imagery"
+    ],
+    "yes_no_advice": "Read this as a no for now in matters of emotion, intuition, relationships, and receptivity. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "💧"
+  },
+  {
+    "id": "five-of-cups",
+    "name": "Five of Cups",
+    "arcana": "minor",
+    "symbol": "💧",
+    "suit": "cups",
+    "rank": "Five",
+    "number": 5,
+    "upright_keywords": [
+      "challenge",
+      "change",
+      "friction"
+    ],
+    "reversed_keywords": [
+      "avoidance",
+      "lingering conflict",
+      "recovery"
+    ],
+    "upright_meaning": "In the realm of emotion, relationship, intuition, and receptivity, this card points to tension, disruption, adjustment, or a revealing challenge. Its constructive expression is emotional truth and meaningful connection. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of emotion, relationship, intuition, and receptivity, this card points to conflict being internalized, avoided, or slowly resolved. Its difficult expression may involve avoidance, idealization, emotional overflow, or disconnection. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is emotion, relationship, intuition, and receptivity asking for a more conscious response?",
+    "yes_no": "No",
+    "element": "Water",
+    "astrology": "—",
+    "symbolism": [
+      "disordered grouping",
+      "uneven ground",
+      "visible tension",
+      "chalice",
+      "flowing water",
+      "fish or water imagery"
+    ],
+    "yes_no_advice": "Read this as a no in matters of emotion, intuition, relationships, and receptivity. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "💧"
+  },
+  {
+    "id": "six-of-cups",
+    "name": "Six of Cups",
+    "arcana": "minor",
+    "symbol": "💧",
+    "suit": "cups",
+    "rank": "Six",
+    "number": 6,
+    "upright_keywords": [
+      "support",
+      "transition",
+      "harmony"
+    ],
+    "reversed_keywords": [
+      "imbalance",
+      "difficulty moving on",
+      "unsupported"
+    ],
+    "upright_meaning": "In the realm of emotion, relationship, intuition, and receptivity, this card points to movement toward harmony, support, recovery, or exchange. Its constructive expression is emotional truth and meaningful connection. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of emotion, relationship, intuition, and receptivity, this card points to unequal exchange, difficulty moving on, or support not being received. Its difficult expression may involve avoidance, idealization, emotional overflow, or disconnection. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is emotion, relationship, intuition, and receptivity asking for a more conscious response?",
+    "yes_no": "Yes",
+    "element": "Water",
+    "astrology": "—",
+    "symbolism": [
+      "balanced exchange",
+      "movement between places",
+      "supportive figures",
+      "chalice",
+      "flowing water",
+      "fish or water imagery"
+    ],
+    "yes_no_advice": "Read this as a yes in matters of emotion, intuition, relationships, and receptivity. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "💧"
+  },
+  {
+    "id": "seven-of-cups",
+    "name": "Seven of Cups",
+    "arcana": "minor",
+    "symbol": "💧",
+    "suit": "cups",
+    "rank": "Seven",
+    "number": 7,
+    "upright_keywords": [
+      "assessment",
+      "strategy",
+      "conviction"
+    ],
+    "reversed_keywords": [
+      "doubt",
+      "poor strategy",
+      "overextension"
+    ],
+    "upright_meaning": "In the realm of emotion, relationship, intuition, and receptivity, this card points to assessment, strategy, testing, or defending what matters. Its constructive expression is emotional truth and meaningful connection. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of emotion, relationship, intuition, and receptivity, this card points to doubt, avoidance, poor strategy, or effort spread too thin. Its difficult expression may involve avoidance, idealization, emotional overflow, or disconnection. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is emotion, relationship, intuition, and receptivity asking for a more conscious response?",
+    "yes_no": "Maybe",
+    "element": "Water",
+    "astrology": "—",
+    "symbolism": [
+      "elevated viewpoint",
+      "test or defense",
+      "many competing options",
+      "chalice",
+      "flowing water",
+      "fish or water imagery"
+    ],
+    "yes_no_advice": "Read this as a maybe in matters of emotion, intuition, relationships, and receptivity. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "💧"
+  },
+  {
+    "id": "eight-of-cups",
+    "name": "Eight of Cups",
+    "arcana": "minor",
+    "symbol": "💧",
+    "suit": "cups",
+    "rank": "Eight",
+    "number": 8,
+    "upright_keywords": [
+      "movement",
+      "skill",
+      "focus"
+    ],
+    "reversed_keywords": [
+      "delay",
+      "repetition",
+      "misdirected effort"
+    ],
+    "upright_meaning": "In the realm of emotion, relationship, intuition, and receptivity, this card points to movement, skill, repetition, power, or focused development. Its constructive expression is emotional truth and meaningful connection. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of emotion, relationship, intuition, and receptivity, this card points to delay, overcontrol, repetitive strain, or momentum without purpose. Its difficult expression may involve avoidance, idealization, emotional overflow, or disconnection. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is emotion, relationship, intuition, and receptivity asking for a more conscious response?",
+    "yes_no": "Yes",
+    "element": "Water",
+    "astrology": "—",
+    "symbolism": [
+      "repeating pattern",
+      "rapid movement",
+      "work in progress",
+      "chalice",
+      "flowing water",
+      "fish or water imagery"
+    ],
+    "yes_no_advice": "Read this as a yes in matters of emotion, intuition, relationships, and receptivity. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "💧"
+  },
+  {
+    "id": "nine-of-cups",
+    "name": "Nine of Cups",
+    "arcana": "minor",
+    "symbol": "💧",
+    "suit": "cups",
+    "rank": "Nine",
+    "number": 9,
+    "upright_keywords": [
+      "resilience",
+      "maturity",
+      "attainment"
+    ],
+    "reversed_keywords": [
+      "fatigue",
+      "defensiveness",
+      "excess"
+    ],
+    "upright_meaning": "In the realm of emotion, relationship, intuition, and receptivity, this card points to maturity, resilience, nearing completion, or self-possession. Its constructive expression is emotional truth and meaningful connection. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of emotion, relationship, intuition, and receptivity, this card points to fatigue, guardedness, excess, or difficulty trusting what has been built. Its difficult expression may involve avoidance, idealization, emotional overflow, or disconnection. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is emotion, relationship, intuition, and receptivity asking for a more conscious response?",
+    "yes_no": "Yes, with caution",
+    "element": "Water",
+    "astrology": "—",
+    "symbolism": [
+      "solitary figure",
+      "near-complete arrangement",
+      "boundary or threshold",
+      "chalice",
+      "flowing water",
+      "fish or water imagery"
+    ],
+    "yes_no_advice": "Read this as a yes, with caution in matters of emotion, intuition, relationships, and receptivity. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "💧"
+  },
+  {
+    "id": "ten-of-cups",
+    "name": "Ten of Cups",
+    "arcana": "minor",
+    "symbol": "💧",
+    "suit": "cups",
+    "rank": "Ten",
+    "number": 10,
+    "upright_keywords": [
+      "completion",
+      "consequence",
+      "cycle"
+    ],
+    "reversed_keywords": [
+      "resistance",
+      "burden",
+      "unfinished ending"
+    ],
+    "upright_meaning": "In the realm of emotion, relationship, intuition, and receptivity, this card points to culmination, consequence, legacy, or the end of a cycle. Its constructive expression is emotional truth and meaningful connection. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of emotion, relationship, intuition, and receptivity, this card points to an ending resisted, a burden prolonged, or transition already underway. Its difficult expression may involve avoidance, idealization, emotional overflow, or disconnection. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is emotion, relationship, intuition, and receptivity asking for a more conscious response?",
+    "yes_no": "Yes",
+    "element": "Water",
+    "astrology": "—",
+    "symbolism": [
+      "full arrangement",
+      "culminating scene",
+      "legacy or burden",
+      "chalice",
+      "flowing water",
+      "fish or water imagery"
+    ],
+    "yes_no_advice": "Read this as a yes in matters of emotion, intuition, relationships, and receptivity. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "💧"
+  },
+  {
+    "id": "page-of-cups",
+    "name": "Page of Cups",
+    "arcana": "minor",
+    "symbol": "💧",
+    "suit": "cups",
+    "rank": "Page",
+    "number": 11,
+    "upright_keywords": [
+      "curiosity",
+      "message",
+      "learning"
+    ],
+    "reversed_keywords": [
+      "immaturity",
+      "mixed message",
+      "distraction"
+    ],
+    "upright_meaning": "In the realm of emotion, relationship, intuition, and receptivity, this card points to curiosity, a message, learning, or beginner energy. Its constructive expression is emotional truth and meaningful connection. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of emotion, relationship, intuition, and receptivity, this card points to immaturity, mixed signals, distraction, or fear of being new. Its difficult expression may involve avoidance, idealization, emotional overflow, or disconnection. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is emotion, relationship, intuition, and receptivity asking for a more conscious response?",
+    "yes_no": "Maybe",
+    "element": "Water",
+    "astrology": "—",
+    "symbolism": [
+      "young messenger",
+      "open stance",
+      "single suit emblem",
+      "chalice",
+      "flowing water",
+      "fish or water imagery"
+    ],
+    "yes_no_advice": "Read this as a maybe in matters of emotion, intuition, relationships, and receptivity. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "💧"
+  },
+  {
+    "id": "knight-of-cups",
+    "name": "Knight of Cups",
+    "arcana": "minor",
+    "symbol": "💧",
+    "suit": "cups",
+    "rank": "Knight",
+    "number": 12,
+    "upright_keywords": [
+      "pursuit",
+      "movement",
+      "intensity"
+    ],
+    "reversed_keywords": [
+      "haste",
+      "inconsistency",
+      "extremes"
+    ],
+    "upright_meaning": "In the realm of emotion, relationship, intuition, and receptivity, this card points to pursuit, movement, commitment, or an intensified quality. Its constructive expression is emotional truth and meaningful connection. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of emotion, relationship, intuition, and receptivity, this card points to haste, inconsistency, obsession, or motion without reflection. Its difficult expression may involve avoidance, idealization, emotional overflow, or disconnection. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is emotion, relationship, intuition, and receptivity asking for a more conscious response?",
+    "yes_no": "Yes, but slow down",
+    "element": "Water",
+    "astrology": "—",
+    "symbolism": [
+      "mounted figure",
+      "directional movement",
+      "active suit emblem",
+      "chalice",
+      "flowing water",
+      "fish or water imagery"
+    ],
+    "yes_no_advice": "Read this as a yes, but slow down in matters of emotion, intuition, relationships, and receptivity. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "💧"
+  },
+  {
+    "id": "queen-of-cups",
+    "name": "Queen of Cups",
+    "arcana": "minor",
+    "symbol": "💧",
+    "suit": "cups",
+    "rank": "Queen",
+    "number": 13,
+    "upright_keywords": [
+      "maturity",
+      "receptivity",
+      "inner mastery"
+    ],
+    "reversed_keywords": [
+      "insecurity",
+      "self-neglect",
+      "overcontrol"
+    ],
+    "upright_meaning": "In the realm of emotion, relationship, intuition, and receptivity, this card points to inward mastery, care, discernment, and mature receptivity. Its constructive expression is emotional truth and meaningful connection. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of emotion, relationship, intuition, and receptivity, this card points to self-neglect, insecurity, overcontrol, or wisdom turned inward destructively. Its difficult expression may involve avoidance, idealization, emotional overflow, or disconnection. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is emotion, relationship, intuition, and receptivity asking for a more conscious response?",
+    "yes_no": "Yes",
+    "element": "Water",
+    "astrology": "—",
+    "symbolism": [
+      "throne",
+      "receptive posture",
+      "mature suit symbolism",
+      "chalice",
+      "flowing water",
+      "fish or water imagery"
+    ],
+    "yes_no_advice": "Read this as a yes in matters of emotion, intuition, relationships, and receptivity. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "💧"
+  },
+  {
+    "id": "king-of-cups",
+    "name": "King of Cups",
+    "arcana": "minor",
+    "symbol": "💧",
+    "suit": "cups",
+    "rank": "King",
+    "number": 14,
+    "upright_keywords": [
+      "leadership",
+      "responsibility",
+      "outer mastery"
+    ],
+    "reversed_keywords": [
+      "rigidity",
+      "domination",
+      "avoided responsibility"
+    ],
+    "upright_meaning": "In the realm of emotion, relationship, intuition, and receptivity, this card points to outward mastery, leadership, responsibility, and direction. Its constructive expression is emotional truth and meaningful connection. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of emotion, relationship, intuition, and receptivity, this card points to domination, rigidity, misuse of authority, or responsibility avoided. Its difficult expression may involve avoidance, idealization, emotional overflow, or disconnection. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is emotion, relationship, intuition, and receptivity asking for a more conscious response?",
+    "yes_no": "Yes",
+    "element": "Water",
+    "astrology": "—",
+    "symbolism": [
+      "throne",
+      "commanding posture",
+      "stabilized suit symbolism",
+      "chalice",
+      "flowing water",
+      "fish or water imagery"
+    ],
+    "yes_no_advice": "Read this as a yes in matters of emotion, intuition, relationships, and receptivity. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "💧"
+  },
+  {
+    "id": "ace-of-swords",
+    "name": "Ace of Swords",
+    "arcana": "minor",
+    "symbol": "🗡",
+    "suit": "swords",
+    "rank": "Ace",
+    "number": 1,
+    "upright_keywords": [
+      "opportunity",
+      "potential",
+      "spark"
+    ],
+    "reversed_keywords": [
+      "delay",
+      "blocked potential",
+      "false start"
+    ],
+    "upright_meaning": "In the realm of thought, communication, conflict, and decision, this card points to a beginning, seed, or fresh opportunity. Its constructive expression is clarity, discernment, and honest communication. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of thought, communication, conflict, and decision, this card points to a blocked beginning or energy not yet grounded. Its difficult expression may involve anxiety, harshness, confusion, or unproductive conflict. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is thought, communication, conflict, and decision asking for a more conscious response?",
+    "yes_no": "Maybe — seek clarity",
+    "element": "Air",
+    "astrology": "—",
+    "symbolism": [
+      "single emblem",
+      "emerging hand",
+      "open horizon",
+      "blade",
+      "clouds",
+      "wind or sky imagery"
+    ],
+    "yes_no_advice": "Read this as a maybe — seek clarity in matters of thought, truth, communication, and conflict. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🗡"
+  },
+  {
+    "id": "two-of-swords",
+    "name": "Two of Swords",
+    "arcana": "minor",
+    "symbol": "🗡",
+    "suit": "swords",
+    "rank": "Two",
+    "number": 2,
+    "upright_keywords": [
+      "balance",
+      "choice",
+      "duality"
+    ],
+    "reversed_keywords": [
+      "indecision",
+      "imbalance",
+      "avoidance"
+    ],
+    "upright_meaning": "In the realm of thought, communication, conflict, and decision, this card points to a choice, balance, or relationship between two forces. Its constructive expression is clarity, discernment, and honest communication. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of thought, communication, conflict, and decision, this card points to indecision, imbalance, or a choice being postponed. Its difficult expression may involve anxiety, harshness, confusion, or unproductive conflict. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is thought, communication, conflict, and decision asking for a more conscious response?",
+    "yes_no": "Maybe",
+    "element": "Air",
+    "astrology": "—",
+    "symbolism": [
+      "paired forms",
+      "crossed or balanced elements",
+      "distant horizon",
+      "blade",
+      "clouds",
+      "wind or sky imagery"
+    ],
+    "yes_no_advice": "Read this as a maybe in matters of thought, truth, communication, and conflict. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🗡"
+  },
+  {
+    "id": "three-of-swords",
+    "name": "Three of Swords",
+    "arcana": "minor",
+    "symbol": "🗡",
+    "suit": "swords",
+    "rank": "Three",
+    "number": 3,
+    "upright_keywords": [
+      "growth",
+      "collaboration",
+      "expression"
+    ],
+    "reversed_keywords": [
+      "misalignment",
+      "delay",
+      "weak teamwork"
+    ],
+    "upright_meaning": "In the realm of thought, communication, conflict, and decision, this card points to development through collaboration, expression, or early results. Its constructive expression is clarity, discernment, and honest communication. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of thought, communication, conflict, and decision, this card points to misalignment, weak coordination, or growth needing revision. Its difficult expression may involve anxiety, harshness, confusion, or unproductive conflict. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is thought, communication, conflict, and decision asking for a more conscious response?",
+    "yes_no": "Maybe — seek clarity",
+    "element": "Air",
+    "astrology": "—",
+    "symbolism": [
+      "threefold pattern",
+      "expanding landscape",
+      "signs of early growth",
+      "blade",
+      "clouds",
+      "wind or sky imagery"
+    ],
+    "yes_no_advice": "Read this as a maybe — seek clarity in matters of thought, truth, communication, and conflict. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🗡"
+  },
+  {
+    "id": "four-of-swords",
+    "name": "Four of Swords",
+    "arcana": "minor",
+    "symbol": "🗡",
+    "suit": "swords",
+    "rank": "Four",
+    "number": 4,
+    "upright_keywords": [
+      "stability",
+      "rest",
+      "foundation"
+    ],
+    "reversed_keywords": [
+      "stagnation",
+      "restlessness",
+      "rigidity"
+    ],
+    "upright_meaning": "In the realm of thought, communication, conflict, and decision, this card points to stability, consolidation, rest, or a protected structure. Its constructive expression is clarity, discernment, and honest communication. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of thought, communication, conflict, and decision, this card points to stagnation, rigidity, or a structure that no longer restores. Its difficult expression may involve anxiety, harshness, confusion, or unproductive conflict. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is thought, communication, conflict, and decision asking for a more conscious response?",
+    "yes_no": "No for now",
+    "element": "Air",
+    "astrology": "—",
+    "symbolism": [
+      "square arrangement",
+      "enclosed space",
+      "stable or resting posture",
+      "blade",
+      "clouds",
+      "wind or sky imagery"
+    ],
+    "yes_no_advice": "Read this as a no for now in matters of thought, truth, communication, and conflict. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🗡"
+  },
+  {
+    "id": "five-of-swords",
+    "name": "Five of Swords",
+    "arcana": "minor",
+    "symbol": "🗡",
+    "suit": "swords",
+    "rank": "Five",
+    "number": 5,
+    "upright_keywords": [
+      "challenge",
+      "change",
+      "friction"
+    ],
+    "reversed_keywords": [
+      "avoidance",
+      "lingering conflict",
+      "recovery"
+    ],
+    "upright_meaning": "In the realm of thought, communication, conflict, and decision, this card points to tension, disruption, adjustment, or a revealing challenge. Its constructive expression is clarity, discernment, and honest communication. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of thought, communication, conflict, and decision, this card points to conflict being internalized, avoided, or slowly resolved. Its difficult expression may involve anxiety, harshness, confusion, or unproductive conflict. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is thought, communication, conflict, and decision asking for a more conscious response?",
+    "yes_no": "No",
+    "element": "Air",
+    "astrology": "—",
+    "symbolism": [
+      "disordered grouping",
+      "uneven ground",
+      "visible tension",
+      "blade",
+      "clouds",
+      "wind or sky imagery"
+    ],
+    "yes_no_advice": "Read this as a no in matters of thought, truth, communication, and conflict. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🗡"
+  },
+  {
+    "id": "six-of-swords",
+    "name": "Six of Swords",
+    "arcana": "minor",
+    "symbol": "🗡",
+    "suit": "swords",
+    "rank": "Six",
+    "number": 6,
+    "upright_keywords": [
+      "support",
+      "transition",
+      "harmony"
+    ],
+    "reversed_keywords": [
+      "imbalance",
+      "difficulty moving on",
+      "unsupported"
+    ],
+    "upright_meaning": "In the realm of thought, communication, conflict, and decision, this card points to movement toward harmony, support, recovery, or exchange. Its constructive expression is clarity, discernment, and honest communication. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of thought, communication, conflict, and decision, this card points to unequal exchange, difficulty moving on, or support not being received. Its difficult expression may involve anxiety, harshness, confusion, or unproductive conflict. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is thought, communication, conflict, and decision asking for a more conscious response?",
+    "yes_no": "Maybe — seek clarity",
+    "element": "Air",
+    "astrology": "—",
+    "symbolism": [
+      "balanced exchange",
+      "movement between places",
+      "supportive figures",
+      "blade",
+      "clouds",
+      "wind or sky imagery"
+    ],
+    "yes_no_advice": "Read this as a maybe — seek clarity in matters of thought, truth, communication, and conflict. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🗡"
+  },
+  {
+    "id": "seven-of-swords",
+    "name": "Seven of Swords",
+    "arcana": "minor",
+    "symbol": "🗡",
+    "suit": "swords",
+    "rank": "Seven",
+    "number": 7,
+    "upright_keywords": [
+      "assessment",
+      "strategy",
+      "conviction"
+    ],
+    "reversed_keywords": [
+      "doubt",
+      "poor strategy",
+      "overextension"
+    ],
+    "upright_meaning": "In the realm of thought, communication, conflict, and decision, this card points to assessment, strategy, testing, or defending what matters. Its constructive expression is clarity, discernment, and honest communication. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of thought, communication, conflict, and decision, this card points to doubt, avoidance, poor strategy, or effort spread too thin. Its difficult expression may involve anxiety, harshness, confusion, or unproductive conflict. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is thought, communication, conflict, and decision asking for a more conscious response?",
+    "yes_no": "Maybe",
+    "element": "Air",
+    "astrology": "—",
+    "symbolism": [
+      "elevated viewpoint",
+      "test or defense",
+      "many competing options",
+      "blade",
+      "clouds",
+      "wind or sky imagery"
+    ],
+    "yes_no_advice": "Read this as a maybe in matters of thought, truth, communication, and conflict. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🗡"
+  },
+  {
+    "id": "eight-of-swords",
+    "name": "Eight of Swords",
+    "arcana": "minor",
+    "symbol": "🗡",
+    "suit": "swords",
+    "rank": "Eight",
+    "number": 8,
+    "upright_keywords": [
+      "movement",
+      "skill",
+      "focus"
+    ],
+    "reversed_keywords": [
+      "delay",
+      "repetition",
+      "misdirected effort"
+    ],
+    "upright_meaning": "In the realm of thought, communication, conflict, and decision, this card points to movement, skill, repetition, power, or focused development. Its constructive expression is clarity, discernment, and honest communication. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of thought, communication, conflict, and decision, this card points to delay, overcontrol, repetitive strain, or momentum without purpose. Its difficult expression may involve anxiety, harshness, confusion, or unproductive conflict. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is thought, communication, conflict, and decision asking for a more conscious response?",
+    "yes_no": "Maybe — seek clarity",
+    "element": "Air",
+    "astrology": "—",
+    "symbolism": [
+      "repeating pattern",
+      "rapid movement",
+      "work in progress",
+      "blade",
+      "clouds",
+      "wind or sky imagery"
+    ],
+    "yes_no_advice": "Read this as a maybe — seek clarity in matters of thought, truth, communication, and conflict. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🗡"
+  },
+  {
+    "id": "nine-of-swords",
+    "name": "Nine of Swords",
+    "arcana": "minor",
+    "symbol": "🗡",
+    "suit": "swords",
+    "rank": "Nine",
+    "number": 9,
+    "upright_keywords": [
+      "resilience",
+      "maturity",
+      "attainment"
+    ],
+    "reversed_keywords": [
+      "fatigue",
+      "defensiveness",
+      "excess"
+    ],
+    "upright_meaning": "In the realm of thought, communication, conflict, and decision, this card points to maturity, resilience, nearing completion, or self-possession. Its constructive expression is clarity, discernment, and honest communication. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of thought, communication, conflict, and decision, this card points to fatigue, guardedness, excess, or difficulty trusting what has been built. Its difficult expression may involve anxiety, harshness, confusion, or unproductive conflict. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is thought, communication, conflict, and decision asking for a more conscious response?",
+    "yes_no": "Maybe — seek clarity",
+    "element": "Air",
+    "astrology": "—",
+    "symbolism": [
+      "solitary figure",
+      "near-complete arrangement",
+      "boundary or threshold",
+      "blade",
+      "clouds",
+      "wind or sky imagery"
+    ],
+    "yes_no_advice": "Read this as a maybe — seek clarity in matters of thought, truth, communication, and conflict. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🗡"
+  },
+  {
+    "id": "ten-of-swords",
+    "name": "Ten of Swords",
+    "arcana": "minor",
+    "symbol": "🗡",
+    "suit": "swords",
+    "rank": "Ten",
+    "number": 10,
+    "upright_keywords": [
+      "completion",
+      "consequence",
+      "cycle"
+    ],
+    "reversed_keywords": [
+      "resistance",
+      "burden",
+      "unfinished ending"
+    ],
+    "upright_meaning": "In the realm of thought, communication, conflict, and decision, this card points to culmination, consequence, legacy, or the end of a cycle. Its constructive expression is clarity, discernment, and honest communication. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of thought, communication, conflict, and decision, this card points to an ending resisted, a burden prolonged, or transition already underway. Its difficult expression may involve anxiety, harshness, confusion, or unproductive conflict. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is thought, communication, conflict, and decision asking for a more conscious response?",
+    "yes_no": "Maybe",
+    "element": "Air",
+    "astrology": "—",
+    "symbolism": [
+      "full arrangement",
+      "culminating scene",
+      "legacy or burden",
+      "blade",
+      "clouds",
+      "wind or sky imagery"
+    ],
+    "yes_no_advice": "Read this as a maybe in matters of thought, truth, communication, and conflict. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🗡"
+  },
+  {
+    "id": "page-of-swords",
+    "name": "Page of Swords",
+    "arcana": "minor",
+    "symbol": "🗡",
+    "suit": "swords",
+    "rank": "Page",
+    "number": 11,
+    "upright_keywords": [
+      "curiosity",
+      "message",
+      "learning"
+    ],
+    "reversed_keywords": [
+      "immaturity",
+      "mixed message",
+      "distraction"
+    ],
+    "upright_meaning": "In the realm of thought, communication, conflict, and decision, this card points to curiosity, a message, learning, or beginner energy. Its constructive expression is clarity, discernment, and honest communication. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of thought, communication, conflict, and decision, this card points to immaturity, mixed signals, distraction, or fear of being new. Its difficult expression may involve anxiety, harshness, confusion, or unproductive conflict. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is thought, communication, conflict, and decision asking for a more conscious response?",
+    "yes_no": "Maybe",
+    "element": "Air",
+    "astrology": "—",
+    "symbolism": [
+      "young messenger",
+      "open stance",
+      "single suit emblem",
+      "blade",
+      "clouds",
+      "wind or sky imagery"
+    ],
+    "yes_no_advice": "Read this as a maybe in matters of thought, truth, communication, and conflict. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🗡"
+  },
+  {
+    "id": "knight-of-swords",
+    "name": "Knight of Swords",
+    "arcana": "minor",
+    "symbol": "🗡",
+    "suit": "swords",
+    "rank": "Knight",
+    "number": 12,
+    "upright_keywords": [
+      "pursuit",
+      "movement",
+      "intensity"
+    ],
+    "reversed_keywords": [
+      "haste",
+      "inconsistency",
+      "extremes"
+    ],
+    "upright_meaning": "In the realm of thought, communication, conflict, and decision, this card points to pursuit, movement, commitment, or an intensified quality. Its constructive expression is clarity, discernment, and honest communication. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of thought, communication, conflict, and decision, this card points to haste, inconsistency, obsession, or motion without reflection. Its difficult expression may involve anxiety, harshness, confusion, or unproductive conflict. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is thought, communication, conflict, and decision asking for a more conscious response?",
+    "yes_no": "Maybe — seek clarity",
+    "element": "Air",
+    "astrology": "—",
+    "symbolism": [
+      "mounted figure",
+      "directional movement",
+      "active suit emblem",
+      "blade",
+      "clouds",
+      "wind or sky imagery"
+    ],
+    "yes_no_advice": "Read this as a maybe — seek clarity in matters of thought, truth, communication, and conflict. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🗡"
+  },
+  {
+    "id": "queen-of-swords",
+    "name": "Queen of Swords",
+    "arcana": "minor",
+    "symbol": "🗡",
+    "suit": "swords",
+    "rank": "Queen",
+    "number": 13,
+    "upright_keywords": [
+      "maturity",
+      "receptivity",
+      "inner mastery"
+    ],
+    "reversed_keywords": [
+      "insecurity",
+      "self-neglect",
+      "overcontrol"
+    ],
+    "upright_meaning": "In the realm of thought, communication, conflict, and decision, this card points to inward mastery, care, discernment, and mature receptivity. Its constructive expression is clarity, discernment, and honest communication. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of thought, communication, conflict, and decision, this card points to self-neglect, insecurity, overcontrol, or wisdom turned inward destructively. Its difficult expression may involve anxiety, harshness, confusion, or unproductive conflict. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is thought, communication, conflict, and decision asking for a more conscious response?",
+    "yes_no": "Maybe — seek clarity",
+    "element": "Air",
+    "astrology": "—",
+    "symbolism": [
+      "throne",
+      "receptive posture",
+      "mature suit symbolism",
+      "blade",
+      "clouds",
+      "wind or sky imagery"
+    ],
+    "yes_no_advice": "Read this as a maybe — seek clarity in matters of thought, truth, communication, and conflict. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🗡"
+  },
+  {
+    "id": "king-of-swords",
+    "name": "King of Swords",
+    "arcana": "minor",
+    "symbol": "🗡",
+    "suit": "swords",
+    "rank": "King",
+    "number": 14,
+    "upright_keywords": [
+      "leadership",
+      "responsibility",
+      "outer mastery"
+    ],
+    "reversed_keywords": [
+      "rigidity",
+      "domination",
+      "avoided responsibility"
+    ],
+    "upright_meaning": "In the realm of thought, communication, conflict, and decision, this card points to outward mastery, leadership, responsibility, and direction. Its constructive expression is clarity, discernment, and honest communication. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of thought, communication, conflict, and decision, this card points to domination, rigidity, misuse of authority, or responsibility avoided. Its difficult expression may involve anxiety, harshness, confusion, or unproductive conflict. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is thought, communication, conflict, and decision asking for a more conscious response?",
+    "yes_no": "Maybe — seek clarity",
+    "element": "Air",
+    "astrology": "—",
+    "symbolism": [
+      "throne",
+      "commanding posture",
+      "stabilized suit symbolism",
+      "blade",
+      "clouds",
+      "wind or sky imagery"
+    ],
+    "yes_no_advice": "Read this as a maybe — seek clarity in matters of thought, truth, communication, and conflict. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🗡"
+  },
+  {
+    "id": "ace-of-pentacles",
+    "name": "Ace of Pentacles",
+    "arcana": "minor",
+    "symbol": "🪙",
+    "suit": "pentacles",
+    "rank": "Ace",
+    "number": 1,
+    "upright_keywords": [
+      "opportunity",
+      "potential",
+      "spark"
+    ],
+    "reversed_keywords": [
+      "delay",
+      "blocked potential",
+      "false start"
+    ],
+    "upright_meaning": "In the realm of work, resources, health, home, and material reality, this card points to a beginning, seed, or fresh opportunity. Its constructive expression is practical progress, stewardship, and embodied stability. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of work, resources, health, home, and material reality, this card points to a blocked beginning or energy not yet grounded. Its difficult expression may involve scarcity thinking, stagnation, overwork, or misplaced priorities. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is work, resources, health, home, and material reality asking for a more conscious response?",
+    "yes_no": "Yes",
+    "element": "Earth",
+    "astrology": "—",
+    "symbolism": [
+      "single emblem",
+      "emerging hand",
+      "open horizon",
+      "coin or pentacle",
+      "garden or cultivated land",
+      "material tools"
+    ],
+    "yes_no_advice": "Read this as a yes in matters of work, resources, body, home, and practical reality. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🪙"
+  },
+  {
+    "id": "two-of-pentacles",
+    "name": "Two of Pentacles",
+    "arcana": "minor",
+    "symbol": "🪙",
+    "suit": "pentacles",
+    "rank": "Two",
+    "number": 2,
+    "upright_keywords": [
+      "balance",
+      "choice",
+      "duality"
+    ],
+    "reversed_keywords": [
+      "indecision",
+      "imbalance",
+      "avoidance"
+    ],
+    "upright_meaning": "In the realm of work, resources, health, home, and material reality, this card points to a choice, balance, or relationship between two forces. Its constructive expression is practical progress, stewardship, and embodied stability. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of work, resources, health, home, and material reality, this card points to indecision, imbalance, or a choice being postponed. Its difficult expression may involve scarcity thinking, stagnation, overwork, or misplaced priorities. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is work, resources, health, home, and material reality asking for a more conscious response?",
+    "yes_no": "Maybe",
+    "element": "Earth",
+    "astrology": "—",
+    "symbolism": [
+      "paired forms",
+      "crossed or balanced elements",
+      "distant horizon",
+      "coin or pentacle",
+      "garden or cultivated land",
+      "material tools"
+    ],
+    "yes_no_advice": "Read this as a maybe in matters of work, resources, body, home, and practical reality. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🪙"
+  },
+  {
+    "id": "three-of-pentacles",
+    "name": "Three of Pentacles",
+    "arcana": "minor",
+    "symbol": "🪙",
+    "suit": "pentacles",
+    "rank": "Three",
+    "number": 3,
+    "upright_keywords": [
+      "growth",
+      "collaboration",
+      "expression"
+    ],
+    "reversed_keywords": [
+      "misalignment",
+      "delay",
+      "weak teamwork"
+    ],
+    "upright_meaning": "In the realm of work, resources, health, home, and material reality, this card points to development through collaboration, expression, or early results. Its constructive expression is practical progress, stewardship, and embodied stability. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of work, resources, health, home, and material reality, this card points to misalignment, weak coordination, or growth needing revision. Its difficult expression may involve scarcity thinking, stagnation, overwork, or misplaced priorities. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is work, resources, health, home, and material reality asking for a more conscious response?",
+    "yes_no": "Yes",
+    "element": "Earth",
+    "astrology": "—",
+    "symbolism": [
+      "threefold pattern",
+      "expanding landscape",
+      "signs of early growth",
+      "coin or pentacle",
+      "garden or cultivated land",
+      "material tools"
+    ],
+    "yes_no_advice": "Read this as a yes in matters of work, resources, body, home, and practical reality. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🪙"
+  },
+  {
+    "id": "four-of-pentacles",
+    "name": "Four of Pentacles",
+    "arcana": "minor",
+    "symbol": "🪙",
+    "suit": "pentacles",
+    "rank": "Four",
+    "number": 4,
+    "upright_keywords": [
+      "stability",
+      "rest",
+      "foundation"
+    ],
+    "reversed_keywords": [
+      "stagnation",
+      "restlessness",
+      "rigidity"
+    ],
+    "upright_meaning": "In the realm of work, resources, health, home, and material reality, this card points to stability, consolidation, rest, or a protected structure. Its constructive expression is practical progress, stewardship, and embodied stability. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of work, resources, health, home, and material reality, this card points to stagnation, rigidity, or a structure that no longer restores. Its difficult expression may involve scarcity thinking, stagnation, overwork, or misplaced priorities. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is work, resources, health, home, and material reality asking for a more conscious response?",
+    "yes_no": "No for now",
+    "element": "Earth",
+    "astrology": "—",
+    "symbolism": [
+      "square arrangement",
+      "enclosed space",
+      "stable or resting posture",
+      "coin or pentacle",
+      "garden or cultivated land",
+      "material tools"
+    ],
+    "yes_no_advice": "Read this as a no for now in matters of work, resources, body, home, and practical reality. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🪙"
+  },
+  {
+    "id": "five-of-pentacles",
+    "name": "Five of Pentacles",
+    "arcana": "minor",
+    "symbol": "🪙",
+    "suit": "pentacles",
+    "rank": "Five",
+    "number": 5,
+    "upright_keywords": [
+      "challenge",
+      "change",
+      "friction"
+    ],
+    "reversed_keywords": [
+      "avoidance",
+      "lingering conflict",
+      "recovery"
+    ],
+    "upright_meaning": "In the realm of work, resources, health, home, and material reality, this card points to tension, disruption, adjustment, or a revealing challenge. Its constructive expression is practical progress, stewardship, and embodied stability. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of work, resources, health, home, and material reality, this card points to conflict being internalized, avoided, or slowly resolved. Its difficult expression may involve scarcity thinking, stagnation, overwork, or misplaced priorities. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is work, resources, health, home, and material reality asking for a more conscious response?",
+    "yes_no": "No",
+    "element": "Earth",
+    "astrology": "—",
+    "symbolism": [
+      "disordered grouping",
+      "uneven ground",
+      "visible tension",
+      "coin or pentacle",
+      "garden or cultivated land",
+      "material tools"
+    ],
+    "yes_no_advice": "Read this as a no in matters of work, resources, body, home, and practical reality. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🪙"
+  },
+  {
+    "id": "six-of-pentacles",
+    "name": "Six of Pentacles",
+    "arcana": "minor",
+    "symbol": "🪙",
+    "suit": "pentacles",
+    "rank": "Six",
+    "number": 6,
+    "upright_keywords": [
+      "support",
+      "transition",
+      "harmony"
+    ],
+    "reversed_keywords": [
+      "imbalance",
+      "difficulty moving on",
+      "unsupported"
+    ],
+    "upright_meaning": "In the realm of work, resources, health, home, and material reality, this card points to movement toward harmony, support, recovery, or exchange. Its constructive expression is practical progress, stewardship, and embodied stability. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of work, resources, health, home, and material reality, this card points to unequal exchange, difficulty moving on, or support not being received. Its difficult expression may involve scarcity thinking, stagnation, overwork, or misplaced priorities. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is work, resources, health, home, and material reality asking for a more conscious response?",
+    "yes_no": "Yes",
+    "element": "Earth",
+    "astrology": "—",
+    "symbolism": [
+      "balanced exchange",
+      "movement between places",
+      "supportive figures",
+      "coin or pentacle",
+      "garden or cultivated land",
+      "material tools"
+    ],
+    "yes_no_advice": "Read this as a yes in matters of work, resources, body, home, and practical reality. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🪙"
+  },
+  {
+    "id": "seven-of-pentacles",
+    "name": "Seven of Pentacles",
+    "arcana": "minor",
+    "symbol": "🪙",
+    "suit": "pentacles",
+    "rank": "Seven",
+    "number": 7,
+    "upright_keywords": [
+      "assessment",
+      "strategy",
+      "conviction"
+    ],
+    "reversed_keywords": [
+      "doubt",
+      "poor strategy",
+      "overextension"
+    ],
+    "upright_meaning": "In the realm of work, resources, health, home, and material reality, this card points to assessment, strategy, testing, or defending what matters. Its constructive expression is practical progress, stewardship, and embodied stability. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of work, resources, health, home, and material reality, this card points to doubt, avoidance, poor strategy, or effort spread too thin. Its difficult expression may involve scarcity thinking, stagnation, overwork, or misplaced priorities. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is work, resources, health, home, and material reality asking for a more conscious response?",
+    "yes_no": "Maybe",
+    "element": "Earth",
+    "astrology": "—",
+    "symbolism": [
+      "elevated viewpoint",
+      "test or defense",
+      "many competing options",
+      "coin or pentacle",
+      "garden or cultivated land",
+      "material tools"
+    ],
+    "yes_no_advice": "Read this as a maybe in matters of work, resources, body, home, and practical reality. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🪙"
+  },
+  {
+    "id": "eight-of-pentacles",
+    "name": "Eight of Pentacles",
+    "arcana": "minor",
+    "symbol": "🪙",
+    "suit": "pentacles",
+    "rank": "Eight",
+    "number": 8,
+    "upright_keywords": [
+      "movement",
+      "skill",
+      "focus"
+    ],
+    "reversed_keywords": [
+      "delay",
+      "repetition",
+      "misdirected effort"
+    ],
+    "upright_meaning": "In the realm of work, resources, health, home, and material reality, this card points to movement, skill, repetition, power, or focused development. Its constructive expression is practical progress, stewardship, and embodied stability. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of work, resources, health, home, and material reality, this card points to delay, overcontrol, repetitive strain, or momentum without purpose. Its difficult expression may involve scarcity thinking, stagnation, overwork, or misplaced priorities. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is work, resources, health, home, and material reality asking for a more conscious response?",
+    "yes_no": "Yes",
+    "element": "Earth",
+    "astrology": "—",
+    "symbolism": [
+      "repeating pattern",
+      "rapid movement",
+      "work in progress",
+      "coin or pentacle",
+      "garden or cultivated land",
+      "material tools"
+    ],
+    "yes_no_advice": "Read this as a yes in matters of work, resources, body, home, and practical reality. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🪙"
+  },
+  {
+    "id": "nine-of-pentacles",
+    "name": "Nine of Pentacles",
+    "arcana": "minor",
+    "symbol": "🪙",
+    "suit": "pentacles",
+    "rank": "Nine",
+    "number": 9,
+    "upright_keywords": [
+      "resilience",
+      "maturity",
+      "attainment"
+    ],
+    "reversed_keywords": [
+      "fatigue",
+      "defensiveness",
+      "excess"
+    ],
+    "upright_meaning": "In the realm of work, resources, health, home, and material reality, this card points to maturity, resilience, nearing completion, or self-possession. Its constructive expression is practical progress, stewardship, and embodied stability. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of work, resources, health, home, and material reality, this card points to fatigue, guardedness, excess, or difficulty trusting what has been built. Its difficult expression may involve scarcity thinking, stagnation, overwork, or misplaced priorities. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is work, resources, health, home, and material reality asking for a more conscious response?",
+    "yes_no": "Yes",
+    "element": "Earth",
+    "astrology": "—",
+    "symbolism": [
+      "solitary figure",
+      "near-complete arrangement",
+      "boundary or threshold",
+      "coin or pentacle",
+      "garden or cultivated land",
+      "material tools"
+    ],
+    "yes_no_advice": "Read this as a yes in matters of work, resources, body, home, and practical reality. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🪙"
+  },
+  {
+    "id": "ten-of-pentacles",
+    "name": "Ten of Pentacles",
+    "arcana": "minor",
+    "symbol": "🪙",
+    "suit": "pentacles",
+    "rank": "Ten",
+    "number": 10,
+    "upright_keywords": [
+      "completion",
+      "consequence",
+      "cycle"
+    ],
+    "reversed_keywords": [
+      "resistance",
+      "burden",
+      "unfinished ending"
+    ],
+    "upright_meaning": "In the realm of work, resources, health, home, and material reality, this card points to culmination, consequence, legacy, or the end of a cycle. Its constructive expression is practical progress, stewardship, and embodied stability. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of work, resources, health, home, and material reality, this card points to an ending resisted, a burden prolonged, or transition already underway. Its difficult expression may involve scarcity thinking, stagnation, overwork, or misplaced priorities. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is work, resources, health, home, and material reality asking for a more conscious response?",
+    "yes_no": "Yes",
+    "element": "Earth",
+    "astrology": "—",
+    "symbolism": [
+      "full arrangement",
+      "culminating scene",
+      "legacy or burden",
+      "coin or pentacle",
+      "garden or cultivated land",
+      "material tools"
+    ],
+    "yes_no_advice": "Read this as a yes in matters of work, resources, body, home, and practical reality. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🪙"
+  },
+  {
+    "id": "page-of-pentacles",
+    "name": "Page of Pentacles",
+    "arcana": "minor",
+    "symbol": "🪙",
+    "suit": "pentacles",
+    "rank": "Page",
+    "number": 11,
+    "upright_keywords": [
+      "curiosity",
+      "message",
+      "learning"
+    ],
+    "reversed_keywords": [
+      "immaturity",
+      "mixed message",
+      "distraction"
+    ],
+    "upright_meaning": "In the realm of work, resources, health, home, and material reality, this card points to curiosity, a message, learning, or beginner energy. Its constructive expression is practical progress, stewardship, and embodied stability. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of work, resources, health, home, and material reality, this card points to immaturity, mixed signals, distraction, or fear of being new. Its difficult expression may involve scarcity thinking, stagnation, overwork, or misplaced priorities. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is work, resources, health, home, and material reality asking for a more conscious response?",
+    "yes_no": "Maybe",
+    "element": "Earth",
+    "astrology": "—",
+    "symbolism": [
+      "young messenger",
+      "open stance",
+      "single suit emblem",
+      "coin or pentacle",
+      "garden or cultivated land",
+      "material tools"
+    ],
+    "yes_no_advice": "Read this as a maybe in matters of work, resources, body, home, and practical reality. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🪙"
+  },
+  {
+    "id": "knight-of-pentacles",
+    "name": "Knight of Pentacles",
+    "arcana": "minor",
+    "symbol": "🪙",
+    "suit": "pentacles",
+    "rank": "Knight",
+    "number": 12,
+    "upright_keywords": [
+      "pursuit",
+      "movement",
+      "intensity"
+    ],
+    "reversed_keywords": [
+      "haste",
+      "inconsistency",
+      "extremes"
+    ],
+    "upright_meaning": "In the realm of work, resources, health, home, and material reality, this card points to pursuit, movement, commitment, or an intensified quality. Its constructive expression is practical progress, stewardship, and embodied stability. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of work, resources, health, home, and material reality, this card points to haste, inconsistency, obsession, or motion without reflection. Its difficult expression may involve scarcity thinking, stagnation, overwork, or misplaced priorities. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is work, resources, health, home, and material reality asking for a more conscious response?",
+    "yes_no": "Yes, but slow down",
+    "element": "Earth",
+    "astrology": "—",
+    "symbolism": [
+      "mounted figure",
+      "directional movement",
+      "active suit emblem",
+      "coin or pentacle",
+      "garden or cultivated land",
+      "material tools"
+    ],
+    "yes_no_advice": "Read this as a yes, but slow down in matters of work, resources, body, home, and practical reality. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🪙"
+  },
+  {
+    "id": "queen-of-pentacles",
+    "name": "Queen of Pentacles",
+    "arcana": "minor",
+    "symbol": "🪙",
+    "suit": "pentacles",
+    "rank": "Queen",
+    "number": 13,
+    "upright_keywords": [
+      "maturity",
+      "receptivity",
+      "inner mastery"
+    ],
+    "reversed_keywords": [
+      "insecurity",
+      "self-neglect",
+      "overcontrol"
+    ],
+    "upright_meaning": "In the realm of work, resources, health, home, and material reality, this card points to inward mastery, care, discernment, and mature receptivity. Its constructive expression is practical progress, stewardship, and embodied stability. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of work, resources, health, home, and material reality, this card points to self-neglect, insecurity, overcontrol, or wisdom turned inward destructively. Its difficult expression may involve scarcity thinking, stagnation, overwork, or misplaced priorities. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is work, resources, health, home, and material reality asking for a more conscious response?",
+    "yes_no": "Yes",
+    "element": "Earth",
+    "astrology": "—",
+    "symbolism": [
+      "throne",
+      "receptive posture",
+      "mature suit symbolism",
+      "coin or pentacle",
+      "garden or cultivated land",
+      "material tools"
+    ],
+    "yes_no_advice": "Read this as a yes in matters of work, resources, body, home, and practical reality. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🪙"
+  },
+  {
+    "id": "king-of-pentacles",
+    "name": "King of Pentacles",
+    "arcana": "minor",
+    "symbol": "🪙",
+    "suit": "pentacles",
+    "rank": "King",
+    "number": 14,
+    "upright_keywords": [
+      "leadership",
+      "responsibility",
+      "outer mastery"
+    ],
+    "reversed_keywords": [
+      "rigidity",
+      "domination",
+      "avoided responsibility"
+    ],
+    "upright_meaning": "In the realm of work, resources, health, home, and material reality, this card points to outward mastery, leadership, responsibility, and direction. Its constructive expression is practical progress, stewardship, and embodied stability. Pay attention to what can be practiced, named, or acted on now.",
+    "reversed_meaning": "In the realm of work, resources, health, home, and material reality, this card points to domination, rigidity, misuse of authority, or responsibility avoided. Its difficult expression may involve scarcity thinking, stagnation, overwork, or misplaced priorities. Slow the pattern down and identify the smallest honest correction.",
+    "reflection": "How is work, resources, health, home, and material reality asking for a more conscious response?",
+    "yes_no": "Yes",
+    "element": "Earth",
+    "astrology": "—",
+    "symbolism": [
+      "throne",
+      "commanding posture",
+      "stabilized suit symbolism",
+      "coin or pentacle",
+      "garden or cultivated land",
+      "material tools"
+    ],
+    "yes_no_advice": "Read this as a yes in matters of work, resources, body, home, and practical reality. Consider the surrounding cards and the wording of the question before treating it as decisive.",
+    "glyph": "🪙"
+  }
+]
