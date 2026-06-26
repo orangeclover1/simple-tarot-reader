@@ -25,7 +25,7 @@ from .reading_engine import (
 )
 from .theme import DEFAULT_THEME, THEMES
 from .symbols import card_glyph
-from .widgets import BarChart, CardSymbol, ClickableSurface, PillButton, Surface, WrappedLabel
+from .widgets import BarChart, CardSymbol, ClickableSurface, PillButton, RoundedButton, Surface, WrappedLabel
 
 
 FEELINGS = [
@@ -58,7 +58,7 @@ class LanternTarotApp(App):
         Window.minimum_height = 560
         self.icon = self.asset_path('app_icon_pixel.png')
 
-        self.root_box = BoxLayout(orientation='vertical')
+        self.root_box = BoxLayout(orientation='horizontal')
         self.nav_bar = self._nav()
         self.content = BoxLayout()
         self.root_box.add_widget(self.nav_bar)
@@ -95,29 +95,36 @@ class LanternTarotApp(App):
         )
 
     def _nav(self):
-        # Top navigation avoids Android's bottom gesture/home-button area.
-        bar = BoxLayout(size_hint_y=None, height=dp(56), spacing=dp(4), padding=[dp(6), dp(6), dp(6), dp(4)])
+        # Left rail avoids both the Android status bar and bottom gesture/home area.
+        rail = Surface(
+            theme=self.theme,
+            orientation='vertical',
+            size_hint_x=None,
+            width=dp(86),
+            padding=[dp(6), dp(34), dp(6), dp(22)],
+            spacing=dp(8),
+            radius=dp(0),
+        )
         entries = [
             ('Home', self.show_home),
             ('Read', self.show_read),
-            ('Cards', self.show_library),
-            ('Journal', self.show_history),
+            ('Decks', self.show_library),
+            ('Log', self.show_history),
             ('Stats', self.show_insights),
         ]
         for text, callback in entries:
-            button = Button(
+            button = RoundedButton(
                 text=text,
-                background_normal='',
-                background_down='',
-                background_color=get_color_from_hex(self.theme['surface']),
-                color=get_color_from_hex(self.theme['text']),
-                font_size='11sp',
+                theme=self.theme,
                 size_hint_y=None,
-                height=dp(44),
+                height=dp(52),
+                font_size='11sp',
+                radius=dp(18),
             )
             button.bind(on_release=lambda _b, fn=callback: fn())
-            bar.add_widget(button)
-        return bar
+            rail.add_widget(button)
+        rail.add_widget(BoxLayout())
+        return rail
 
     def _clear(self):
         self.content.clear_widgets()
@@ -135,14 +142,14 @@ class LanternTarotApp(App):
         body = BoxLayout(
             orientation='vertical',
             size_hint_y=None,
-            spacing=dp(12),
-            padding=dp(16),
+            spacing=dp(14),
+            padding=[dp(16), dp(34), dp(16), dp(28)],
         )
         body.bind(minimum_height=body.setter('height'))
         body.add_widget(self._label(title, 28, 'primary', height=dp(48), bold=True))
         if subtitle:
             body.add_widget(self._label(subtitle, 15, 'muted'))
-        spacer = BoxLayout(size_hint_y=None, height=dp(28))
+        spacer = BoxLayout(size_hint_y=None, height=dp(48))
         body.add_widget(spacer)
         scroll.add_widget(body)
         self.content.add_widget(scroll)
@@ -161,16 +168,14 @@ class LanternTarotApp(App):
         return label
 
     def _button(self, text, callback, primary=False, height=50):
-        button = Button(
+        button = RoundedButton(
             text=text,
+            theme=self.theme,
+            primary=1 if primary else 0,
             size_hint_y=None,
             height=dp(height),
-            background_normal='',
-            background_color=get_color_from_hex(
-                self.theme['secondary'] if primary else self.theme['surface_alt']
-            ),
-            color=get_color_from_hex(self.theme['text']),
             font_size='16sp',
+            radius=dp(20),
         )
         button.bind(on_release=callback)
         return button

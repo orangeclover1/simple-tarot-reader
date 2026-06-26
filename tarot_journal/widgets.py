@@ -11,7 +11,7 @@ from kivy.utils import get_color_from_hex
 
 class Surface(BoxLayout):
     theme = DictProperty({})
-    radius = NumericProperty(dp(18))
+    radius = NumericProperty(dp(24))
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
@@ -142,7 +142,52 @@ class CardSymbol(BoxLayout):
             self.rank_label.color = get_color_from_hex(self.theme['secondary'])
 
 
-class PillButton(Button):
+
+class RoundedButton(Button):
+    """Theme-aware rounded button that looks nicer than the square default Button."""
+    theme = DictProperty({})
+    primary = NumericProperty(0)
+    radius = NumericProperty(dp(24))
+
+    def __init__(self, **kwargs):
+        kwargs.setdefault('background_normal', '')
+        kwargs.setdefault('background_down', '')
+        kwargs.setdefault('background_color', (0, 0, 0, 0))
+        super().__init__(**kwargs)
+        with self.canvas.before:
+            self._btn_fill_color = Color(1, 1, 1, 1)
+            self._btn_rect = RoundedRectangle(pos=self.pos, size=self.size, radius=[self.radius])
+        with self.canvas.after:
+            self._btn_border_color = Color(1, 1, 1, 1)
+            self._btn_border = Line(rounded_rectangle=(0, 0, 0, 0, self.radius), width=1.0)
+        self.bind(pos=self._sync_button_canvas, size=self._sync_button_canvas,
+                  theme=self._apply_button_theme, primary=self._apply_button_theme,
+                  radius=self._sync_button_canvas, state=self._apply_button_theme)
+        self._apply_button_theme()
+
+    def _sync_button_canvas(self, *_):
+        self._btn_rect.pos = self.pos
+        self._btn_rect.size = self.size
+        self._btn_rect.radius = [self.radius]
+        self._btn_border.rounded_rectangle = (self.x, self.y, self.width, self.height, float(self.radius))
+
+    def _apply_button_theme(self, *_):
+        if not self.theme:
+            return
+        if self.primary:
+            fill = self.theme['secondary']
+            text = self.theme['text']
+        else:
+            fill = self.theme['surface_alt'] if self.state == 'normal' else self.theme['surface']
+            text = self.theme['text']
+        self.background_color = (0, 0, 0, 0)
+        self._btn_fill_color.rgba = get_color_from_hex(fill)
+        self._btn_border_color.rgba = get_color_from_hex(self.theme.get('border', self.theme['primary']))
+        self.color = get_color_from_hex(text)
+
+
+
+class PillButton(RoundedButton):
     selected = NumericProperty(0)
     theme = DictProperty({})
 
@@ -158,8 +203,8 @@ class PillButton(Button):
     def _apply(self, *_):
         if not self.theme:
             return
-        self.background_color = get_color_from_hex(self.theme['secondary'] if self.selected else self.theme['surface_alt'])
-        self.color = get_color_from_hex(self.theme['text'])
+        self.primary = 1 if self.selected else 0
+        self._apply_button_theme()
 
 
 class BarChart(Widget):

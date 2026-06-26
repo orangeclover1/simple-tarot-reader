@@ -132,3 +132,8 @@ This build adds love/work/spiritual/health focus meanings for every tarot card, 
 ## v12 mobile navigation update
 
 The app navigation now sits at the top of the screen instead of the bottom, avoiding Android's gesture/home-button area. Scroll pages also include extra bottom padding so final buttons and inputs remain clickable.
+
+
+## v13 sidebar and rounded mobile UI
+
+The app now uses a left sidebar navigation rail with extra safe padding, plus rounder surfaces and buttons. This avoids both Android's top status bar and bottom home/gesture area.
