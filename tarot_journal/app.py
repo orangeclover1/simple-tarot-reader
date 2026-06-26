@@ -59,9 +59,10 @@ class LanternTarotApp(App):
         self.icon = self.asset_path('app_icon_pixel.png')
 
         self.root_box = BoxLayout(orientation='vertical')
+        self.nav_bar = self._nav()
         self.content = BoxLayout()
+        self.root_box.add_widget(self.nav_bar)
         self.root_box.add_widget(self.content)
-        self.root_box.add_widget(self._nav())
         self.show_home()
         return self.root_box
 
@@ -94,21 +95,25 @@ class LanternTarotApp(App):
         )
 
     def _nav(self):
-        bar = BoxLayout(size_hint_y=None, height=dp(68), spacing=dp(6), padding=dp(6))
+        # Top navigation avoids Android's bottom gesture/home-button area.
+        bar = BoxLayout(size_hint_y=None, height=dp(56), spacing=dp(4), padding=[dp(6), dp(6), dp(6), dp(4)])
         entries = [
             ('Home', self.show_home),
             ('Read', self.show_read),
             ('Cards', self.show_library),
             ('Journal', self.show_history),
-            ('Insights', self.show_insights),
+            ('Stats', self.show_insights),
         ]
         for text, callback in entries:
             button = Button(
                 text=text,
                 background_normal='',
+                background_down='',
                 background_color=get_color_from_hex(self.theme['surface']),
                 color=get_color_from_hex(self.theme['text']),
-                font_size='12sp',
+                font_size='11sp',
+                size_hint_y=None,
+                height=dp(44),
             )
             button.bind(on_release=lambda _b, fn=callback: fn())
             bar.add_widget(button)
@@ -137,6 +142,8 @@ class LanternTarotApp(App):
         body.add_widget(self._label(title, 28, 'primary', height=dp(48), bold=True))
         if subtitle:
             body.add_widget(self._label(subtitle, 15, 'muted'))
+        spacer = BoxLayout(size_hint_y=None, height=dp(28))
+        body.add_widget(spacer)
         scroll.add_widget(body)
         self.content.add_widget(scroll)
         return body
@@ -198,9 +205,10 @@ class LanternTarotApp(App):
         self.theme = THEMES[name]
         self.db.set_setting('theme', name)
         self.root_box.clear_widgets()
+        self.nav_bar = self._nav()
         self.content = BoxLayout()
+        self.root_box.add_widget(self.nav_bar)
         self.root_box.add_widget(self.content)
-        self.root_box.add_widget(self._nav())
         self.show_home()
 
     def show_home(self, *_):

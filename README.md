@@ -127,3 +127,8 @@ This app presents tarot as a reflective and journaling practice. It should not c
 ## v11 focus, oracle, and decision-maker update
 
 This build adds love/work/spiritual/health focus meanings for every tarot card, a 36-card oracle deck, a Tarot/Oracle/Mixed deck selector, and a Decision Maker spread with a decision-tendency synthesis. Saved readings now also store the selected deck and focus lens.
+
+
+## v12 mobile navigation update
+
+The app navigation now sits at the top of the screen instead of the bottom, avoiding Android's gesture/home-button area. Scroll pages also include extra bottom padding so final buttons and inputs remain clickable.
