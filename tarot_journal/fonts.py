@@ -1,36 +1,27 @@
 from pathlib import Path
 from kivy.core.text import LabelBase
 
-# Kivy ships with Roboto. Other profiles become available after the user drops
-# matching .ttf/.otf files into tarot_journal/assets/fonts.
 FONT_PROFILES = {
     "Kivy Default": {
-        "heading": "Roboto",
-        "body": "Roboto",
-        "label": "Roboto",
-        "files": {},
+        "heading": "Roboto", "body": "Roboto", "label": "Roboto", "files": {},
     },
     "Editorial Serif": {
-        "heading": "LanternEditorial",
-        "body": "Roboto",
-        "label": "Roboto",
+        "heading": "LanternEditorial", "body": "Roboto", "label": "Roboto",
         "files": {"LanternEditorial": "PlayfairDisplay-Regular.ttf"},
     },
     "Soft Rounded": {
-        "heading": "LanternRounded",
-        "body": "LanternRounded",
-        "label": "LanternRounded",
+        "heading": "LanternRounded", "body": "LanternRounded", "label": "LanternRounded",
         "files": {"LanternRounded": "Nunito-Regular.ttf"},
     },
     "Pixel Mystic": {
-        "heading": "LanternPixel",
-        "body": "Roboto",
-        "label": "LanternPixel",
+        "heading": "LanternPixel", "body": "Roboto", "label": "LanternPixel",
         "files": {"LanternPixel": "PixelOperator.ttf"},
     },
 }
 
 DEFAULT_FONT_PROFILE = "Kivy Default"
+SYMBOL_FONT_ALIAS = "LanternSymbols"
+SYMBOL_FONT_FILENAME = "NotoSansSymbols2-Regular.ttf"
 
 
 def register_available_fonts(fonts_dir: Path) -> set[str]:
@@ -44,6 +35,20 @@ def register_available_fonts(fonts_dir: Path) -> set[str]:
                 LabelBase.register(name=alias, fn_regular=str(fonts_dir / filename))
             available.add(profile_name)
     return available
+
+
+def register_symbol_font(fonts_dir: Path) -> bool:
+    """Register the optional user-supplied symbol font.
+
+    Put NotoSansSymbols2-Regular.ttf in assets/fonts. The project deliberately
+    does not redistribute the font file; the README points to the official
+    Google/Noto download.
+    """
+    font_path = fonts_dir / SYMBOL_FONT_FILENAME
+    if not font_path.exists():
+        return False
+    LabelBase.register(name=SYMBOL_FONT_ALIAS, fn_regular=str(font_path))
+    return True
 
 
 def profile_fonts(profile_name: str) -> dict[str, str]:

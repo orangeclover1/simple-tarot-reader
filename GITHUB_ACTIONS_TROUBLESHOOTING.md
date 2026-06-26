@@ -91,3 +91,14 @@ Traceback
 BUILD FAILED
 Command failed
 ```
+
+
+## Java 11 / Java 17 Gradle error
+
+If Gradle says:
+
+```text
+Android Gradle plugin requires Java 17 to run. You are currently using Java 11.
+```
+
+use the v10 workflows. They add `actions/setup-java@v5` with Temurin Java 17 and print `java -version` before Buildozer runs.

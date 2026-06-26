@@ -12,6 +12,34 @@
     ]
   },
   {
+    "id": "decision-maker",
+    "name": "Decision Maker",
+    "icon": "◇",
+    "description": "A practical yes/no/maybe style spread for weighing a choice without surrendering your judgment.",
+    "positions": [
+      {
+        "name": "The decision",
+        "prompt": "What is the heart of the choice?"
+      },
+      {
+        "name": "What supports yes",
+        "prompt": "What supports moving forward or saying yes?"
+      },
+      {
+        "name": "What supports no",
+        "prompt": "What cautions against it or asks for a boundary?"
+      },
+      {
+        "name": "Hidden factor",
+        "prompt": "What important factor may be overlooked?"
+      },
+      {
+        "name": "Best next step",
+        "prompt": "What action would make the choice clearer?"
+      }
+    ]
+  },
+  {
     "id": "three-time",
     "name": "Past · Present · Future",
     "icon": "⌛",

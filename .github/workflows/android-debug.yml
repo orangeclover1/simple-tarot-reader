@@ -8,7 +8,7 @@ on:
 jobs:
   build-apk:
     runs-on: ubuntu-22.04
-    timeout-minutes: 90
+    timeout-minutes: 120
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
@@ -16,11 +16,23 @@ jobs:
       - name: Check out project
         uses: actions/checkout@v5
 
+      - name: Set up Java 17
+        uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Verify Java
+        run: |
+          java -version
+          echo "JAVA_HOME=$JAVA_HOME"
+          which java
+
       - name: Install system dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y \
-            git zip unzip openjdk-17-jdk python3-pip python3-venv \
+            git zip unzip python3-pip python3-venv \
             autoconf libtool pkg-config zlib1g-dev libncurses5-dev \
             libncursesw5-dev libtinfo6 cmake libffi-dev libssl-dev \
             build-essential ccache
@@ -47,7 +59,10 @@ jobs:
             ${{ runner.os }}-buildozer-
 
       - name: Build debug APK
-        run: buildozer android debug
+        run: |
+          java -version
+          echo "JAVA_HOME=$JAVA_HOME"
+          buildozer android debug
 
       - name: Upload APK
         uses: actions/upload-artifact@v5

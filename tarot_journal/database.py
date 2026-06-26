@@ -26,7 +26,9 @@ class TarotDatabase:
             question TEXT NOT NULL DEFAULT '',
             notes TEXT NOT NULL DEFAULT '',
             feelings_json TEXT NOT NULL DEFAULT '[]',
-            synthesis TEXT NOT NULL DEFAULT ''
+            synthesis TEXT NOT NULL DEFAULT '',
+            deck_mode TEXT NOT NULL DEFAULT 'tarot',
+            focus TEXT NOT NULL DEFAULT 'general'
         );
 
         CREATE TABLE IF NOT EXISTS reading_cards (
@@ -42,7 +44,17 @@ class TarotDatabase:
             FOREIGN KEY(reading_id) REFERENCES readings(id) ON DELETE CASCADE
         );
         """)
+        self._ensure_column("readings", "deck_mode", "TEXT NOT NULL DEFAULT 'tarot'")
+        self._ensure_column("readings", "focus", "TEXT NOT NULL DEFAULT 'general'")
         self.connection.commit()
+
+    def _ensure_column(self, table: str, column: str, definition: str):
+        existing = {
+            row["name"]
+            for row in self.connection.execute(f"PRAGMA table_info({table})").fetchall()
+        }
+        if column not in existing:
+            self.connection.execute(f"ALTER TABLE {table} ADD COLUMN {column} {definition}")
 
     def get_setting(self, key: str, default: str = "") -> str:
         row = self.connection.execute("SELECT value FROM settings WHERE key = ?", (key,)).fetchone()
@@ -56,14 +68,14 @@ class TarotDatabase:
         )
         self.connection.commit()
 
-    def save_reading(self, spread, question, notes, feelings, drawn_cards, synthesis) -> int:
+    def save_reading(self, spread, question, notes, feelings, drawn_cards, synthesis, deck_mode='tarot', focus='general') -> int:
         cur = self.connection.execute(
-            "INSERT INTO readings(created_at, spread_id, spread_name, question, notes, feelings_json, synthesis) "
-            "VALUES (?, ?, ?, ?, ?, ?, ?)",
+            "INSERT INTO readings(created_at, spread_id, spread_name, question, notes, feelings_json, synthesis, deck_mode, focus) "
+            "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
             (
                 datetime.now().astimezone().isoformat(timespec="seconds"),
                 spread.id, spread.name, question.strip(), notes.strip(),
-                json.dumps(sorted(feelings)), synthesis,
+                json.dumps(sorted(feelings)), synthesis, deck_mode, focus,
             ),
         )
         reading_id = cur.lastrowid

@@ -1,0 +1,1982 @@
+[
+  {
+    "id": "the-threshold",
+    "name": "The Threshold",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Beginning",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked beginning",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "A choice, invitation, or transition is forming. Notice what changes when you treat the first step as sacred rather than urgent.",
+    "reversed_meaning": "Hesitation may be asking for information, not self-criticism.",
+    "reflection": "What are you ready to enter with more intention?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "Stand at the doorway without rushing through it.",
+      "beginning",
+      "door"
+    ],
+    "yes_no_advice": "Stand at the doorway without rushing through it.",
+    "glyph": "door",
+    "context_meanings": {
+      "general": {
+        "upright": "A choice, invitation, or transition is forming. Notice what changes when you treat the first step as sacred rather than urgent.",
+        "reversed": "Hesitation may be asking for information, not self-criticism."
+      },
+      "love": {
+        "upright": "In love and relationships, The Threshold asks how beginning is showing up between people. A choice, invitation, or transition is forming. Notice what changes when you treat the first step as sacred rather than urgent.",
+        "reversed": "In love and relationships, reversed The Threshold suggests beginning may be blocked, projected, or needing a gentler conversation. Hesitation may be asking for information, not self-criticism."
+      },
+      "work": {
+        "upright": "In work or vocation, The Threshold frames the situation through beginning. A choice, invitation, or transition is forming. Notice what changes when you treat the first step as sacred rather than urgent.",
+        "reversed": "In work or vocation, reversed The Threshold suggests the pattern around beginning needs clearer expectations, better timing, or a simpler next step. Hesitation may be asking for information, not self-criticism."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The Threshold invites you to treat beginning as a teaching symbol. A choice, invitation, or transition is forming. Notice what changes when you treat the first step as sacred rather than urgent.",
+        "reversed": "Spiritually, reversed The Threshold asks where your relationship with beginning has become clouded by fear, habit, or over-interpretation. Hesitation may be asking for information, not self-criticism."
+      },
+      "health": {
+        "upright": "For wellbeing, The Threshold is a reflective prompt around beginning, stress, rest, and sustainable care. A choice, invitation, or transition is forming. Notice what changes when you treat the first step as sacred rather than urgent.",
+        "reversed": "For wellbeing, reversed The Threshold may point to imbalance around beginning. Treat this as a journaling cue, not medical advice. Hesitation may be asking for information, not self-criticism."
+      }
+    }
+  },
+  {
+    "id": "the-lantern",
+    "name": "The Lantern",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Guidance",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked guidance",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "You do not need the whole path illuminated. One honest next step may be enough.",
+    "reversed_meaning": "Seeking too much certainty may dim the light you already have.",
+    "reflection": "What is the next visible step?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "Carry a small light into the unknown.",
+      "guidance",
+      "lantern"
+    ],
+    "yes_no_advice": "Carry a small light into the unknown.",
+    "glyph": "lantern",
+    "context_meanings": {
+      "general": {
+        "upright": "You do not need the whole path illuminated. One honest next step may be enough.",
+        "reversed": "Seeking too much certainty may dim the light you already have."
+      },
+      "love": {
+        "upright": "In love and relationships, The Lantern asks how guidance is showing up between people. You do not need the whole path illuminated. One honest next step may be enough.",
+        "reversed": "In love and relationships, reversed The Lantern suggests guidance may be blocked, projected, or needing a gentler conversation. Seeking too much certainty may dim the light you already have."
+      },
+      "work": {
+        "upright": "In work or vocation, The Lantern frames the situation through guidance. You do not need the whole path illuminated. One honest next step may be enough.",
+        "reversed": "In work or vocation, reversed The Lantern suggests the pattern around guidance needs clearer expectations, better timing, or a simpler next step. Seeking too much certainty may dim the light you already have."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The Lantern invites you to treat guidance as a teaching symbol. You do not need the whole path illuminated. One honest next step may be enough.",
+        "reversed": "Spiritually, reversed The Lantern asks where your relationship with guidance has become clouded by fear, habit, or over-interpretation. Seeking too much certainty may dim the light you already have."
+      },
+      "health": {
+        "upright": "For wellbeing, The Lantern is a reflective prompt around guidance, stress, rest, and sustainable care. You do not need the whole path illuminated. One honest next step may be enough.",
+        "reversed": "For wellbeing, reversed The Lantern may point to imbalance around guidance. Treat this as a journaling cue, not medical advice. Seeking too much certainty may dim the light you already have."
+      }
+    }
+  },
+  {
+    "id": "the-well",
+    "name": "The Well",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Depth",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked depth",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "A deeper emotional or intuitive resource is available when you stop skimming the surface.",
+    "reversed_meaning": "You may be giving from an empty bucket. Replenish before pouring out more.",
+    "reflection": "What restores you at the root?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "Return to the source.",
+      "depth",
+      "cup"
+    ],
+    "yes_no_advice": "Return to the source.",
+    "glyph": "cup",
+    "context_meanings": {
+      "general": {
+        "upright": "A deeper emotional or intuitive resource is available when you stop skimming the surface.",
+        "reversed": "You may be giving from an empty bucket. Replenish before pouring out more."
+      },
+      "love": {
+        "upright": "In love and relationships, The Well asks how depth is showing up between people. A deeper emotional or intuitive resource is available when you stop skimming the surface.",
+        "reversed": "In love and relationships, reversed The Well suggests depth may be blocked, projected, or needing a gentler conversation. You may be giving from an empty bucket. Replenish before pouring out more."
+      },
+      "work": {
+        "upright": "In work or vocation, The Well frames the situation through depth. A deeper emotional or intuitive resource is available when you stop skimming the surface.",
+        "reversed": "In work or vocation, reversed The Well suggests the pattern around depth needs clearer expectations, better timing, or a simpler next step. You may be giving from an empty bucket. Replenish before pouring out more."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The Well invites you to treat depth as a teaching symbol. A deeper emotional or intuitive resource is available when you stop skimming the surface.",
+        "reversed": "Spiritually, reversed The Well asks where your relationship with depth has become clouded by fear, habit, or over-interpretation. You may be giving from an empty bucket. Replenish before pouring out more."
+      },
+      "health": {
+        "upright": "For wellbeing, The Well is a reflective prompt around depth, stress, rest, and sustainable care. A deeper emotional or intuitive resource is available when you stop skimming the surface.",
+        "reversed": "For wellbeing, reversed The Well may point to imbalance around depth. Treat this as a journaling cue, not medical advice. You may be giving from an empty bucket. Replenish before pouring out more."
+      }
+    }
+  },
+  {
+    "id": "the-mirror",
+    "name": "The Mirror",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Reflection",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked reflection",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "This card asks for honest self-witnessing. What you see clearly can be changed gently.",
+    "reversed_meaning": "Projection or self-judgment may be distorting the reflection.",
+    "reflection": "What are you seeing that you usually avoid?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "Look without flinching or performing.",
+      "reflection",
+      "eye"
+    ],
+    "yes_no_advice": "Look without flinching or performing.",
+    "glyph": "eye",
+    "context_meanings": {
+      "general": {
+        "upright": "This card asks for honest self-witnessing. What you see clearly can be changed gently.",
+        "reversed": "Projection or self-judgment may be distorting the reflection."
+      },
+      "love": {
+        "upright": "In love and relationships, The Mirror asks how reflection is showing up between people. This card asks for honest self-witnessing. What you see clearly can be changed gently.",
+        "reversed": "In love and relationships, reversed The Mirror suggests reflection may be blocked, projected, or needing a gentler conversation. Projection or self-judgment may be distorting the reflection."
+      },
+      "work": {
+        "upright": "In work or vocation, The Mirror frames the situation through reflection. This card asks for honest self-witnessing. What you see clearly can be changed gently.",
+        "reversed": "In work or vocation, reversed The Mirror suggests the pattern around reflection needs clearer expectations, better timing, or a simpler next step. Projection or self-judgment may be distorting the reflection."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The Mirror invites you to treat reflection as a teaching symbol. This card asks for honest self-witnessing. What you see clearly can be changed gently.",
+        "reversed": "Spiritually, reversed The Mirror asks where your relationship with reflection has become clouded by fear, habit, or over-interpretation. Projection or self-judgment may be distorting the reflection."
+      },
+      "health": {
+        "upright": "For wellbeing, The Mirror is a reflective prompt around reflection, stress, rest, and sustainable care. This card asks for honest self-witnessing. What you see clearly can be changed gently.",
+        "reversed": "For wellbeing, reversed The Mirror may point to imbalance around reflection. Treat this as a journaling cue, not medical advice. Projection or self-judgment may be distorting the reflection."
+      }
+    }
+  },
+  {
+    "id": "the-garden",
+    "name": "The Garden",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Cultivation",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked cultivation",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "Small, repeated care matters more than dramatic effort. Build the conditions that allow growth.",
+    "reversed_meaning": "Neglect, impatience, or overwatering may be confusing the process.",
+    "reflection": "What needs steady tending?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "What is tended will grow.",
+      "cultivation",
+      "leaf"
+    ],
+    "yes_no_advice": "What is tended will grow.",
+    "glyph": "leaf",
+    "context_meanings": {
+      "general": {
+        "upright": "Small, repeated care matters more than dramatic effort. Build the conditions that allow growth.",
+        "reversed": "Neglect, impatience, or overwatering may be confusing the process."
+      },
+      "love": {
+        "upright": "In love and relationships, The Garden asks how cultivation is showing up between people. Small, repeated care matters more than dramatic effort. Build the conditions that allow growth.",
+        "reversed": "In love and relationships, reversed The Garden suggests cultivation may be blocked, projected, or needing a gentler conversation. Neglect, impatience, or overwatering may be confusing the process."
+      },
+      "work": {
+        "upright": "In work or vocation, The Garden frames the situation through cultivation. Small, repeated care matters more than dramatic effort. Build the conditions that allow growth.",
+        "reversed": "In work or vocation, reversed The Garden suggests the pattern around cultivation needs clearer expectations, better timing, or a simpler next step. Neglect, impatience, or overwatering may be confusing the process."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The Garden invites you to treat cultivation as a teaching symbol. Small, repeated care matters more than dramatic effort. Build the conditions that allow growth.",
+        "reversed": "Spiritually, reversed The Garden asks where your relationship with cultivation has become clouded by fear, habit, or over-interpretation. Neglect, impatience, or overwatering may be confusing the process."
+      },
+      "health": {
+        "upright": "For wellbeing, The Garden is a reflective prompt around cultivation, stress, rest, and sustainable care. Small, repeated care matters more than dramatic effort. Build the conditions that allow growth.",
+        "reversed": "For wellbeing, reversed The Garden may point to imbalance around cultivation. Treat this as a journaling cue, not medical advice. Neglect, impatience, or overwatering may be confusing the process."
+      }
+    }
+  },
+  {
+    "id": "the-storm",
+    "name": "The Storm",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Release",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked release",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "Pressure may need a safe outlet. Truth, grief, anger, or clarity can move energy that has been trapped.",
+    "reversed_meaning": "A storm may be avoided until it grows larger. Find a safer release valve.",
+    "reflection": "What needs to move through instead of stay bottled up?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "Let the charged air break.",
+      "release",
+      "bolt"
+    ],
+    "yes_no_advice": "Let the charged air break.",
+    "glyph": "bolt",
+    "context_meanings": {
+      "general": {
+        "upright": "Pressure may need a safe outlet. Truth, grief, anger, or clarity can move energy that has been trapped.",
+        "reversed": "A storm may be avoided until it grows larger. Find a safer release valve."
+      },
+      "love": {
+        "upright": "In love and relationships, The Storm asks how release is showing up between people. Pressure may need a safe outlet. Truth, grief, anger, or clarity can move energy that has been trapped.",
+        "reversed": "In love and relationships, reversed The Storm suggests release may be blocked, projected, or needing a gentler conversation. A storm may be avoided until it grows larger. Find a safer release valve."
+      },
+      "work": {
+        "upright": "In work or vocation, The Storm frames the situation through release. Pressure may need a safe outlet. Truth, grief, anger, or clarity can move energy that has been trapped.",
+        "reversed": "In work or vocation, reversed The Storm suggests the pattern around release needs clearer expectations, better timing, or a simpler next step. A storm may be avoided until it grows larger. Find a safer release valve."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The Storm invites you to treat release as a teaching symbol. Pressure may need a safe outlet. Truth, grief, anger, or clarity can move energy that has been trapped.",
+        "reversed": "Spiritually, reversed The Storm asks where your relationship with release has become clouded by fear, habit, or over-interpretation. A storm may be avoided until it grows larger. Find a safer release valve."
+      },
+      "health": {
+        "upright": "For wellbeing, The Storm is a reflective prompt around release, stress, rest, and sustainable care. Pressure may need a safe outlet. Truth, grief, anger, or clarity can move energy that has been trapped.",
+        "reversed": "For wellbeing, reversed The Storm may point to imbalance around release. Treat this as a journaling cue, not medical advice. A storm may be avoided until it grows larger. Find a safer release valve."
+      }
+    }
+  },
+  {
+    "id": "the-key",
+    "name": "The Key",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Access",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked access",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "A solution may be smaller than the fear around it. Look for the door, code, conversation, or permission that opens movement.",
+    "reversed_meaning": "You may be trying the wrong lock or forcing access before readiness.",
+    "reflection": "What is the actual key here?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "The lock is information.",
+      "access",
+      "key"
+    ],
+    "yes_no_advice": "The lock is information.",
+    "glyph": "key",
+    "context_meanings": {
+      "general": {
+        "upright": "A solution may be smaller than the fear around it. Look for the door, code, conversation, or permission that opens movement.",
+        "reversed": "You may be trying the wrong lock or forcing access before readiness."
+      },
+      "love": {
+        "upright": "In love and relationships, The Key asks how access is showing up between people. A solution may be smaller than the fear around it. Look for the door, code, conversation, or permission that opens movement.",
+        "reversed": "In love and relationships, reversed The Key suggests access may be blocked, projected, or needing a gentler conversation. You may be trying the wrong lock or forcing access before readiness."
+      },
+      "work": {
+        "upright": "In work or vocation, The Key frames the situation through access. A solution may be smaller than the fear around it. Look for the door, code, conversation, or permission that opens movement.",
+        "reversed": "In work or vocation, reversed The Key suggests the pattern around access needs clearer expectations, better timing, or a simpler next step. You may be trying the wrong lock or forcing access before readiness."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The Key invites you to treat access as a teaching symbol. A solution may be smaller than the fear around it. Look for the door, code, conversation, or permission that opens movement.",
+        "reversed": "Spiritually, reversed The Key asks where your relationship with access has become clouded by fear, habit, or over-interpretation. You may be trying the wrong lock or forcing access before readiness."
+      },
+      "health": {
+        "upright": "For wellbeing, The Key is a reflective prompt around access, stress, rest, and sustainable care. A solution may be smaller than the fear around it. Look for the door, code, conversation, or permission that opens movement.",
+        "reversed": "For wellbeing, reversed The Key may point to imbalance around access. Treat this as a journaling cue, not medical advice. You may be trying the wrong lock or forcing access before readiness."
+      }
+    }
+  },
+  {
+    "id": "the-thread",
+    "name": "The Thread",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Connection",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked connection",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "A subtle connection links the pieces. Track patterns, repeated words, synchronicities, and emotional echoes.",
+    "reversed_meaning": "The thread may be tangled by assumptions or old obligations.",
+    "reflection": "Which pattern keeps returning?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "Follow the strand.",
+      "connection",
+      "chain"
+    ],
+    "yes_no_advice": "Follow the strand.",
+    "glyph": "chain",
+    "context_meanings": {
+      "general": {
+        "upright": "A subtle connection links the pieces. Track patterns, repeated words, synchronicities, and emotional echoes.",
+        "reversed": "The thread may be tangled by assumptions or old obligations."
+      },
+      "love": {
+        "upright": "In love and relationships, The Thread asks how connection is showing up between people. A subtle connection links the pieces. Track patterns, repeated words, synchronicities, and emotional echoes.",
+        "reversed": "In love and relationships, reversed The Thread suggests connection may be blocked, projected, or needing a gentler conversation. The thread may be tangled by assumptions or old obligations."
+      },
+      "work": {
+        "upright": "In work or vocation, The Thread frames the situation through connection. A subtle connection links the pieces. Track patterns, repeated words, synchronicities, and emotional echoes.",
+        "reversed": "In work or vocation, reversed The Thread suggests the pattern around connection needs clearer expectations, better timing, or a simpler next step. The thread may be tangled by assumptions or old obligations."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The Thread invites you to treat connection as a teaching symbol. A subtle connection links the pieces. Track patterns, repeated words, synchronicities, and emotional echoes.",
+        "reversed": "Spiritually, reversed The Thread asks where your relationship with connection has become clouded by fear, habit, or over-interpretation. The thread may be tangled by assumptions or old obligations."
+      },
+      "health": {
+        "upright": "For wellbeing, The Thread is a reflective prompt around connection, stress, rest, and sustainable care. A subtle connection links the pieces. Track patterns, repeated words, synchronicities, and emotional echoes.",
+        "reversed": "For wellbeing, reversed The Thread may point to imbalance around connection. Treat this as a journaling cue, not medical advice. The thread may be tangled by assumptions or old obligations."
+      }
+    }
+  },
+  {
+    "id": "the-ember",
+    "name": "The Ember",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Spark",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked spark",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "A fragile enthusiasm, desire, or creative impulse deserves care before exposure.",
+    "reversed_meaning": "The fire may be smothered by pressure or scattered into too many sparks.",
+    "reflection": "What spark wants protection?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "Protect the small flame.",
+      "spark",
+      "wand"
+    ],
+    "yes_no_advice": "Protect the small flame.",
+    "glyph": "wand",
+    "context_meanings": {
+      "general": {
+        "upright": "A fragile enthusiasm, desire, or creative impulse deserves care before exposure.",
+        "reversed": "The fire may be smothered by pressure or scattered into too many sparks."
+      },
+      "love": {
+        "upright": "In love and relationships, The Ember asks how spark is showing up between people. A fragile enthusiasm, desire, or creative impulse deserves care before exposure.",
+        "reversed": "In love and relationships, reversed The Ember suggests spark may be blocked, projected, or needing a gentler conversation. The fire may be smothered by pressure or scattered into too many sparks."
+      },
+      "work": {
+        "upright": "In work or vocation, The Ember frames the situation through spark. A fragile enthusiasm, desire, or creative impulse deserves care before exposure.",
+        "reversed": "In work or vocation, reversed The Ember suggests the pattern around spark needs clearer expectations, better timing, or a simpler next step. The fire may be smothered by pressure or scattered into too many sparks."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The Ember invites you to treat spark as a teaching symbol. A fragile enthusiasm, desire, or creative impulse deserves care before exposure.",
+        "reversed": "Spiritually, reversed The Ember asks where your relationship with spark has become clouded by fear, habit, or over-interpretation. The fire may be smothered by pressure or scattered into too many sparks."
+      },
+      "health": {
+        "upright": "For wellbeing, The Ember is a reflective prompt around spark, stress, rest, and sustainable care. A fragile enthusiasm, desire, or creative impulse deserves care before exposure.",
+        "reversed": "For wellbeing, reversed The Ember may point to imbalance around spark. Treat this as a journaling cue, not medical advice. The fire may be smothered by pressure or scattered into too many sparks."
+      }
+    }
+  },
+  {
+    "id": "the-river",
+    "name": "The River",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Flow",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked flow",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "Adaptation may be wiser than control. Work with timing, current, and natural direction.",
+    "reversed_meaning": "Resistance to change may be exhausting you more than the change itself.",
+    "reflection": "Where could you stop fighting the current?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "Let movement teach you.",
+      "flow",
+      "wave"
+    ],
+    "yes_no_advice": "Let movement teach you.",
+    "glyph": "wave",
+    "context_meanings": {
+      "general": {
+        "upright": "Adaptation may be wiser than control. Work with timing, current, and natural direction.",
+        "reversed": "Resistance to change may be exhausting you more than the change itself."
+      },
+      "love": {
+        "upright": "In love and relationships, The River asks how flow is showing up between people. Adaptation may be wiser than control. Work with timing, current, and natural direction.",
+        "reversed": "In love and relationships, reversed The River suggests flow may be blocked, projected, or needing a gentler conversation. Resistance to change may be exhausting you more than the change itself."
+      },
+      "work": {
+        "upright": "In work or vocation, The River frames the situation through flow. Adaptation may be wiser than control. Work with timing, current, and natural direction.",
+        "reversed": "In work or vocation, reversed The River suggests the pattern around flow needs clearer expectations, better timing, or a simpler next step. Resistance to change may be exhausting you more than the change itself."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The River invites you to treat flow as a teaching symbol. Adaptation may be wiser than control. Work with timing, current, and natural direction.",
+        "reversed": "Spiritually, reversed The River asks where your relationship with flow has become clouded by fear, habit, or over-interpretation. Resistance to change may be exhausting you more than the change itself."
+      },
+      "health": {
+        "upright": "For wellbeing, The River is a reflective prompt around flow, stress, rest, and sustainable care. Adaptation may be wiser than control. Work with timing, current, and natural direction.",
+        "reversed": "For wellbeing, reversed The River may point to imbalance around flow. Treat this as a journaling cue, not medical advice. Resistance to change may be exhausting you more than the change itself."
+      }
+    }
+  },
+  {
+    "id": "the-anchor",
+    "name": "The Anchor",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Grounding",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked grounding",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "A stabilizing commitment, routine, person, or practice can help you remain present.",
+    "reversed_meaning": "An anchor can become a weight if it keeps you from necessary movement.",
+    "reflection": "What grounds you without trapping you?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "Choose what steadies you.",
+      "grounding",
+      "coin"
+    ],
+    "yes_no_advice": "Choose what steadies you.",
+    "glyph": "coin",
+    "context_meanings": {
+      "general": {
+        "upright": "A stabilizing commitment, routine, person, or practice can help you remain present.",
+        "reversed": "An anchor can become a weight if it keeps you from necessary movement."
+      },
+      "love": {
+        "upright": "In love and relationships, The Anchor asks how grounding is showing up between people. A stabilizing commitment, routine, person, or practice can help you remain present.",
+        "reversed": "In love and relationships, reversed The Anchor suggests grounding may be blocked, projected, or needing a gentler conversation. An anchor can become a weight if it keeps you from necessary movement."
+      },
+      "work": {
+        "upright": "In work or vocation, The Anchor frames the situation through grounding. A stabilizing commitment, routine, person, or practice can help you remain present.",
+        "reversed": "In work or vocation, reversed The Anchor suggests the pattern around grounding needs clearer expectations, better timing, or a simpler next step. An anchor can become a weight if it keeps you from necessary movement."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The Anchor invites you to treat grounding as a teaching symbol. A stabilizing commitment, routine, person, or practice can help you remain present.",
+        "reversed": "Spiritually, reversed The Anchor asks where your relationship with grounding has become clouded by fear, habit, or over-interpretation. An anchor can become a weight if it keeps you from necessary movement."
+      },
+      "health": {
+        "upright": "For wellbeing, The Anchor is a reflective prompt around grounding, stress, rest, and sustainable care. A stabilizing commitment, routine, person, or practice can help you remain present.",
+        "reversed": "For wellbeing, reversed The Anchor may point to imbalance around grounding. Treat this as a journaling cue, not medical advice. An anchor can become a weight if it keeps you from necessary movement."
+      }
+    }
+  },
+  {
+    "id": "the-mask",
+    "name": "The Mask",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Role",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked role",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "A role may be useful, protective, or outdated. Ask what is authentic beneath the performance.",
+    "reversed_meaning": "The mask may be mistaken for the self, or removed before safety exists.",
+    "reflection": "Which part of you is asking to be seen?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "Notice the face you wear.",
+      "role",
+      "eye"
+    ],
+    "yes_no_advice": "Notice the face you wear.",
+    "glyph": "eye",
+    "context_meanings": {
+      "general": {
+        "upright": "A role may be useful, protective, or outdated. Ask what is authentic beneath the performance.",
+        "reversed": "The mask may be mistaken for the self, or removed before safety exists."
+      },
+      "love": {
+        "upright": "In love and relationships, The Mask asks how role is showing up between people. A role may be useful, protective, or outdated. Ask what is authentic beneath the performance.",
+        "reversed": "In love and relationships, reversed The Mask suggests role may be blocked, projected, or needing a gentler conversation. The mask may be mistaken for the self, or removed before safety exists."
+      },
+      "work": {
+        "upright": "In work or vocation, The Mask frames the situation through role. A role may be useful, protective, or outdated. Ask what is authentic beneath the performance.",
+        "reversed": "In work or vocation, reversed The Mask suggests the pattern around role needs clearer expectations, better timing, or a simpler next step. The mask may be mistaken for the self, or removed before safety exists."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The Mask invites you to treat role as a teaching symbol. A role may be useful, protective, or outdated. Ask what is authentic beneath the performance.",
+        "reversed": "Spiritually, reversed The Mask asks where your relationship with role has become clouded by fear, habit, or over-interpretation. The mask may be mistaken for the self, or removed before safety exists."
+      },
+      "health": {
+        "upright": "For wellbeing, The Mask is a reflective prompt around role, stress, rest, and sustainable care. A role may be useful, protective, or outdated. Ask what is authentic beneath the performance.",
+        "reversed": "For wellbeing, reversed The Mask may point to imbalance around role. Treat this as a journaling cue, not medical advice. The mask may be mistaken for the self, or removed before safety exists."
+      }
+    }
+  },
+  {
+    "id": "the-map",
+    "name": "The Map",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Orientation",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked orientation",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "Perspective helps. Step back, gather context, and mark where you are now.",
+    "reversed_meaning": "Too much planning may become avoidance of the first step.",
+    "reflection": "What landmark tells you where you are?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "Locate yourself before choosing direction.",
+      "orientation",
+      "book"
+    ],
+    "yes_no_advice": "Locate yourself before choosing direction.",
+    "glyph": "book",
+    "context_meanings": {
+      "general": {
+        "upright": "Perspective helps. Step back, gather context, and mark where you are now.",
+        "reversed": "Too much planning may become avoidance of the first step."
+      },
+      "love": {
+        "upright": "In love and relationships, The Map asks how orientation is showing up between people. Perspective helps. Step back, gather context, and mark where you are now.",
+        "reversed": "In love and relationships, reversed The Map suggests orientation may be blocked, projected, or needing a gentler conversation. Too much planning may become avoidance of the first step."
+      },
+      "work": {
+        "upright": "In work or vocation, The Map frames the situation through orientation. Perspective helps. Step back, gather context, and mark where you are now.",
+        "reversed": "In work or vocation, reversed The Map suggests the pattern around orientation needs clearer expectations, better timing, or a simpler next step. Too much planning may become avoidance of the first step."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The Map invites you to treat orientation as a teaching symbol. Perspective helps. Step back, gather context, and mark where you are now.",
+        "reversed": "Spiritually, reversed The Map asks where your relationship with orientation has become clouded by fear, habit, or over-interpretation. Too much planning may become avoidance of the first step."
+      },
+      "health": {
+        "upright": "For wellbeing, The Map is a reflective prompt around orientation, stress, rest, and sustainable care. Perspective helps. Step back, gather context, and mark where you are now.",
+        "reversed": "For wellbeing, reversed The Map may point to imbalance around orientation. Treat this as a journaling cue, not medical advice. Too much planning may become avoidance of the first step."
+      }
+    }
+  },
+  {
+    "id": "the-hearth",
+    "name": "The Hearth",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Belonging",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked belonging",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "Connection, comfort, and shared care may be central. Let support matter.",
+    "reversed_meaning": "Home may need repair, boundaries, or a clearer definition.",
+    "reflection": "Where do you feel welcomed back to yourself?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "Warmth is a form of wisdom.",
+      "belonging",
+      "heart"
+    ],
+    "yes_no_advice": "Warmth is a form of wisdom.",
+    "glyph": "heart",
+    "context_meanings": {
+      "general": {
+        "upright": "Connection, comfort, and shared care may be central. Let support matter.",
+        "reversed": "Home may need repair, boundaries, or a clearer definition."
+      },
+      "love": {
+        "upright": "In love and relationships, The Hearth asks how belonging is showing up between people. Connection, comfort, and shared care may be central. Let support matter.",
+        "reversed": "In love and relationships, reversed The Hearth suggests belonging may be blocked, projected, or needing a gentler conversation. Home may need repair, boundaries, or a clearer definition."
+      },
+      "work": {
+        "upright": "In work or vocation, The Hearth frames the situation through belonging. Connection, comfort, and shared care may be central. Let support matter.",
+        "reversed": "In work or vocation, reversed The Hearth suggests the pattern around belonging needs clearer expectations, better timing, or a simpler next step. Home may need repair, boundaries, or a clearer definition."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The Hearth invites you to treat belonging as a teaching symbol. Connection, comfort, and shared care may be central. Let support matter.",
+        "reversed": "Spiritually, reversed The Hearth asks where your relationship with belonging has become clouded by fear, habit, or over-interpretation. Home may need repair, boundaries, or a clearer definition."
+      },
+      "health": {
+        "upright": "For wellbeing, The Hearth is a reflective prompt around belonging, stress, rest, and sustainable care. Connection, comfort, and shared care may be central. Let support matter.",
+        "reversed": "For wellbeing, reversed The Hearth may point to imbalance around belonging. Treat this as a journaling cue, not medical advice. Home may need repair, boundaries, or a clearer definition."
+      }
+    }
+  },
+  {
+    "id": "the-moonlit-path",
+    "name": "The Moonlit Path",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Mystery",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked mystery",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "Not knowing is part of the terrain. Move gently and let symbols, dreams, and instincts inform you.",
+    "reversed_meaning": "Confusion may grow if you demand certainty from a mysterious moment.",
+    "reflection": "What can you do without knowing everything?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "Walk with partial light.",
+      "mystery",
+      "moon"
+    ],
+    "yes_no_advice": "Walk with partial light.",
+    "glyph": "moon",
+    "context_meanings": {
+      "general": {
+        "upright": "Not knowing is part of the terrain. Move gently and let symbols, dreams, and instincts inform you.",
+        "reversed": "Confusion may grow if you demand certainty from a mysterious moment."
+      },
+      "love": {
+        "upright": "In love and relationships, The Moonlit Path asks how mystery is showing up between people. Not knowing is part of the terrain. Move gently and let symbols, dreams, and instincts inform you.",
+        "reversed": "In love and relationships, reversed The Moonlit Path suggests mystery may be blocked, projected, or needing a gentler conversation. Confusion may grow if you demand certainty from a mysterious moment."
+      },
+      "work": {
+        "upright": "In work or vocation, The Moonlit Path frames the situation through mystery. Not knowing is part of the terrain. Move gently and let symbols, dreams, and instincts inform you.",
+        "reversed": "In work or vocation, reversed The Moonlit Path suggests the pattern around mystery needs clearer expectations, better timing, or a simpler next step. Confusion may grow if you demand certainty from a mysterious moment."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The Moonlit Path invites you to treat mystery as a teaching symbol. Not knowing is part of the terrain. Move gently and let symbols, dreams, and instincts inform you.",
+        "reversed": "Spiritually, reversed The Moonlit Path asks where your relationship with mystery has become clouded by fear, habit, or over-interpretation. Confusion may grow if you demand certainty from a mysterious moment."
+      },
+      "health": {
+        "upright": "For wellbeing, The Moonlit Path is a reflective prompt around mystery, stress, rest, and sustainable care. Not knowing is part of the terrain. Move gently and let symbols, dreams, and instincts inform you.",
+        "reversed": "For wellbeing, reversed The Moonlit Path may point to imbalance around mystery. Treat this as a journaling cue, not medical advice. Confusion may grow if you demand certainty from a mysterious moment."
+      }
+    }
+  },
+  {
+    "id": "the-sun-window",
+    "name": "The Sun Window",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Clarity",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked clarity",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "A truth may be simpler than the fear around it. Visibility, warmth, and honesty help.",
+    "reversed_meaning": "Overexposure or forced positivity may hide what needs care.",
+    "reflection": "What becomes obvious in the light?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "Let the room fill with light.",
+      "clarity",
+      "sun"
+    ],
+    "yes_no_advice": "Let the room fill with light.",
+    "glyph": "sun",
+    "context_meanings": {
+      "general": {
+        "upright": "A truth may be simpler than the fear around it. Visibility, warmth, and honesty help.",
+        "reversed": "Overexposure or forced positivity may hide what needs care."
+      },
+      "love": {
+        "upright": "In love and relationships, The Sun Window asks how clarity is showing up between people. A truth may be simpler than the fear around it. Visibility, warmth, and honesty help.",
+        "reversed": "In love and relationships, reversed The Sun Window suggests clarity may be blocked, projected, or needing a gentler conversation. Overexposure or forced positivity may hide what needs care."
+      },
+      "work": {
+        "upright": "In work or vocation, The Sun Window frames the situation through clarity. A truth may be simpler than the fear around it. Visibility, warmth, and honesty help.",
+        "reversed": "In work or vocation, reversed The Sun Window suggests the pattern around clarity needs clearer expectations, better timing, or a simpler next step. Overexposure or forced positivity may hide what needs care."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The Sun Window invites you to treat clarity as a teaching symbol. A truth may be simpler than the fear around it. Visibility, warmth, and honesty help.",
+        "reversed": "Spiritually, reversed The Sun Window asks where your relationship with clarity has become clouded by fear, habit, or over-interpretation. Overexposure or forced positivity may hide what needs care."
+      },
+      "health": {
+        "upright": "For wellbeing, The Sun Window is a reflective prompt around clarity, stress, rest, and sustainable care. A truth may be simpler than the fear around it. Visibility, warmth, and honesty help.",
+        "reversed": "For wellbeing, reversed The Sun Window may point to imbalance around clarity. Treat this as a journaling cue, not medical advice. Overexposure or forced positivity may hide what needs care."
+      }
+    }
+  },
+  {
+    "id": "the-compass",
+    "name": "The Compass",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Direction",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked direction",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "Values can orient you when outcomes are unclear. Choose by alignment, not panic.",
+    "reversed_meaning": "A borrowed direction may be pulling you away from your own center.",
+    "reflection": "What value points north?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "Return to your inner north.",
+      "direction",
+      "star"
+    ],
+    "yes_no_advice": "Return to your inner north.",
+    "glyph": "star",
+    "context_meanings": {
+      "general": {
+        "upright": "Values can orient you when outcomes are unclear. Choose by alignment, not panic.",
+        "reversed": "A borrowed direction may be pulling you away from your own center."
+      },
+      "love": {
+        "upright": "In love and relationships, The Compass asks how direction is showing up between people. Values can orient you when outcomes are unclear. Choose by alignment, not panic.",
+        "reversed": "In love and relationships, reversed The Compass suggests direction may be blocked, projected, or needing a gentler conversation. A borrowed direction may be pulling you away from your own center."
+      },
+      "work": {
+        "upright": "In work or vocation, The Compass frames the situation through direction. Values can orient you when outcomes are unclear. Choose by alignment, not panic.",
+        "reversed": "In work or vocation, reversed The Compass suggests the pattern around direction needs clearer expectations, better timing, or a simpler next step. A borrowed direction may be pulling you away from your own center."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The Compass invites you to treat direction as a teaching symbol. Values can orient you when outcomes are unclear. Choose by alignment, not panic.",
+        "reversed": "Spiritually, reversed The Compass asks where your relationship with direction has become clouded by fear, habit, or over-interpretation. A borrowed direction may be pulling you away from your own center."
+      },
+      "health": {
+        "upright": "For wellbeing, The Compass is a reflective prompt around direction, stress, rest, and sustainable care. Values can orient you when outcomes are unclear. Choose by alignment, not panic.",
+        "reversed": "For wellbeing, reversed The Compass may point to imbalance around direction. Treat this as a journaling cue, not medical advice. A borrowed direction may be pulling you away from your own center."
+      }
+    }
+  },
+  {
+    "id": "the-seed",
+    "name": "The Seed",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Potential",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked potential",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "Something early is alive. Give it protection, patience, and the right conditions.",
+    "reversed_meaning": "Digging up the seed repeatedly may prevent rooting.",
+    "reflection": "What beginning needs patience?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "Small does not mean insignificant.",
+      "potential",
+      "leaf"
+    ],
+    "yes_no_advice": "Small does not mean insignificant.",
+    "glyph": "leaf",
+    "context_meanings": {
+      "general": {
+        "upright": "Something early is alive. Give it protection, patience, and the right conditions.",
+        "reversed": "Digging up the seed repeatedly may prevent rooting."
+      },
+      "love": {
+        "upright": "In love and relationships, The Seed asks how potential is showing up between people. Something early is alive. Give it protection, patience, and the right conditions.",
+        "reversed": "In love and relationships, reversed The Seed suggests potential may be blocked, projected, or needing a gentler conversation. Digging up the seed repeatedly may prevent rooting."
+      },
+      "work": {
+        "upright": "In work or vocation, The Seed frames the situation through potential. Something early is alive. Give it protection, patience, and the right conditions.",
+        "reversed": "In work or vocation, reversed The Seed suggests the pattern around potential needs clearer expectations, better timing, or a simpler next step. Digging up the seed repeatedly may prevent rooting."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The Seed invites you to treat potential as a teaching symbol. Something early is alive. Give it protection, patience, and the right conditions.",
+        "reversed": "Spiritually, reversed The Seed asks where your relationship with potential has become clouded by fear, habit, or over-interpretation. Digging up the seed repeatedly may prevent rooting."
+      },
+      "health": {
+        "upright": "For wellbeing, The Seed is a reflective prompt around potential, stress, rest, and sustainable care. Something early is alive. Give it protection, patience, and the right conditions.",
+        "reversed": "For wellbeing, reversed The Seed may point to imbalance around potential. Treat this as a journaling cue, not medical advice. Digging up the seed repeatedly may prevent rooting."
+      }
+    }
+  },
+  {
+    "id": "the-crown",
+    "name": "The Crown",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Sovereignty",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked sovereignty",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "You may need to lead, decide, or honor your own agency. Power can be calm.",
+    "reversed_meaning": "Authority may become control if it is driven by fear.",
+    "reflection": "Where are you allowed to choose?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "Claim right-sized authority.",
+      "sovereignty",
+      "crown"
+    ],
+    "yes_no_advice": "Claim right-sized authority.",
+    "glyph": "crown",
+    "context_meanings": {
+      "general": {
+        "upright": "You may need to lead, decide, or honor your own agency. Power can be calm.",
+        "reversed": "Authority may become control if it is driven by fear."
+      },
+      "love": {
+        "upright": "In love and relationships, The Crown asks how sovereignty is showing up between people. You may need to lead, decide, or honor your own agency. Power can be calm.",
+        "reversed": "In love and relationships, reversed The Crown suggests sovereignty may be blocked, projected, or needing a gentler conversation. Authority may become control if it is driven by fear."
+      },
+      "work": {
+        "upright": "In work or vocation, The Crown frames the situation through sovereignty. You may need to lead, decide, or honor your own agency. Power can be calm.",
+        "reversed": "In work or vocation, reversed The Crown suggests the pattern around sovereignty needs clearer expectations, better timing, or a simpler next step. Authority may become control if it is driven by fear."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The Crown invites you to treat sovereignty as a teaching symbol. You may need to lead, decide, or honor your own agency. Power can be calm.",
+        "reversed": "Spiritually, reversed The Crown asks where your relationship with sovereignty has become clouded by fear, habit, or over-interpretation. Authority may become control if it is driven by fear."
+      },
+      "health": {
+        "upright": "For wellbeing, The Crown is a reflective prompt around sovereignty, stress, rest, and sustainable care. You may need to lead, decide, or honor your own agency. Power can be calm.",
+        "reversed": "For wellbeing, reversed The Crown may point to imbalance around sovereignty. Treat this as a journaling cue, not medical advice. Authority may become control if it is driven by fear."
+      }
+    }
+  },
+  {
+    "id": "the-bridge",
+    "name": "The Bridge",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Crossing",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked crossing",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "A conversation, compromise, or transition can join two sides. Movement is possible.",
+    "reversed_meaning": "The bridge may need repair before more weight is placed on it.",
+    "reflection": "What would help two sides meet?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "Connect what has been divided.",
+      "crossing",
+      "arrow"
+    ],
+    "yes_no_advice": "Connect what has been divided.",
+    "glyph": "arrow",
+    "context_meanings": {
+      "general": {
+        "upright": "A conversation, compromise, or transition can join two sides. Movement is possible.",
+        "reversed": "The bridge may need repair before more weight is placed on it."
+      },
+      "love": {
+        "upright": "In love and relationships, The Bridge asks how crossing is showing up between people. A conversation, compromise, or transition can join two sides. Movement is possible.",
+        "reversed": "In love and relationships, reversed The Bridge suggests crossing may be blocked, projected, or needing a gentler conversation. The bridge may need repair before more weight is placed on it."
+      },
+      "work": {
+        "upright": "In work or vocation, The Bridge frames the situation through crossing. A conversation, compromise, or transition can join two sides. Movement is possible.",
+        "reversed": "In work or vocation, reversed The Bridge suggests the pattern around crossing needs clearer expectations, better timing, or a simpler next step. The bridge may need repair before more weight is placed on it."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The Bridge invites you to treat crossing as a teaching symbol. A conversation, compromise, or transition can join two sides. Movement is possible.",
+        "reversed": "Spiritually, reversed The Bridge asks where your relationship with crossing has become clouded by fear, habit, or over-interpretation. The bridge may need repair before more weight is placed on it."
+      },
+      "health": {
+        "upright": "For wellbeing, The Bridge is a reflective prompt around crossing, stress, rest, and sustainable care. A conversation, compromise, or transition can join two sides. Movement is possible.",
+        "reversed": "For wellbeing, reversed The Bridge may point to imbalance around crossing. Treat this as a journaling cue, not medical advice. The bridge may need repair before more weight is placed on it."
+      }
+    }
+  },
+  {
+    "id": "the-bell",
+    "name": "The Bell",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Calling",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked calling",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "Something is asking for your attention. A signal, invitation, or wake-up call may be present.",
+    "reversed_meaning": "Ignoring the call may turn it into noise or pressure.",
+    "reflection": "What keeps ringing in your life?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "Listen for the summons.",
+      "calling",
+      "bell"
+    ],
+    "yes_no_advice": "Listen for the summons.",
+    "glyph": "bell",
+    "context_meanings": {
+      "general": {
+        "upright": "Something is asking for your attention. A signal, invitation, or wake-up call may be present.",
+        "reversed": "Ignoring the call may turn it into noise or pressure."
+      },
+      "love": {
+        "upright": "In love and relationships, The Bell asks how calling is showing up between people. Something is asking for your attention. A signal, invitation, or wake-up call may be present.",
+        "reversed": "In love and relationships, reversed The Bell suggests calling may be blocked, projected, or needing a gentler conversation. Ignoring the call may turn it into noise or pressure."
+      },
+      "work": {
+        "upright": "In work or vocation, The Bell frames the situation through calling. Something is asking for your attention. A signal, invitation, or wake-up call may be present.",
+        "reversed": "In work or vocation, reversed The Bell suggests the pattern around calling needs clearer expectations, better timing, or a simpler next step. Ignoring the call may turn it into noise or pressure."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The Bell invites you to treat calling as a teaching symbol. Something is asking for your attention. A signal, invitation, or wake-up call may be present.",
+        "reversed": "Spiritually, reversed The Bell asks where your relationship with calling has become clouded by fear, habit, or over-interpretation. Ignoring the call may turn it into noise or pressure."
+      },
+      "health": {
+        "upright": "For wellbeing, The Bell is a reflective prompt around calling, stress, rest, and sustainable care. Something is asking for your attention. A signal, invitation, or wake-up call may be present.",
+        "reversed": "For wellbeing, reversed The Bell may point to imbalance around calling. Treat this as a journaling cue, not medical advice. Ignoring the call may turn it into noise or pressure."
+      }
+    }
+  },
+  {
+    "id": "the-feather",
+    "name": "The Feather",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Lightness",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked lightness",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "Gentleness, humor, and spaciousness may be medicine. Not everything has to be heavy.",
+    "reversed_meaning": "Lightness can become avoidance if it refuses depth.",
+    "reflection": "What could be made lighter?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "Release unnecessary weight.",
+      "lightness",
+      "wing"
+    ],
+    "yes_no_advice": "Release unnecessary weight.",
+    "glyph": "wing",
+    "context_meanings": {
+      "general": {
+        "upright": "Gentleness, humor, and spaciousness may be medicine. Not everything has to be heavy.",
+        "reversed": "Lightness can become avoidance if it refuses depth."
+      },
+      "love": {
+        "upright": "In love and relationships, The Feather asks how lightness is showing up between people. Gentleness, humor, and spaciousness may be medicine. Not everything has to be heavy.",
+        "reversed": "In love and relationships, reversed The Feather suggests lightness may be blocked, projected, or needing a gentler conversation. Lightness can become avoidance if it refuses depth."
+      },
+      "work": {
+        "upright": "In work or vocation, The Feather frames the situation through lightness. Gentleness, humor, and spaciousness may be medicine. Not everything has to be heavy.",
+        "reversed": "In work or vocation, reversed The Feather suggests the pattern around lightness needs clearer expectations, better timing, or a simpler next step. Lightness can become avoidance if it refuses depth."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The Feather invites you to treat lightness as a teaching symbol. Gentleness, humor, and spaciousness may be medicine. Not everything has to be heavy.",
+        "reversed": "Spiritually, reversed The Feather asks where your relationship with lightness has become clouded by fear, habit, or over-interpretation. Lightness can become avoidance if it refuses depth."
+      },
+      "health": {
+        "upright": "For wellbeing, The Feather is a reflective prompt around lightness, stress, rest, and sustainable care. Gentleness, humor, and spaciousness may be medicine. Not everything has to be heavy.",
+        "reversed": "For wellbeing, reversed The Feather may point to imbalance around lightness. Treat this as a journaling cue, not medical advice. Lightness can become avoidance if it refuses depth."
+      }
+    }
+  },
+  {
+    "id": "the-root",
+    "name": "The Root",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Foundation",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked foundation",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "Ancestry, habit, body, home, or memory may be shaping the surface issue.",
+    "reversed_meaning": "Root work may be avoided because it is slow or uncomfortable.",
+    "reflection": "What is the root beneath the symptom?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "Go beneath the visible growth.",
+      "foundation",
+      "tree"
+    ],
+    "yes_no_advice": "Go beneath the visible growth.",
+    "glyph": "tree",
+    "context_meanings": {
+      "general": {
+        "upright": "Ancestry, habit, body, home, or memory may be shaping the surface issue.",
+        "reversed": "Root work may be avoided because it is slow or uncomfortable."
+      },
+      "love": {
+        "upright": "In love and relationships, The Root asks how foundation is showing up between people. Ancestry, habit, body, home, or memory may be shaping the surface issue.",
+        "reversed": "In love and relationships, reversed The Root suggests foundation may be blocked, projected, or needing a gentler conversation. Root work may be avoided because it is slow or uncomfortable."
+      },
+      "work": {
+        "upright": "In work or vocation, The Root frames the situation through foundation. Ancestry, habit, body, home, or memory may be shaping the surface issue.",
+        "reversed": "In work or vocation, reversed The Root suggests the pattern around foundation needs clearer expectations, better timing, or a simpler next step. Root work may be avoided because it is slow or uncomfortable."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The Root invites you to treat foundation as a teaching symbol. Ancestry, habit, body, home, or memory may be shaping the surface issue.",
+        "reversed": "Spiritually, reversed The Root asks where your relationship with foundation has become clouded by fear, habit, or over-interpretation. Root work may be avoided because it is slow or uncomfortable."
+      },
+      "health": {
+        "upright": "For wellbeing, The Root is a reflective prompt around foundation, stress, rest, and sustainable care. Ancestry, habit, body, home, or memory may be shaping the surface issue.",
+        "reversed": "For wellbeing, reversed The Root may point to imbalance around foundation. Treat this as a journaling cue, not medical advice. Root work may be avoided because it is slow or uncomfortable."
+      }
+    }
+  },
+  {
+    "id": "the-vessel",
+    "name": "The Vessel",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Containment",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked containment",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "Emotion may need a container: a ritual, conversation, page, boundary, or pause.",
+    "reversed_meaning": "Overflow may signal that the vessel is too small or cracked.",
+    "reflection": "What container would help this feel safer?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "Give the feeling a safe shape.",
+      "containment",
+      "cup"
+    ],
+    "yes_no_advice": "Give the feeling a safe shape.",
+    "glyph": "cup",
+    "context_meanings": {
+      "general": {
+        "upright": "Emotion may need a container: a ritual, conversation, page, boundary, or pause.",
+        "reversed": "Overflow may signal that the vessel is too small or cracked."
+      },
+      "love": {
+        "upright": "In love and relationships, The Vessel asks how containment is showing up between people. Emotion may need a container: a ritual, conversation, page, boundary, or pause.",
+        "reversed": "In love and relationships, reversed The Vessel suggests containment may be blocked, projected, or needing a gentler conversation. Overflow may signal that the vessel is too small or cracked."
+      },
+      "work": {
+        "upright": "In work or vocation, The Vessel frames the situation through containment. Emotion may need a container: a ritual, conversation, page, boundary, or pause.",
+        "reversed": "In work or vocation, reversed The Vessel suggests the pattern around containment needs clearer expectations, better timing, or a simpler next step. Overflow may signal that the vessel is too small or cracked."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The Vessel invites you to treat containment as a teaching symbol. Emotion may need a container: a ritual, conversation, page, boundary, or pause.",
+        "reversed": "Spiritually, reversed The Vessel asks where your relationship with containment has become clouded by fear, habit, or over-interpretation. Overflow may signal that the vessel is too small or cracked."
+      },
+      "health": {
+        "upright": "For wellbeing, The Vessel is a reflective prompt around containment, stress, rest, and sustainable care. Emotion may need a container: a ritual, conversation, page, boundary, or pause.",
+        "reversed": "For wellbeing, reversed The Vessel may point to imbalance around containment. Treat this as a journaling cue, not medical advice. Overflow may signal that the vessel is too small or cracked."
+      }
+    }
+  },
+  {
+    "id": "the-flame",
+    "name": "The Flame",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Devotion",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked devotion",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "Desire becomes powerful when tended with commitment. Choose the flame worth feeding.",
+    "reversed_meaning": "A flame can consume what it was meant to warm if left unconscious.",
+    "reflection": "What deserves your devoted attention?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "Feed what you are devoted to.",
+      "devotion",
+      "wand"
+    ],
+    "yes_no_advice": "Feed what you are devoted to.",
+    "glyph": "wand",
+    "context_meanings": {
+      "general": {
+        "upright": "Desire becomes powerful when tended with commitment. Choose the flame worth feeding.",
+        "reversed": "A flame can consume what it was meant to warm if left unconscious."
+      },
+      "love": {
+        "upright": "In love and relationships, The Flame asks how devotion is showing up between people. Desire becomes powerful when tended with commitment. Choose the flame worth feeding.",
+        "reversed": "In love and relationships, reversed The Flame suggests devotion may be blocked, projected, or needing a gentler conversation. A flame can consume what it was meant to warm if left unconscious."
+      },
+      "work": {
+        "upright": "In work or vocation, The Flame frames the situation through devotion. Desire becomes powerful when tended with commitment. Choose the flame worth feeding.",
+        "reversed": "In work or vocation, reversed The Flame suggests the pattern around devotion needs clearer expectations, better timing, or a simpler next step. A flame can consume what it was meant to warm if left unconscious."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The Flame invites you to treat devotion as a teaching symbol. Desire becomes powerful when tended with commitment. Choose the flame worth feeding.",
+        "reversed": "Spiritually, reversed The Flame asks where your relationship with devotion has become clouded by fear, habit, or over-interpretation. A flame can consume what it was meant to warm if left unconscious."
+      },
+      "health": {
+        "upright": "For wellbeing, The Flame is a reflective prompt around devotion, stress, rest, and sustainable care. Desire becomes powerful when tended with commitment. Choose the flame worth feeding.",
+        "reversed": "For wellbeing, reversed The Flame may point to imbalance around devotion. Treat this as a journaling cue, not medical advice. A flame can consume what it was meant to warm if left unconscious."
+      }
+    }
+  },
+  {
+    "id": "the-ice",
+    "name": "The Ice",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Pause",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked pause",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "A pause can preserve energy and reveal what rushing would blur.",
+    "reversed_meaning": "Frozen feeling may need warmth, not force.",
+    "reflection": "What needs time before it moves?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "Let stillness clarify the shape.",
+      "pause",
+      "ice"
+    ],
+    "yes_no_advice": "Let stillness clarify the shape.",
+    "glyph": "ice",
+    "context_meanings": {
+      "general": {
+        "upright": "A pause can preserve energy and reveal what rushing would blur.",
+        "reversed": "Frozen feeling may need warmth, not force."
+      },
+      "love": {
+        "upright": "In love and relationships, The Ice asks how pause is showing up between people. A pause can preserve energy and reveal what rushing would blur.",
+        "reversed": "In love and relationships, reversed The Ice suggests pause may be blocked, projected, or needing a gentler conversation. Frozen feeling may need warmth, not force."
+      },
+      "work": {
+        "upright": "In work or vocation, The Ice frames the situation through pause. A pause can preserve energy and reveal what rushing would blur.",
+        "reversed": "In work or vocation, reversed The Ice suggests the pattern around pause needs clearer expectations, better timing, or a simpler next step. Frozen feeling may need warmth, not force."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The Ice invites you to treat pause as a teaching symbol. A pause can preserve energy and reveal what rushing would blur.",
+        "reversed": "Spiritually, reversed The Ice asks where your relationship with pause has become clouded by fear, habit, or over-interpretation. Frozen feeling may need warmth, not force."
+      },
+      "health": {
+        "upright": "For wellbeing, The Ice is a reflective prompt around pause, stress, rest, and sustainable care. A pause can preserve energy and reveal what rushing would blur.",
+        "reversed": "For wellbeing, reversed The Ice may point to imbalance around pause. Treat this as a journaling cue, not medical advice. Frozen feeling may need warmth, not force."
+      }
+    }
+  },
+  {
+    "id": "the-orchard",
+    "name": "The Orchard",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Harvest",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked harvest",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "Something has matured enough to be gathered. Notice results, gratitude, and shared abundance.",
+    "reversed_meaning": "You may be missing the harvest by focusing only on what is unfinished.",
+    "reflection": "What is ready to be received?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "Receive what has ripened.",
+      "harvest",
+      "tree"
+    ],
+    "yes_no_advice": "Receive what has ripened.",
+    "glyph": "tree",
+    "context_meanings": {
+      "general": {
+        "upright": "Something has matured enough to be gathered. Notice results, gratitude, and shared abundance.",
+        "reversed": "You may be missing the harvest by focusing only on what is unfinished."
+      },
+      "love": {
+        "upright": "In love and relationships, The Orchard asks how harvest is showing up between people. Something has matured enough to be gathered. Notice results, gratitude, and shared abundance.",
+        "reversed": "In love and relationships, reversed The Orchard suggests harvest may be blocked, projected, or needing a gentler conversation. You may be missing the harvest by focusing only on what is unfinished."
+      },
+      "work": {
+        "upright": "In work or vocation, The Orchard frames the situation through harvest. Something has matured enough to be gathered. Notice results, gratitude, and shared abundance.",
+        "reversed": "In work or vocation, reversed The Orchard suggests the pattern around harvest needs clearer expectations, better timing, or a simpler next step. You may be missing the harvest by focusing only on what is unfinished."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The Orchard invites you to treat harvest as a teaching symbol. Something has matured enough to be gathered. Notice results, gratitude, and shared abundance.",
+        "reversed": "Spiritually, reversed The Orchard asks where your relationship with harvest has become clouded by fear, habit, or over-interpretation. You may be missing the harvest by focusing only on what is unfinished."
+      },
+      "health": {
+        "upright": "For wellbeing, The Orchard is a reflective prompt around harvest, stress, rest, and sustainable care. Something has matured enough to be gathered. Notice results, gratitude, and shared abundance.",
+        "reversed": "For wellbeing, reversed The Orchard may point to imbalance around harvest. Treat this as a journaling cue, not medical advice. You may be missing the harvest by focusing only on what is unfinished."
+      }
+    }
+  },
+  {
+    "id": "the-tower-light",
+    "name": "The Tower Light",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Warning",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked warning",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "A warning sign may be protective rather than punishing. Respond early and simply.",
+    "reversed_meaning": "Ignoring small signals may make the message louder.",
+    "reflection": "What small warning deserves respect?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "Signal before crisis.",
+      "warning",
+      "lantern"
+    ],
+    "yes_no_advice": "Signal before crisis.",
+    "glyph": "lantern",
+    "context_meanings": {
+      "general": {
+        "upright": "A warning sign may be protective rather than punishing. Respond early and simply.",
+        "reversed": "Ignoring small signals may make the message louder."
+      },
+      "love": {
+        "upright": "In love and relationships, The Tower Light asks how warning is showing up between people. A warning sign may be protective rather than punishing. Respond early and simply.",
+        "reversed": "In love and relationships, reversed The Tower Light suggests warning may be blocked, projected, or needing a gentler conversation. Ignoring small signals may make the message louder."
+      },
+      "work": {
+        "upright": "In work or vocation, The Tower Light frames the situation through warning. A warning sign may be protective rather than punishing. Respond early and simply.",
+        "reversed": "In work or vocation, reversed The Tower Light suggests the pattern around warning needs clearer expectations, better timing, or a simpler next step. Ignoring small signals may make the message louder."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The Tower Light invites you to treat warning as a teaching symbol. A warning sign may be protective rather than punishing. Respond early and simply.",
+        "reversed": "Spiritually, reversed The Tower Light asks where your relationship with warning has become clouded by fear, habit, or over-interpretation. Ignoring small signals may make the message louder."
+      },
+      "health": {
+        "upright": "For wellbeing, The Tower Light is a reflective prompt around warning, stress, rest, and sustainable care. A warning sign may be protective rather than punishing. Respond early and simply.",
+        "reversed": "For wellbeing, reversed The Tower Light may point to imbalance around warning. Treat this as a journaling cue, not medical advice. Ignoring small signals may make the message louder."
+      }
+    }
+  },
+  {
+    "id": "the-oracle",
+    "name": "The Oracle",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Inner knowing",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked inner knowing",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "Images, body-sense, dreams, and symbols may carry the message better than logic alone.",
+    "reversed_meaning": "Interpretation may be clouded by wanting one specific answer.",
+    "reflection": "What symbol is trying to speak?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "The answer speaks indirectly.",
+      "inner knowing",
+      "eye"
+    ],
+    "yes_no_advice": "The answer speaks indirectly.",
+    "glyph": "eye",
+    "context_meanings": {
+      "general": {
+        "upright": "Images, body-sense, dreams, and symbols may carry the message better than logic alone.",
+        "reversed": "Interpretation may be clouded by wanting one specific answer."
+      },
+      "love": {
+        "upright": "In love and relationships, The Oracle asks how inner knowing is showing up between people. Images, body-sense, dreams, and symbols may carry the message better than logic alone.",
+        "reversed": "In love and relationships, reversed The Oracle suggests inner knowing may be blocked, projected, or needing a gentler conversation. Interpretation may be clouded by wanting one specific answer."
+      },
+      "work": {
+        "upright": "In work or vocation, The Oracle frames the situation through inner knowing. Images, body-sense, dreams, and symbols may carry the message better than logic alone.",
+        "reversed": "In work or vocation, reversed The Oracle suggests the pattern around inner knowing needs clearer expectations, better timing, or a simpler next step. Interpretation may be clouded by wanting one specific answer."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The Oracle invites you to treat inner knowing as a teaching symbol. Images, body-sense, dreams, and symbols may carry the message better than logic alone.",
+        "reversed": "Spiritually, reversed The Oracle asks where your relationship with inner knowing has become clouded by fear, habit, or over-interpretation. Interpretation may be clouded by wanting one specific answer."
+      },
+      "health": {
+        "upright": "For wellbeing, The Oracle is a reflective prompt around inner knowing, stress, rest, and sustainable care. Images, body-sense, dreams, and symbols may carry the message better than logic alone.",
+        "reversed": "For wellbeing, reversed The Oracle may point to imbalance around inner knowing. Treat this as a journaling cue, not medical advice. Interpretation may be clouded by wanting one specific answer."
+      }
+    }
+  },
+  {
+    "id": "the-book",
+    "name": "The Book",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Study",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked study",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "A lesson is available through research, reflection, conversation, or repetition.",
+    "reversed_meaning": "Consuming information may replace integration if you never practice it.",
+    "reflection": "What are you being taught?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "Learn the language of the pattern.",
+      "study",
+      "book"
+    ],
+    "yes_no_advice": "Learn the language of the pattern.",
+    "glyph": "book",
+    "context_meanings": {
+      "general": {
+        "upright": "A lesson is available through research, reflection, conversation, or repetition.",
+        "reversed": "Consuming information may replace integration if you never practice it."
+      },
+      "love": {
+        "upright": "In love and relationships, The Book asks how study is showing up between people. A lesson is available through research, reflection, conversation, or repetition.",
+        "reversed": "In love and relationships, reversed The Book suggests study may be blocked, projected, or needing a gentler conversation. Consuming information may replace integration if you never practice it."
+      },
+      "work": {
+        "upright": "In work or vocation, The Book frames the situation through study. A lesson is available through research, reflection, conversation, or repetition.",
+        "reversed": "In work or vocation, reversed The Book suggests the pattern around study needs clearer expectations, better timing, or a simpler next step. Consuming information may replace integration if you never practice it."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The Book invites you to treat study as a teaching symbol. A lesson is available through research, reflection, conversation, or repetition.",
+        "reversed": "Spiritually, reversed The Book asks where your relationship with study has become clouded by fear, habit, or over-interpretation. Consuming information may replace integration if you never practice it."
+      },
+      "health": {
+        "upright": "For wellbeing, The Book is a reflective prompt around study, stress, rest, and sustainable care. A lesson is available through research, reflection, conversation, or repetition.",
+        "reversed": "For wellbeing, reversed The Book may point to imbalance around study. Treat this as a journaling cue, not medical advice. Consuming information may replace integration if you never practice it."
+      }
+    }
+  },
+  {
+    "id": "the-potion",
+    "name": "The Potion",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Alchemy",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked alchemy",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "Transformation may depend on proportion, timing, and ingredients that do not work alone.",
+    "reversed_meaning": "The mixture may be too strong, rushed, or missing one stabilizing element.",
+    "reflection": "What ingredient changes the whole mixture?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "Mix carefully.",
+      "alchemy",
+      "potion"
+    ],
+    "yes_no_advice": "Mix carefully.",
+    "glyph": "potion",
+    "context_meanings": {
+      "general": {
+        "upright": "Transformation may depend on proportion, timing, and ingredients that do not work alone.",
+        "reversed": "The mixture may be too strong, rushed, or missing one stabilizing element."
+      },
+      "love": {
+        "upright": "In love and relationships, The Potion asks how alchemy is showing up between people. Transformation may depend on proportion, timing, and ingredients that do not work alone.",
+        "reversed": "In love and relationships, reversed The Potion suggests alchemy may be blocked, projected, or needing a gentler conversation. The mixture may be too strong, rushed, or missing one stabilizing element."
+      },
+      "work": {
+        "upright": "In work or vocation, The Potion frames the situation through alchemy. Transformation may depend on proportion, timing, and ingredients that do not work alone.",
+        "reversed": "In work or vocation, reversed The Potion suggests the pattern around alchemy needs clearer expectations, better timing, or a simpler next step. The mixture may be too strong, rushed, or missing one stabilizing element."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The Potion invites you to treat alchemy as a teaching symbol. Transformation may depend on proportion, timing, and ingredients that do not work alone.",
+        "reversed": "Spiritually, reversed The Potion asks where your relationship with alchemy has become clouded by fear, habit, or over-interpretation. The mixture may be too strong, rushed, or missing one stabilizing element."
+      },
+      "health": {
+        "upright": "For wellbeing, The Potion is a reflective prompt around alchemy, stress, rest, and sustainable care. Transformation may depend on proportion, timing, and ingredients that do not work alone.",
+        "reversed": "For wellbeing, reversed The Potion may point to imbalance around alchemy. Treat this as a journaling cue, not medical advice. The mixture may be too strong, rushed, or missing one stabilizing element."
+      }
+    }
+  },
+  {
+    "id": "the-candle",
+    "name": "The Candle",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Focus",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked focus",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "Focus makes energy usable. Simplify the ritual, task, or decision.",
+    "reversed_meaning": "Too many flames may scatter attention or create heat without light.",
+    "reflection": "What single intention matters most?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "One flame, one intention.",
+      "focus",
+      "flame"
+    ],
+    "yes_no_advice": "One flame, one intention.",
+    "glyph": "flame",
+    "context_meanings": {
+      "general": {
+        "upright": "Focus makes energy usable. Simplify the ritual, task, or decision.",
+        "reversed": "Too many flames may scatter attention or create heat without light."
+      },
+      "love": {
+        "upright": "In love and relationships, The Candle asks how focus is showing up between people. Focus makes energy usable. Simplify the ritual, task, or decision.",
+        "reversed": "In love and relationships, reversed The Candle suggests focus may be blocked, projected, or needing a gentler conversation. Too many flames may scatter attention or create heat without light."
+      },
+      "work": {
+        "upright": "In work or vocation, The Candle frames the situation through focus. Focus makes energy usable. Simplify the ritual, task, or decision.",
+        "reversed": "In work or vocation, reversed The Candle suggests the pattern around focus needs clearer expectations, better timing, or a simpler next step. Too many flames may scatter attention or create heat without light."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The Candle invites you to treat focus as a teaching symbol. Focus makes energy usable. Simplify the ritual, task, or decision.",
+        "reversed": "Spiritually, reversed The Candle asks where your relationship with focus has become clouded by fear, habit, or over-interpretation. Too many flames may scatter attention or create heat without light."
+      },
+      "health": {
+        "upright": "For wellbeing, The Candle is a reflective prompt around focus, stress, rest, and sustainable care. Focus makes energy usable. Simplify the ritual, task, or decision.",
+        "reversed": "For wellbeing, reversed The Candle may point to imbalance around focus. Treat this as a journaling cue, not medical advice. Too many flames may scatter attention or create heat without light."
+      }
+    }
+  },
+  {
+    "id": "the-doorway",
+    "name": "The Doorway",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Permission",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked permission",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "There may be another way to approach the situation. Permission, boundaries, and consent matter.",
+    "reversed_meaning": "A closed door may be information, not rejection.",
+    "reflection": "What doorway is actually open?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "You may enter differently.",
+      "permission",
+      "door"
+    ],
+    "yes_no_advice": "You may enter differently.",
+    "glyph": "door",
+    "context_meanings": {
+      "general": {
+        "upright": "There may be another way to approach the situation. Permission, boundaries, and consent matter.",
+        "reversed": "A closed door may be information, not rejection."
+      },
+      "love": {
+        "upright": "In love and relationships, The Doorway asks how permission is showing up between people. There may be another way to approach the situation. Permission, boundaries, and consent matter.",
+        "reversed": "In love and relationships, reversed The Doorway suggests permission may be blocked, projected, or needing a gentler conversation. A closed door may be information, not rejection."
+      },
+      "work": {
+        "upright": "In work or vocation, The Doorway frames the situation through permission. There may be another way to approach the situation. Permission, boundaries, and consent matter.",
+        "reversed": "In work or vocation, reversed The Doorway suggests the pattern around permission needs clearer expectations, better timing, or a simpler next step. A closed door may be information, not rejection."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The Doorway invites you to treat permission as a teaching symbol. There may be another way to approach the situation. Permission, boundaries, and consent matter.",
+        "reversed": "Spiritually, reversed The Doorway asks where your relationship with permission has become clouded by fear, habit, or over-interpretation. A closed door may be information, not rejection."
+      },
+      "health": {
+        "upright": "For wellbeing, The Doorway is a reflective prompt around permission, stress, rest, and sustainable care. There may be another way to approach the situation. Permission, boundaries, and consent matter.",
+        "reversed": "For wellbeing, reversed The Doorway may point to imbalance around permission. Treat this as a journaling cue, not medical advice. A closed door may be information, not rejection."
+      }
+    }
+  },
+  {
+    "id": "the-spiral",
+    "name": "The Spiral",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Return",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked return",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "A recurring theme may be revisited from a new level of awareness.",
+    "reversed_meaning": "Mistaking a spiral for a circle may create discouragement.",
+    "reflection": "What is different this time?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "You are not back where you started.",
+      "return",
+      "spiral"
+    ],
+    "yes_no_advice": "You are not back where you started.",
+    "glyph": "spiral",
+    "context_meanings": {
+      "general": {
+        "upright": "A recurring theme may be revisited from a new level of awareness.",
+        "reversed": "Mistaking a spiral for a circle may create discouragement."
+      },
+      "love": {
+        "upright": "In love and relationships, The Spiral asks how return is showing up between people. A recurring theme may be revisited from a new level of awareness.",
+        "reversed": "In love and relationships, reversed The Spiral suggests return may be blocked, projected, or needing a gentler conversation. Mistaking a spiral for a circle may create discouragement."
+      },
+      "work": {
+        "upright": "In work or vocation, The Spiral frames the situation through return. A recurring theme may be revisited from a new level of awareness.",
+        "reversed": "In work or vocation, reversed The Spiral suggests the pattern around return needs clearer expectations, better timing, or a simpler next step. Mistaking a spiral for a circle may create discouragement."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The Spiral invites you to treat return as a teaching symbol. A recurring theme may be revisited from a new level of awareness.",
+        "reversed": "Spiritually, reversed The Spiral asks where your relationship with return has become clouded by fear, habit, or over-interpretation. Mistaking a spiral for a circle may create discouragement."
+      },
+      "health": {
+        "upright": "For wellbeing, The Spiral is a reflective prompt around return, stress, rest, and sustainable care. A recurring theme may be revisited from a new level of awareness.",
+        "reversed": "For wellbeing, reversed The Spiral may point to imbalance around return. Treat this as a journaling cue, not medical advice. Mistaking a spiral for a circle may create discouragement."
+      }
+    }
+  },
+  {
+    "id": "the-tide",
+    "name": "The Tide",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Timing",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked timing",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "Rhythm matters. Notice cycles, energy levels, openings, and natural timing.",
+    "reversed_meaning": "Forcing the tide may waste effort. Missing the tide may come from fear.",
+    "reflection": "What timing is the situation asking for?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "Wait for the waterline.",
+      "timing",
+      "wave"
+    ],
+    "yes_no_advice": "Wait for the waterline.",
+    "glyph": "wave",
+    "context_meanings": {
+      "general": {
+        "upright": "Rhythm matters. Notice cycles, energy levels, openings, and natural timing.",
+        "reversed": "Forcing the tide may waste effort. Missing the tide may come from fear."
+      },
+      "love": {
+        "upright": "In love and relationships, The Tide asks how timing is showing up between people. Rhythm matters. Notice cycles, energy levels, openings, and natural timing.",
+        "reversed": "In love and relationships, reversed The Tide suggests timing may be blocked, projected, or needing a gentler conversation. Forcing the tide may waste effort. Missing the tide may come from fear."
+      },
+      "work": {
+        "upright": "In work or vocation, The Tide frames the situation through timing. Rhythm matters. Notice cycles, energy levels, openings, and natural timing.",
+        "reversed": "In work or vocation, reversed The Tide suggests the pattern around timing needs clearer expectations, better timing, or a simpler next step. Forcing the tide may waste effort. Missing the tide may come from fear."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The Tide invites you to treat timing as a teaching symbol. Rhythm matters. Notice cycles, energy levels, openings, and natural timing.",
+        "reversed": "Spiritually, reversed The Tide asks where your relationship with timing has become clouded by fear, habit, or over-interpretation. Forcing the tide may waste effort. Missing the tide may come from fear."
+      },
+      "health": {
+        "upright": "For wellbeing, The Tide is a reflective prompt around timing, stress, rest, and sustainable care. Rhythm matters. Notice cycles, energy levels, openings, and natural timing.",
+        "reversed": "For wellbeing, reversed The Tide may point to imbalance around timing. Treat this as a journaling cue, not medical advice. Forcing the tide may waste effort. Missing the tide may come from fear."
+      }
+    }
+  },
+  {
+    "id": "the-starfield",
+    "name": "The Starfield",
+    "deck_type": "oracle",
+    "arcana": "oracle",
+    "symbol": "",
+    "suit": null,
+    "rank": null,
+    "number": null,
+    "upright_keywords": [
+      "Possibility",
+      "oracle",
+      "reflection"
+    ],
+    "reversed_keywords": [
+      "blocked possibility",
+      "delay",
+      "recalibration"
+    ],
+    "upright_meaning": "Options may be wider than they appear. Hope can be plural.",
+    "reversed_meaning": "Too many possibilities may blur commitment.",
+    "reflection": "Which light feels alive, not just impressive?",
+    "yes_no": "Maybe",
+    "element": "Oracle",
+    "astrology": "Intuition",
+    "symbolism": [
+      "There is more than one light.",
+      "possibility",
+      "star"
+    ],
+    "yes_no_advice": "There is more than one light.",
+    "glyph": "star",
+    "context_meanings": {
+      "general": {
+        "upright": "Options may be wider than they appear. Hope can be plural.",
+        "reversed": "Too many possibilities may blur commitment."
+      },
+      "love": {
+        "upright": "In love and relationships, The Starfield asks how possibility is showing up between people. Options may be wider than they appear. Hope can be plural.",
+        "reversed": "In love and relationships, reversed The Starfield suggests possibility may be blocked, projected, or needing a gentler conversation. Too many possibilities may blur commitment."
+      },
+      "work": {
+        "upright": "In work or vocation, The Starfield frames the situation through possibility. Options may be wider than they appear. Hope can be plural.",
+        "reversed": "In work or vocation, reversed The Starfield suggests the pattern around possibility needs clearer expectations, better timing, or a simpler next step. Too many possibilities may blur commitment."
+      },
+      "spiritual": {
+        "upright": "Spiritually, The Starfield invites you to treat possibility as a teaching symbol. Options may be wider than they appear. Hope can be plural.",
+        "reversed": "Spiritually, reversed The Starfield asks where your relationship with possibility has become clouded by fear, habit, or over-interpretation. Too many possibilities may blur commitment."
+      },
+      "health": {
+        "upright": "For wellbeing, The Starfield is a reflective prompt around possibility, stress, rest, and sustainable care. Options may be wider than they appear. Hope can be plural.",
+        "reversed": "For wellbeing, reversed The Starfield may point to imbalance around possibility. Treat this as a journaling cue, not medical advice. Too many possibilities may blur commitment."
+      }
+    }
+  }
+]

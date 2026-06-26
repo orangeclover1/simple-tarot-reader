@@ -10,6 +10,7 @@ from kivy.uix.button import Button
 from kivy.uix.checkbox import CheckBox
 from kivy.uix.gridlayout import GridLayout
 from kivy.uix.image import Image
+from kivy.uix.label import Label
 from kivy.uix.popup import Popup
 from kivy.uix.scrollview import ScrollView
 from kivy.uix.spinner import Spinner
@@ -18,11 +19,13 @@ from kivy.utils import get_color_from_hex
 
 from .database import TarotDatabase
 from .reading_engine import (
-    card_keywords, card_meaning, draw_reading, load_cards, load_spreads,
-    orientation, synthesize,
+    DECK_OPTIONS, FOCUS_OPTIONS, card_keywords, card_meaning, cards_for_deck,
+    deck_label, draw_reading, focus_label, load_cards, load_oracle_cards,
+    load_spreads, orientation, synthesize,
 )
 from .theme import DEFAULT_THEME, THEMES
-from .widgets import BarChart, PillButton, Surface, WrappedLabel
+from .symbols import card_glyph
+from .widgets import BarChart, CardSymbol, ClickableSurface, PillButton, Surface, WrappedLabel
 
 
 FEELINGS = [
@@ -36,11 +39,15 @@ class LanternTarotApp(App):
 
     def build(self):
         self.title = 'Lantern Tarot'
-        self.cards = load_cards()
+        self.tarot_cards = load_cards()
+        self.oracle_cards = load_oracle_cards()
+        self.cards = self.tarot_cards + self.oracle_cards
         self.spreads = load_spreads()
         self.current_spread = self.spreads[0]
         self.current_reading = []
         self.selected_feelings = set()
+        self.current_focus = 'general'
+        self.current_deck_mode = 'tarot'
         self.db = TarotDatabase(self.user_data_dir_path / 'lantern_tarot.sqlite3')
 
         theme_name = self.db.get_setting('theme', DEFAULT_THEME)
@@ -49,7 +56,7 @@ class LanternTarotApp(App):
 
         Window.minimum_width = 320
         Window.minimum_height = 560
-        self.icon = self.asset_path('app_icon.png')
+        self.icon = self.asset_path('app_icon_pixel.png')
 
         self.root_box = BoxLayout(orientation='vertical')
         self.content = BoxLayout()
@@ -65,17 +72,35 @@ class LanternTarotApp(App):
         path.mkdir(parents=True, exist_ok=True)
         return path
 
+    @property
+    def asset_dir_path(self):
+        from pathlib import Path
+        return Path(str(files('tarot_journal.assets')))
+
     def asset_path(self, filename: str) -> str:
         return str(files('tarot_journal.assets').joinpath(filename))
+
+    def current_card_back(self) -> str:
+        return self.asset_path(self.theme['card_back'])
+
+    def current_theme_icon(self) -> str:
+        return self.asset_path(self.theme['theme_icon'])
+
+    def _symbol_widget(self, card, size=56, width=62):
+        glyph_key, rank = card_glyph(card)
+        return CardSymbol(
+            glyph_key=glyph_key, rank=rank, theme=self.theme,
+            size_hint=(None, None), width=dp(width), height=dp(size),
+        )
 
     def _nav(self):
         bar = BoxLayout(size_hint_y=None, height=dp(68), spacing=dp(6), padding=dp(6))
         entries = [
-            ('🏠\nHome', self.show_home),
-            ('🔮\nRead', self.show_read),
-            ('🃏\nCards', self.show_library),
-            ('📔\nJournal', self.show_history),
-            ('📊\nInsights', self.show_insights),
+            ('Home', self.show_home),
+            ('Read', self.show_read),
+            ('Cards', self.show_library),
+            ('Journal', self.show_history),
+            ('Insights', self.show_insights),
         ]
         for text, callback in entries:
             button = Button(
@@ -158,6 +183,16 @@ class LanternTarotApp(App):
             cursor_color=get_color_from_hex(self.theme['primary']),
         )
 
+    def change_focus(self, _spinner, label):
+        reverse = {value: key for key, value in FOCUS_OPTIONS.items()}
+        self.current_focus = reverse.get(label, 'general')
+
+    def change_deck_mode(self, _spinner, label):
+        reverse = {value: key for key, value in DECK_OPTIONS.items()}
+        self.current_deck_mode = reverse.get(label, 'tarot')
+        if hasattr(self, 'reverse_box'):
+            self.reverse_box.active = self.current_deck_mode != 'oracle'
+
     def change_theme(self, _spinner, name):
         self.theme_name = name
         self.theme = THEMES[name]
@@ -171,7 +206,7 @@ class LanternTarotApp(App):
     def show_home(self, *_):
         body = self._scroll_page(
             'Lantern Tarot',
-            'A private, offline tarot journal with guided interpretation and gentle pattern-tracking.',
+            'A private, offline tarot + oracle journal with focus lenses, decision support, and gentle pattern-tracking.',
         )
 
         hero = Surface(
@@ -184,7 +219,7 @@ class LanternTarotApp(App):
         )
         hero.add_widget(
             Image(
-                source=self.asset_path('app_icon.png'),
+                source=self.current_theme_icon(),
                 size_hint_y=None,
                 height=dp(120),
                 allow_stretch=True,
@@ -193,7 +228,7 @@ class LanternTarotApp(App):
         )
         hero.add_widget(self._label('Simple · Elegant · Meaningful', 16, 'secondary', bold=True))
         hero.add_widget(self._label(
-            'Text-first readings, emoji card markers, local journaling, feeling tags, and insight charts — all kept on your device.',
+            'Tarot, oracle, love/work/spiritual/health meanings, local journaling, decision support, and insight charts — all kept on your device.',
             16,
             'text',
         ))
@@ -201,8 +236,10 @@ class LanternTarotApp(App):
         body.add_widget(hero)
 
         body.add_widget(self._label('Quick actions', 20, 'primary', bold=True))
-        body.add_widget(self._button('Daily one-card reflection', self.quick_draw))
-        body.add_widget(self._button('Browse the deck', self.show_library))
+        body.add_widget(self._button('Daily one-card tarot reflection', self.quick_draw))
+        body.add_widget(self._button('Oracle reflection', self.oracle_quick_draw))
+        body.add_widget(self._button('Decision maker', self.quick_decision))
+        body.add_widget(self._button('Browse the decks', self.show_library))
 
         body.add_widget(self._label('Theme', 20, 'primary', bold=True))
         spinner = Spinner(
@@ -228,7 +265,7 @@ class LanternTarotApp(App):
         preview.add_widget(self._label('Card back preview', 18, 'primary', bold=True))
         preview.add_widget(
             Image(
-                source=self.asset_path('card_back.png'),
+                source=self.current_card_back(),
                 size_hint_y=None,
                 height=dp(240),
                 allow_stretch=True,
@@ -253,11 +290,27 @@ class LanternTarotApp(App):
 
     def quick_draw(self, *_):
         self.current_spread = next(s for s in self.spreads if s.id == 'single')
+        self.current_focus = 'general'
+        self.current_deck_mode = 'tarot'
+        self.question_input = None
+        self.perform_draw()
+
+    def oracle_quick_draw(self, *_):
+        self.current_spread = next(s for s in self.spreads if s.id == 'single')
+        self.current_focus = 'general'
+        self.current_deck_mode = 'oracle'
+        self.question_input = None
+        self.perform_draw()
+
+    def quick_decision(self, *_):
+        self.current_spread = next(s for s in self.spreads if s.id == 'decision-maker')
+        self.current_focus = 'general'
+        self.current_deck_mode = 'tarot'
         self.question_input = None
         self.perform_draw()
 
     def show_read(self, *_):
-        body = self._scroll_page('Choose a spread', 'Select a spread, then enter an optional question.')
+        body = self._scroll_page('Choose a spread', 'Select a spread, focus lens, and deck.')
         for spread in self.spreads:
             card = Surface(
                 theme=self.theme,
@@ -287,6 +340,32 @@ class LanternTarotApp(App):
         )
         body.add_widget(self.question_input)
 
+        body.add_widget(self._label('Focus lens', 17, 'primary', bold=True))
+        self.focus_spinner = Spinner(
+            text=focus_label(self.current_focus),
+            values=list(FOCUS_OPTIONS.values()),
+            size_hint_y=None,
+            height=dp(50),
+            background_normal='',
+            background_color=get_color_from_hex(self.theme['surface_alt']),
+            color=get_color_from_hex(self.theme['text']),
+        )
+        self.focus_spinner.bind(text=self.change_focus)
+        body.add_widget(self.focus_spinner)
+
+        body.add_widget(self._label('Deck', 17, 'primary', bold=True))
+        self.deck_spinner = Spinner(
+            text=deck_label(self.current_deck_mode),
+            values=list(DECK_OPTIONS.values()),
+            size_hint_y=None,
+            height=dp(50),
+            background_normal='',
+            background_color=get_color_from_hex(self.theme['surface_alt']),
+            color=get_color_from_hex(self.theme['text']),
+        )
+        self.deck_spinner.bind(text=self.change_deck_mode)
+        body.add_widget(self.deck_spinner)
+
         reverse_row = BoxLayout(size_hint_y=None, height=dp(48))
         reverse_row.add_widget(self._label('Include reversed cards', 16, 'text', height=dp(48)))
         self.reverse_box = CheckBox(active=True, size_hint_x=None, width=dp(54))
@@ -304,7 +383,7 @@ class LanternTarotApp(App):
         card_preview.add_widget(self._label('Deck style', 18, 'primary', bold=True))
         card_preview.add_widget(
             Image(
-                source=self.asset_path('card_back.png'),
+                source=self.current_card_back(),
                 size_hint_y=None,
                 height=dp(200),
                 allow_stretch=True,
@@ -322,14 +401,15 @@ class LanternTarotApp(App):
         question = self.question_input.text if self.question_input else ''
         reversals = self.reverse_box.active if hasattr(self, 'reverse_box') else True
         self.current_question = question
-        self.current_reading = draw_reading(self.cards, self.current_spread, reversals)
+        deck_cards = cards_for_deck(self.current_deck_mode, self.tarot_cards, self.oracle_cards)
+        self.current_reading = draw_reading(deck_cards, self.current_spread, reversals)
         self.selected_feelings = set()
         self.show_draw_preview()
 
     def show_draw_preview(self, *_):
         body = self._scroll_page('Cards are ready', self.current_question or 'Open reflection')
         body.add_widget(self._label(
-            'Your reading has been shuffled. Tap reveal when you are ready to see the cards.',
+            f'{deck_label(self.current_deck_mode)} deck · {focus_label(self.current_focus)} focus. Tap any card or the reveal button when you are ready.',
             15,
             'muted',
         ))
@@ -337,7 +417,7 @@ class LanternTarotApp(App):
         grid = GridLayout(cols=cols, spacing=dp(10), size_hint_y=None)
         grid.bind(minimum_height=grid.setter('height'))
         for item in self.current_reading:
-            cell = Surface(
+            cell = ClickableSurface(
                 theme=self.theme,
                 orientation='vertical',
                 size_hint_y=None,
@@ -347,7 +427,7 @@ class LanternTarotApp(App):
             )
             cell.add_widget(
                 Image(
-                    source=self.asset_path('card_back.png'),
+                    source=self.current_card_back(),
                     size_hint_y=None,
                     height=dp(170),
                     allow_stretch=True,
@@ -355,13 +435,17 @@ class LanternTarotApp(App):
                 )
             )
             cell.add_widget(self._label(item.position.name, 15, 'primary', bold=True))
+            cell.bind(on_release=self.show_result)
             grid.add_widget(cell)
         body.add_widget(grid)
         body.add_widget(self._button('Reveal reading', self.show_result, primary=True))
         body.add_widget(self._button('Shuffle again', self.perform_draw))
 
     def show_result(self, *_):
-        body = self._scroll_page(self.current_spread.name, self.current_question or 'Open reflection')
+        body = self._scroll_page(
+            self.current_spread.name,
+            f'{deck_label(self.current_deck_mode)} · {focus_label(self.current_focus)}' + (f' · {self.current_question}' if self.current_question else ''),
+        )
         for item in self.current_reading:
             card = Surface(
                 theme=self.theme,
@@ -372,15 +456,16 @@ class LanternTarotApp(App):
             )
             card.bind(minimum_height=card.setter('height'))
             card.add_widget(self._label(item.position.name.upper(), 12, 'secondary', bold=True))
-            card.add_widget(self._label(
-                f'{item.card.symbol}  {item.card.name} · {orientation(item)}',
-                21,
-                'primary',
-                bold=True,
+            heading = BoxLayout(size_hint_y=None, height=dp(58), spacing=dp(8))
+            heading.add_widget(self._symbol_widget(item.card, size=56, width=62))
+            heading.add_widget(self._label(
+                f'{item.card.name} · {orientation(item)}',
+                21, 'primary', height=dp(54), bold=True,
             ))
+            card.add_widget(heading)
             card.add_widget(self._label(item.position.prompt, 14, 'muted'))
             card.add_widget(self._label(' • '.join(card_keywords(item)), 14, 'secondary', bold=True))
-            card.add_widget(self._label(card_meaning(item), 15, 'text'))
+            card.add_widget(self._label(card_meaning(item, self.current_focus), 15, 'text'))
             card.add_widget(self._label(f'[b]Yes / No / Maybe:[/b] {item.card.yes_no}', 14, 'text'))
             card.add_widget(self._label(f'[b]Guidance:[/b] {item.card.yes_no_advice}', 14, 'muted'))
             card.add_widget(self._label(f'[b]Element:[/b] {item.card.element}   [b]Astrology:[/b] {item.card.astrology}', 14, 'muted'))
@@ -388,9 +473,11 @@ class LanternTarotApp(App):
             card.add_widget(self._label(f'Reflection: {item.card.reflection}', 14, 'muted'))
             body.add_widget(card)
 
-        self.current_synthesis = synthesize(self.current_reading)
+        self.current_synthesis = synthesize(self.current_reading, self.current_focus, self.current_deck_mode, self.current_spread.id)
         body.add_widget(self._label('Reading pattern', 20, 'primary', bold=True))
         body.add_widget(self._label(self.current_synthesis, 15, 'text'))
+        if self.current_focus == 'health':
+            body.add_widget(self._label('Health focus is for reflection and habit-awareness only; it is not medical guidance.', 14, 'danger', bold=True))
 
         body.add_widget(self._label('How did this reading feel?', 20, 'primary', bold=True))
         grid = BoxLayout(orientation='vertical', size_hint_y=None, spacing=dp(7))
@@ -433,6 +520,8 @@ class LanternTarotApp(App):
             self.selected_feelings,
             self.current_reading,
             self.current_synthesis,
+            self.current_deck_mode,
+            self.current_focus,
         )
         popup = Popup(
             title='Saved',
@@ -442,8 +531,16 @@ class LanternTarotApp(App):
         popup.open()
 
     def show_library(self, *_):
-        body = self._scroll_page('Card library', 'Browse all 78 cards and their meanings.')
-        self.library_search = self._input('Search by card, suit, or keyword', multiline=False, height=50)
+        body = self._scroll_page('Deck library', 'Browse tarot and oracle cards, including focus-specific meanings.')
+        self.library_deck_mode = 'mixed'
+        self.library_deck_spinner = Spinner(
+            text='Mixed', values=list(DECK_OPTIONS.values()), size_hint_y=None, height=dp(50),
+            background_normal='', background_color=get_color_from_hex(self.theme['surface_alt']),
+            color=get_color_from_hex(self.theme['text']),
+        )
+        self.library_deck_spinner.bind(text=self.change_library_deck)
+        body.add_widget(self.library_deck_spinner)
+        self.library_search = self._input('Search by card, deck, suit, or keyword', multiline=False, height=50)
         self.library_search.bind(text=lambda *_: self.render_library())
         body.add_widget(self.library_search)
 
@@ -452,28 +549,41 @@ class LanternTarotApp(App):
         body.add_widget(self.library_container)
         self.render_library()
 
+    def change_library_deck(self, _spinner, label):
+        reverse = {value: key for key, value in DECK_OPTIONS.items()}
+        self.library_deck_mode = reverse.get(label, 'mixed')
+        self.render_library()
+
     def render_library(self):
         if not hasattr(self, 'library_container'):
             return
         query = self.library_search.text.strip().lower()
         self.library_container.clear_widgets()
         matched = []
-        for card in self.cards:
+        library_cards = cards_for_deck(getattr(self, 'library_deck_mode', 'mixed'), self.tarot_cards, self.oracle_cards)
+        for card in library_cards:
             haystack = ' '.join([
-                card.name, card.suit or '', *card.upright_keywords, *card.reversed_keywords
+                card.name, card.deck_type, card.suit or '', *card.upright_keywords, *card.reversed_keywords
             ]).lower()
             if not query or query in haystack:
                 matched.append(card)
         for card in matched:
-            button = self._button(f'{card.symbol}  {card.name}', partial(self.open_card, card), height=48)
-            self.library_container.add_widget(button)
+            row = Surface(theme=self.theme, orientation='horizontal', size_hint_y=None,
+                          height=dp(58), padding=[dp(6), dp(4)], spacing=dp(4))
+            row.add_widget(self._symbol_widget(card, size=50, width=52))
+            row.add_widget(self._button(f'{card.name} ({card.deck_type.title()})', partial(self.open_card, card), height=48))
+            self.library_container.add_widget(row)
 
     def open_card(self, card, *_):
         content = BoxLayout(orientation='vertical', spacing=dp(10), padding=dp(12))
         scroll = ScrollView()
         body = BoxLayout(orientation='vertical', size_hint_y=None, spacing=dp(10))
         body.bind(minimum_height=body.setter('height'))
-        body.add_widget(self._label(f'{card.symbol}  {card.name}', 24, 'primary', bold=True))
+        title_row = BoxLayout(size_hint_y=None, height=dp(62), spacing=dp(8))
+        title_row.add_widget(self._symbol_widget(card, size=60, width=68))
+        title_row.add_widget(self._label(card.name, 24, 'primary', height=dp(58), bold=True))
+        body.add_widget(title_row)
+        body.add_widget(self._label(f'DECK · {card.deck_type.title()}', 13, 'secondary', bold=True))
         body.add_widget(self._label('UPRIGHT · ' + ' • '.join(card.upright_keywords), 13, 'secondary', bold=True))
         body.add_widget(self._label(card.upright_meaning, 15, 'text'))
         body.add_widget(self._label('REVERSED · ' + ' • '.join(card.reversed_keywords), 13, 'secondary', bold=True))
@@ -483,6 +593,13 @@ class LanternTarotApp(App):
         body.add_widget(self._label(f'[b]Element:[/b] {card.element}', 14, 'muted'))
         body.add_widget(self._label(f'[b]Astrology:[/b] {card.astrology}', 14, 'muted'))
         body.add_widget(self._label('[b]Symbolism:[/b] ' + ' • '.join(card.symbolism), 14, 'text'))
+        if card.context_meanings:
+            body.add_widget(self._label('Focus meanings', 18, 'primary', bold=True))
+            for key in ['love', 'work', 'spiritual', 'health']:
+                context = card.context_meanings.get(key, {})
+                if context:
+                    body.add_widget(self._label(FOCUS_OPTIONS[key].upper(), 12, 'secondary', bold=True))
+                    body.add_widget(self._label(context.get('upright', ''), 14, 'text'))
         body.add_widget(self._label('Reflection: ' + card.reflection, 15, 'muted'))
         scroll.add_widget(body)
         content.add_widget(scroll)
@@ -505,7 +622,9 @@ class LanternTarotApp(App):
             )
             card.bind(minimum_height=card.setter('height'))
             date = row['created_at'].replace('T', ' ')[:16]
-            card.add_widget(self._label(f"{row['spread_name']} · {date}", 18, 'primary', bold=True))
+            focus = row.get('focus', 'general').title()
+            deck = row.get('deck_mode', 'tarot').title()
+            card.add_widget(self._label(f"{row['spread_name']} · {deck} · {focus} · {date}", 18, 'primary', bold=True))
             if row['question']:
                 card.add_widget(self._label(row['question'], 15, 'text'))
             cards = self.db.reading_cards(row['id'])
