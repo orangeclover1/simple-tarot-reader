@@ -1,0 +1,2 @@
+- [Lantern Tarot spread IDs](lantern-tarot-spread-ids.md) — spreads.json uses short IDs (single, decision-maker, three-time, sao, mbs, relationship, celtic) — not descriptive slugs
+- [Lantern Tarot API schema](lantern-tarot-api.md) — DrawnCardInput uses `reversed` not `isReversed`; question/notes are optional (not nullable) in ReadingInput

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Lantern Tarot</string>
+    <string name="title_activity_main">Lantern Tarot</string>
+    <string name="package_name">com.lanterntarot.app</string>
+    <string name="custom_url_scheme">com.lanterntarot.app</string>
+</resources>

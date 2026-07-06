@@ -1,0 +1,610 @@
+openapi: 3.1.0
+info:
+  # Do not change the title, if the title changes, the import paths will be broken
+  title: Api
+  version: 0.1.0
+  description: Lantern Tarot API
+servers:
+  - url: /api
+    description: Base API path
+tags:
+  - name: health
+    description: Health operations
+  - name: readings
+    description: Journal readings
+  - name: insights
+    description: Reading statistics and patterns
+  - name: settings
+    description: User settings
+  - name: custom-decks
+    description: User-created custom decks
+paths:
+  /healthz:
+    get:
+      operationId: healthCheck
+      tags: [health]
+      summary: Health check
+      description: Returns server health status
+      responses:
+        "200":
+          description: Healthy
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/HealthStatus"
+
+  /readings:
+    get:
+      operationId: listReadings
+      tags: [readings]
+      summary: List saved readings
+      parameters:
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 50
+        - name: offset
+          in: query
+          schema:
+            type: integer
+            default: 0
+      responses:
+        "200":
+          description: List of readings
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Reading"
+    post:
+      operationId: createReading
+      tags: [readings]
+      summary: Save a reading to the journal
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ReadingInput"
+      responses:
+        "201":
+          description: Reading saved
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Reading"
+
+  /readings/recent:
+    get:
+      operationId: listRecentReadings
+      tags: [readings]
+      summary: Get the 5 most recent readings for home screen
+      responses:
+        "200":
+          description: Recent readings
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Reading"
+
+  /readings/{id}:
+    get:
+      operationId: getReading
+      tags: [readings]
+      summary: Get a single reading with its drawn cards
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: Reading detail
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ReadingDetail"
+        "404":
+          description: Not found
+    delete:
+      operationId: deleteReading
+      tags: [readings]
+      summary: Delete a reading
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "204":
+          description: Deleted
+
+  /insights:
+    get:
+      operationId: getInsights
+      tags: [insights]
+      summary: Get aggregated reading statistics
+      responses:
+        "200":
+          description: Insight data
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Insights"
+
+  /settings:
+    get:
+      operationId: getSettings
+      tags: [settings]
+      summary: Get all user settings
+      responses:
+        "200":
+          description: Settings key-value map
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Settings"
+    put:
+      operationId: updateSettings
+      tags: [settings]
+      summary: Update user settings
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/SettingsInput"
+      responses:
+        "200":
+          description: Updated settings
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Settings"
+
+  /custom-decks:
+    get:
+      operationId: listCustomDecks
+      tags: [custom-decks]
+      summary: List all custom decks
+      responses:
+        "200":
+          description: List of custom decks
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/CustomDeck"
+    post:
+      operationId: createCustomDeck
+      tags: [custom-decks]
+      summary: Create a new custom deck
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CustomDeckInput"
+      responses:
+        "201":
+          description: Created deck
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CustomDeck"
+
+  /custom-decks/{id}:
+    get:
+      operationId: getCustomDeck
+      tags: [custom-decks]
+      summary: Get a custom deck with its cards
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: Deck with cards
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CustomDeckDetail"
+        "404":
+          description: Not found
+    put:
+      operationId: updateCustomDeck
+      tags: [custom-decks]
+      summary: Update a custom deck name or description
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CustomDeckInput"
+      responses:
+        "200":
+          description: Updated deck
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CustomDeck"
+        "404":
+          description: Not found
+    delete:
+      operationId: deleteCustomDeck
+      tags: [custom-decks]
+      summary: Delete a custom deck and all its cards
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "204":
+          description: Deleted
+
+  /custom-decks/{id}/cards:
+    post:
+      operationId: createCustomCard
+      tags: [custom-decks]
+      summary: Add a card to a custom deck
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CustomCardInput"
+      responses:
+        "201":
+          description: Created card
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CustomCard"
+        "404":
+          description: Deck not found
+
+  /custom-decks/{id}/cards/{cardId}:
+    put:
+      operationId: updateCustomCard
+      tags: [custom-decks]
+      summary: Update a card in a custom deck
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+        - name: cardId
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CustomCardInput"
+      responses:
+        "200":
+          description: Updated card
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CustomCard"
+        "404":
+          description: Not found
+    delete:
+      operationId: deleteCustomCard
+      tags: [custom-decks]
+      summary: Delete a card from a custom deck
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+        - name: cardId
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "204":
+          description: Deleted
+
+components:
+  schemas:
+    HealthStatus:
+      type: object
+      properties:
+        status:
+          type: string
+      required:
+        - status
+
+    Reading:
+      type: object
+      required: [id, spreadId, spreadName, deckMode, focus, createdAt]
+      properties:
+        id:
+          type: integer
+        spreadId:
+          type: string
+        spreadName:
+          type: string
+        question:
+          type: ["string", "null"]
+        notes:
+          type: ["string", "null"]
+        synthesis:
+          type: ["string", "null"]
+        deckMode:
+          type: string
+        focus:
+          type: string
+        feelings:
+          type: array
+          items:
+            type: string
+        cardNames:
+          type: array
+          items:
+            type: string
+        createdAt:
+          type: string
+
+    ReadingDetail:
+      type: object
+      required: [id, spreadId, spreadName, deckMode, focus, createdAt, cards]
+      properties:
+        id:
+          type: integer
+        spreadId:
+          type: string
+        spreadName:
+          type: string
+        question:
+          type: ["string", "null"]
+        notes:
+          type: ["string", "null"]
+        synthesis:
+          type: ["string", "null"]
+        deckMode:
+          type: string
+        focus:
+          type: string
+        feelings:
+          type: array
+          items:
+            type: string
+        createdAt:
+          type: string
+        cards:
+          type: array
+          items:
+            $ref: "#/components/schemas/DrawnCardRecord"
+
+    DrawnCardRecord:
+      type: object
+      required: [cardId, cardName, positionName, reversed]
+      properties:
+        cardId:
+          type: string
+        cardName:
+          type: string
+        positionName:
+          type: string
+        reversed:
+          type: boolean
+
+    ReadingInput:
+      type: object
+      required: [spreadId, spreadName, deckMode, focus, cards]
+      properties:
+        spreadId:
+          type: string
+        spreadName:
+          type: string
+        question:
+          type: string
+        notes:
+          type: string
+        synthesis:
+          type: string
+        deckMode:
+          type: string
+        focus:
+          type: string
+        feelings:
+          type: array
+          items:
+            type: string
+        cards:
+          type: array
+          items:
+            $ref: "#/components/schemas/DrawnCardInput"
+
+    DrawnCardInput:
+      type: object
+      required: [cardId, cardName, positionName, reversed]
+      properties:
+        cardId:
+          type: string
+        cardName:
+          type: string
+        positionName:
+          type: string
+        reversed:
+          type: boolean
+
+    InsightBar:
+      type: object
+      required: [label, value]
+      properties:
+        label:
+          type: string
+        value:
+          type: integer
+
+    Insights:
+      type: object
+      required: [total, topCards, feelings, suits, orientations, monthly]
+      properties:
+        total:
+          type: integer
+        topCards:
+          type: array
+          items:
+            $ref: "#/components/schemas/InsightBar"
+        feelings:
+          type: array
+          items:
+            $ref: "#/components/schemas/InsightBar"
+        suits:
+          type: array
+          items:
+            $ref: "#/components/schemas/InsightBar"
+        orientations:
+          type: array
+          items:
+            $ref: "#/components/schemas/InsightBar"
+        monthly:
+          type: array
+          items:
+            $ref: "#/components/schemas/InsightBar"
+
+    Settings:
+      type: object
+      required: [theme]
+      properties:
+        theme:
+          type: string
+
+    SettingsInput:
+      type: object
+      properties:
+        theme:
+          type: string
+
+    CustomDeck:
+      type: object
+      required: [id, name, cardCount, createdAt]
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        description:
+          type: ["string", "null"]
+        cardCount:
+          type: integer
+        createdAt:
+          type: string
+
+    CustomDeckDetail:
+      type: object
+      required: [id, name, cardCount, createdAt, cards]
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        description:
+          type: ["string", "null"]
+        cardCount:
+          type: integer
+        createdAt:
+          type: string
+        cards:
+          type: array
+          items:
+            $ref: "#/components/schemas/CustomCard"
+
+    CustomCard:
+      type: object
+      required: [id, deckId, name, glyph, position]
+      properties:
+        id:
+          type: integer
+        deckId:
+          type: integer
+        name:
+          type: string
+        glyph:
+          type: string
+        imageUrl:
+          type: ["string", "null"]
+        uprightMeaning:
+          type: string
+        reversedMeaning:
+          type: string
+        uprightKeywords:
+          type: array
+          items:
+            type: string
+        reversedKeywords:
+          type: array
+          items:
+            type: string
+        reflection:
+          type: ["string", "null"]
+        position:
+          type: integer
+
+    CustomDeckInput:
+      type: object
+      required: [name]
+      properties:
+        name:
+          type: string
+        description:
+          type: string
+
+    CustomCardInput:
+      type: object
+      required: [name]
+      properties:
+        name:
+          type: string
+        glyph:
+          type: string
+        imageUrl:
+          type: string
+        uprightMeaning:
+          type: string
+        reversedMeaning:
+          type: string
+        uprightKeywords:
+          type: array
+          items:
+            type: string
+        reversedKeywords:
+          type: array
+          items:
+            type: string
+        reflection:
+          type: string
