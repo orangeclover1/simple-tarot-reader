@@ -1,5 +1,5 @@
 import { Layout } from "@/components/layout";
-import { useListReadings, useDeleteReading } from "@workspace/api-client-react";
+import { useListReadings, useDeleteReading } from "@/lib/local-api";
 import { Link, useParams, useLocation } from "wouter";
 import { cn } from "@/lib/utils";
 import { ChevronLeft, Trash2, Sparkles, CalendarDays, Search } from "lucide-react";

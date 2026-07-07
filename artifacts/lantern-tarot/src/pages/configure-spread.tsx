@@ -2,7 +2,7 @@ import { Layout } from "@/components/layout";
 import { useParams, useLocation } from "wouter";
 import { useReading } from "@/lib/reading-context";
 import { SPREADS, FOCUS_OPTIONS, drawReading, synthesize, customCardToTarotCard } from "@/lib/reading-engine";
-import { useListCustomDecks, useGetCustomDeck } from "@workspace/api-client-react";
+import { useListCustomDecks, useGetCustomDeck } from "@/lib/local-api";
 import { cn } from "@/lib/utils";
 import { ChevronLeft, Shuffle, Plus } from "lucide-react";
 import { Link } from "wouter";

@@ -47,3 +47,11 @@ Thumbs.db
 # Replit
 .cache/
 .local/
+
+# Generated mobile/web artifacts
+artifacts/*/dist/
+artifacts/*/android/app/build/
+artifacts/*/android/.gradle/
+
+# Uploaded source bundles / Replit exports
+attached_assets/*.zip

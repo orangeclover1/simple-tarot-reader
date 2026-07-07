@@ -1,7 +1,7 @@
 import { useState, useEffect, ReactNode } from "react";
 import { ThemeContext } from "@/lib/theme-context";
 import { THEMES } from "@/lib/themes";
-import { useGetSettings, useUpdateSettings } from "@workspace/api-client-react";
+import { useGetSettings, useUpdateSettings } from "@/lib/local-api";
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
   const { data: settings } = useGetSettings();

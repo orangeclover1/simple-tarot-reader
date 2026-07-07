@@ -1,12 +1,7 @@
 name: Build Android APK
 
 on:
-  workflow_dispatch:
-    inputs:
-      api_base_url:
-        description: "Production API base URL (e.g. https://your-app.replit.app)"
-        required: false
-        type: string
+  workflow_dispatch: {}
   push:
     branches:
       - main
@@ -49,8 +44,7 @@ jobs:
         working-directory: artifacts/lantern-tarot
         env:
           PORT: "3000"
-          BASE_PATH: "/"
-          VITE_API_BASE_URL: ${{ github.event.inputs.api_base_url || vars.API_BASE_URL }}
+          BASE_PATH: "./"
         run: pnpm run build
 
       - name: Sync Capacitor

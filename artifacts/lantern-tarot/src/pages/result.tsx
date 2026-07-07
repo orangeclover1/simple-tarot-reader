@@ -2,7 +2,7 @@ import { Layout } from "@/components/layout";
 import { useLocation, Link } from "wouter";
 import { useReading } from "@/lib/reading-context";
 import { cardMeaning, cardKeywords, orientation, getCardGradient, getCardAccent, FEELINGS } from "@/lib/reading-engine";
-import { useCreateReading } from "@workspace/api-client-react";
+import { useCreateReading } from "@/lib/local-api";
 import { useState, useMemo } from "react";
 import { cn } from "@/lib/utils";
 import { ChevronLeft, Save, RefreshCw, Check } from "lucide-react";

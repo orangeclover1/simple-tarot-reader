@@ -4,7 +4,7 @@ import {
   useListCustomDecks,
   useCreateCustomDeck,
   useDeleteCustomDeck,
-} from "@workspace/api-client-react";
+} from "@/lib/local-api";
 import { useState } from "react";
 import { Plus, ChevronRight, Trash2, Layers, Loader2 } from "lucide-react";
 import { cn } from "@/lib/utils";

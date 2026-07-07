@@ -1,5 +1,5 @@
 import { Layout } from "@/components/layout";
-import { useListRecentReadings } from "@workspace/api-client-react";
+import { useListRecentReadings } from "@/lib/local-api";
 import { Link } from "wouter";
 import { useTheme } from "@/lib/theme-context";
 import { THEMES, THEME_NAMES } from "@/lib/themes";

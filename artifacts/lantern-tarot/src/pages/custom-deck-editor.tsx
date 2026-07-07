@@ -6,7 +6,7 @@ import {
   useCreateCustomCard,
   useUpdateCustomCard,
   useDeleteCustomCard,
-} from "@workspace/api-client-react";
+} from "@/lib/local-api";
 import { useState } from "react";
 import { ChevronLeft, Plus, Trash2, Pencil, Check, X, Loader2 } from "lucide-react";
 import { cn } from "@/lib/utils";

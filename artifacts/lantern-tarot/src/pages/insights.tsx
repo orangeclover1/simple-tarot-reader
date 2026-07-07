@@ -1,5 +1,5 @@
 import { Layout } from "@/components/layout";
-import { useListReadings } from "@workspace/api-client-react";
+import { useListReadings } from "@/lib/local-api";
 import { useMemo } from "react";
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, PieChart, Pie, Cell,
